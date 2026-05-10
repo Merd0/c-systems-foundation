@@ -35,3 +35,9 @@ Bu repo **sıralı** kullanılabilir. Aşağıdaki sırayı takip et:
 26. `problem_solving/expense_tracker_summary.c`
 27. `problem_solving/inventory_stock_alert.c`
 28. `projects/library_management_file_persist.c`
+
+29. `algorithms/char_frequency.c`
+30. `algorithms/most_frequent_character.c`
+31. `algorithms/search_algorithms.c`
+32. `algorithms/sorting_algorithms.c`
+33. `algorithms/luhn_validator.c`
