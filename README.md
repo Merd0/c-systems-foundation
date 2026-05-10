@@ -1,8 +1,12 @@
 # C Systems Foundation
 
-Bu repo, C öğrenme sürecini düzenli ve uzun vadeli bir referansa dönüştürmek için hazırlanmıştır.  
-This repo is built to turn C learning into a structured, long-term reference.
+Bu repo Türkçe içerik ile, baştan sona sıralı C öğrenimi için hazırlanmıştır.
 
-## İçerik / Contents
-- Türkçe içerik için: [`tr/README.md`](tr/README.md)
-- For English content: [`en/README.md`](en/README.md)
+## Başlangıç
+- Ana rehber: [`tr/README.md`](tr/README.md)
+- Sıralı öğrenme yolu: [`tr/LEARNING_PATH.md`](tr/LEARNING_PATH.md)
+
+## Odak
+- Konu anlatımı + çalışan örnek kod
+- Uygulamalı mini proje yaklaşımı
+- Düzenli ve sürdürülebilir repo yapısı

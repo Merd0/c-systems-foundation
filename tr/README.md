@@ -23,6 +23,9 @@ Bu klasör, C öğrenme sürecini düzenli bir yapıda tutmak için hazırlanmı
 - headers: header dosyaları ve include kullanımı
 - pointers: pointer giriş, NULL pointer, call by value/reference
 - structs: struct temel, struct dizisi, struct pointer güncelleme
+- memory_management: union, malloc/calloc/free
+- file_io: dosya açma, yazma, append, okuma
+- projects: uçtan uca mini CLI projeler
 - notes: build/run/main/return 0 referans notları
 - notes/topic_tips.md: konu bazlı mini taktikler
 - notes/real_world_usage_map.md: örneklerin sektördeki karşılığı
@@ -36,3 +39,13 @@ Build ile run arasındaki farkı netleştirdim. `main()` fonksiyonunun başlang�
 
 - `problem_solving/sales_report_generator.c`
 - `problem_solving/user_role_access_simulation.c`
+
+- `projects/library_management_cli.c`
+
+- `LEARNING_PATH.md`: baştan sona takip sırası
+
+## Yeni Eklenen Güçlü Uygulamalı Örnekler
+- `problem_solving/password_strength_checker.c`
+- `problem_solving/expense_tracker_summary.c`
+- `problem_solving/inventory_stock_alert.c`
+- `projects/library_management_file_persist.c`
