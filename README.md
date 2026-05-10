@@ -1,11 +1,10 @@
 # C Systems Foundation
 
-Bu repo artık hem Türkçe hem İngilizce paralel içerik içerir.
+Bu repo yalnızca Türkçe içerik ile devam eder.
 
 ## Başlangıç
-- Türkçe: [`tr/README.md`](tr/README.md)
-- English: [`en/README.md`](en/README.md)
+- Ana rehber: [`tr/README.md`](tr/README.md)
+- Öğrenme sırası: [`tr/LEARNING_PATH.md`](tr/LEARNING_PATH.md)
 
-## Öğrenme yolu
-- TR sıra: [`tr/LEARNING_PATH.md`](tr/LEARNING_PATH.md)
-- EN sequence: [`en/LEARNING_PATH.md`](en/LEARNING_PATH.md)
+## Not
+İngilizce içerik kaldırıldı. Amaç, tek kaynaktan daha hızlı ve temiz ilerlemek.
