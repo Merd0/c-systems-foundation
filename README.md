@@ -3,7 +3,7 @@
 Bu repo, C öğrenme sürecini **başlangıçtan mini-proje seviyesine** kadar sistemli şekilde ilerletmek için tasarlandı.  
 This repository is designed to guide C learning **from beginner fundamentals to mini-project level** in a structured way.
 
-## 🎯 Projenin Amacı / Project Goal
+## 🎯 Repo Amacı / Repo Goal
 - Konuları dağınık değil, tek bir büyüyen yapı içinde toplamak.
 - Teori + çalışan örnek + uygulamalı senaryo yaklaşımı ile kalıcı öğrenme sağlamak.
 - Kod yazarken sadece "doğru sonuç" değil, "okunabilirlik, güvenlik, sürdürülebilirlik" alışkanlığı kazandırmak.
