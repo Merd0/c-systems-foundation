@@ -1,41 +1,39 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(void)
 {
-    int yas;
-    char isim[50];
+    int age;
+    char name[50];
 
     /*
-     * Amaç: Kullanıcıdan güvenli şekilde sayı + metin almak.
-     * Taktik 1: scanf dönüş değerini kontrol et.
-     * Taktik 2: scanf sonrası kalan '\n' karakterini temizle.
-     * Taktik 3: metin için fgets kullan (gets kullanma).
+     * Goal: read a number and a line of text safely.
+     * Tactic 1: check scanf's return value.
+     * Tactic 2: clear the leftover newline after scanf.
+     * Tactic 3: use fgets for text input. Never use gets.
      */
-
-    printf("Yasinizi girin: ");
-    if (scanf("%d", &yas) != 1)
+    printf("Enter your age: ");
+    if (scanf("%d", &age) != 1)
     {
-        printf("Gecersiz yas girisi.\n");
+        printf("Invalid age input.\n");
         return 1;
     }
 
-    // scanf sadece sayıyı alır, Enter'a basınca kalan '\n' buffer'da kalır.
-    // Bu döngü, o kalan karakterleri temizler.
+    // scanf reads only the number. The newline from Enter remains in the buffer.
+    // This loop clears that leftover input.
     int ch;
     while ((ch = getchar()) != '\n' && ch != EOF)
     {
-        // Buffer temizleme döngüsü: gövde boş kalabilir.
+        // Intentional empty body for buffer cleanup.
     }
 
-    printf("Isminizi girin: ");
-    if (fgets(isim, sizeof(isim), stdin) == NULL)
+    printf("Enter your name: ");
+    if (fgets(name, sizeof(name), stdin) == NULL)
     {
-        printf("Isim girisi basarisiz.\n");
+        printf("Name input failed.\n");
         return 1;
     }
 
-    printf("Merhaba %s", isim);
-    printf("Yasiniz: %d\n", yas);
-
+    printf("Hello %s", name);
+    printf("Age: %d\n", age);
     return 0;
 }

@@ -1,7 +1,8 @@
-# C Learning Repository (English)
+﻿# C Learning Repository (English)
 
 ## Goal
-This track helps you learn C from fundamentals to mini-projects with a practical workflow: theory + runnable example + applied scenario.
+This track helps you learn C from fundamentals to mini-projects with a practical
+workflow: theory + runnable example + applied scenario.
 
 ## Learning Approach
 1. Follow `en/LEARNING_PATH.md` in order.
@@ -29,6 +30,7 @@ This repository teaches not only syntax but also coding habits used in real work
 
 ## Quality Baseline
 - Build all examples with `make all`.
+- Run modular project tests with `make test`.
 - Read [`../docs/build-guide.md`](../docs/build-guide.md) for compiler setup.
 - Read [`../docs/code-style.md`](../docs/code-style.md) before adding examples.
 - Use [`../docs/topic-template.md`](../docs/topic-template.md) when expanding a topic.
@@ -44,3 +46,8 @@ example dumps:
 - `file_io/`
 - `preprocessor/`
 - `bitwise/`
+
+## Production-Style Practice
+The `projects/library_management_modular/` folder shows a small project split
+into `include/`, `src/`, and `tests/`, with a local Makefile and assert-based
+tests.

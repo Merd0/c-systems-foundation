@@ -1,23 +1,26 @@
-#include <ctype.h>
+﻿#include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 
 int main(void)
 {
-    char metin[256];
-    int frekans[26] = {0};
+    int frequency[26] = {0};
+    char text[256];
 
-    printf("Metin gir: ");
-    if (fgets(metin, sizeof(metin), stdin) == NULL) return 1;
+    printf("Enter text: ");
+    if (fgets(text, sizeof(text), stdin) == NULL)
+        return 1;
 
-    for (int i = 0; metin[i] != '\0'; i++)
+    for (int i = 0; text[i] != '\0'; i++)
     {
-        char c = (char)tolower((unsigned char)metin[i]);
-        if (c >= 'a' && c <= 'z') frekans[c - 'a']++;
+        char c = (char)tolower((unsigned char)text[i]);
+        if (c >= 'a' && c <= 'z')
+            frequency[c - 'a']++;
     }
 
     for (int i = 0; i < 26; i++)
-        if (frekans[i] > 0) printf("%c: %d\n", 'a' + i, frekans[i]);
+        if (frequency[i] > 0)
+            printf("%c: %d\n", 'a' + i, frequency[i]);
 
     return 0;
 }

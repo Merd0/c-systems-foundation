@@ -1,19 +1,19 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(void)
 {
-    // Değişkenler veriyi isimle saklar.
-    int yas = 22;
-    float sicaklik = 24.5f;
-    char notHarfi = 'A';
+    // Variables store data under a meaningful name.
+    int age = 22;
+    float temperature = 24.5f;
+    char grade = 'A';
 
-    printf("Yas: %d\n", yas);
-    printf("Sicaklik: %.1f\n", sicaklik);
-    printf("Not: %c\n", notHarfi);
+    printf("Age: %d\n", age);
+    printf("Temperature: %.1f\n", temperature);
+    printf("Grade: %c\n", grade);
 
-    // Değişmeyecek değerler için const kullanmak daha güvenlidir.
-    const int dogumYili = 2004;
-    printf("Dogum yili: %d\n", dogumYili);
+    // Use const for values that should not change.
+    const int birth_year = 2004;
+    printf("Birth year: %d\n", birth_year);
 
     return 0;
 }

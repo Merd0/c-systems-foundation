@@ -1,7 +1,9 @@
-# C Systems Foundation
+﻿# C Systems Foundation
 
-Bu repo, C öğrenme sürecini **başlangıçtan mini-proje seviyesine** kadar sistemli şekilde ilerletmek için tasarlandı.  
-This repository is designed to guide C learning **from beginner fundamentals to mini-project level** in a structured way.
+Bu repo, C öğrenme sürecini **başlangıçtan mini-proje seviyesine** kadar
+sistemli şekilde ilerletmek için tasarlandı.
+This repository is designed to guide C learning **from beginner fundamentals to
+mini-project level** in a structured way.
 
 ## 🎯 Repo Amacı / Repo Goal
 - Konuları dağınık değil, tek bir büyüyen yapı içinde toplamak.
@@ -33,7 +35,9 @@ This repository is designed to guide C learning **from beginner fundamentals to 
 
 ## Build / CI
 - All standalone examples are compiled by GitHub Actions.
+- Modular projects are built and tested by GitHub Actions.
 - Local full build: `make all`
+- Local tests: `make test`
 - Clean build output: `make clean`
 - Build notes: [`docs/build-guide.md`](docs/build-guide.md)
 

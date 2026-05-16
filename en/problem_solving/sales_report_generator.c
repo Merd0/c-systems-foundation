@@ -1,39 +1,42 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
-#define URUN_SAYISI 5
+#define ITEM_COUNT 5
 
 typedef struct
 {
-    char ad[20];
-    double fiyat;
-    int adet;
-} SatisKalemi;
+    char name[20];
+    double unit_price;
+    int quantity;
+} SaleItem;
 
-double toplamCiroHesapla(const SatisKalemi kalemler[], int boyut)
+double calculate_revenue(const SaleItem items[], int length)
 {
-    double toplam = 0;
-    for (int i = 0; i < boyut; i++)
-        toplam += kalemler[i].fiyat * kalemler[i].adet;
-    return toplam;
+    double total = 0.0;
+    for (int i = 0; i < length; i++)
+        total += items[i].unit_price * items[i].quantity;
+    return total;
 }
 
 int main(void)
 {
-    SatisKalemi kalemler[URUN_SAYISI] = {
-        {"Klavye", 850.0, 3},
+    SaleItem items[ITEM_COUNT] = {
+        {"Keyboard", 850.0, 3},
         {"Mouse", 450.0, 5},
-        {"Kulaklik", 1200.0, 2},
+        {"Headset", 1200.0, 2},
         {"Monitor", 5200.0, 1},
-        {"Webcam", 900.0, 4}};
+        {"Webcam", 900.0, 4},
+    };
 
-    printf("=== Satis Raporu ===\n");
-    for (int i = 0; i < URUN_SAYISI; i++)
-        printf("%-10s | adet:%d | birim:%.2f | toplam:%.2f\n",
-               kalemler[i].ad,
-               kalemler[i].adet,
-               kalemler[i].fiyat,
-               kalemler[i].fiyat * kalemler[i].adet);
+    printf("=== Sales Report ===\n");
+    for (int i = 0; i < ITEM_COUNT; i++)
+    {
+        printf("%-10s | qty:%d | unit:%.2f | total:%.2f\n",
+               items[i].name,
+               items[i].quantity,
+               items[i].unit_price,
+               items[i].unit_price * items[i].quantity);
+    }
 
-    printf("Genel Ciro: %.2f TL\n", toplamCiroHesapla(kalemler, URUN_SAYISI));
+    printf("Total revenue: %.2f\n", calculate_revenue(items, ITEM_COUNT));
     return 0;
 }

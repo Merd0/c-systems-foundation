@@ -1,4 +1,4 @@
-name: C Build
+﻿name: C Build
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-all-examples:
-    name: Build all standalone C examples
+  build-and-test:
+    name: Build examples and run project tests
     runs-on: ubuntu-latest
 
     steps:
@@ -20,3 +20,5 @@ jobs:
       - name: Compile examples
         run: make all
 
+      - name: Run modular project tests
+        run: make test

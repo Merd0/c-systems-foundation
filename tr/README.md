@@ -1,7 +1,9 @@
-# C Öğrenme Reposu (Türkçe)
+﻿# C Öğrenme Reposu (Türkçe)
 
 ## Amaç
-Bu klasör, C öğrenme sürecini düzenli bir yapıda tutmak için hazırlanmıştır. Konular kısa teori + çalışan örnek kod + hatalardan kaçınma notları şeklinde ilerler.
+Bu klasör, C öğrenme sürecini düzenli bir yapıda tutmak için hazırlanmıştır.
+Konular kısa teori + çalışan örnek kod + hatalardan kaçınma notları şeklinde
+ilerler.
 
 ## Öğrenme Yaklaşımı
 - Konuyu küçük parçalara böl
@@ -37,6 +39,7 @@ Bu klasör, C öğrenme sürecini düzenli bir yapıda tutmak için hazırlanmı
 
 ## Kalite Standardı
 - Tüm örnekleri derlemek için: `make all`
+- Modüler proje testlerini çalıştırmak için: `make test`
 - Build notları: [`../docs/build-guide.md`](../docs/build-guide.md)
 - Kod stili: [`../docs/code-style.md`](../docs/code-style.md)
 - Yeni konu şablonu: [`../docs/topic-template.md`](../docs/topic-template.md)
@@ -53,8 +56,16 @@ büyütülür:
 - `preprocessor/`
 - `bitwise/`
 
+## Production Tarzı Pratik
+`projects/library_management_modular/` klasörü küçük bir projeyi `include/`,
+`src/` ve `tests/` olarak böler; local Makefile ve `assert` tabanlı testler
+içerir.
+
 ## Bugün ne öğrendim
-Build ile run arasındaki farkı netleştirdim. `main()` fonksiyonunun başlangıç noktası olduğunu, `return 0` ifadesinin başarılı bitiş anlattığını öğrendim. `printf` ile formatlı çıktı üretmeyi, input alırken `scanf` kontrolü yapmayı ve `gets` yerine `fgets` kullanmanın neden güvenli olduğunu pekiştirdim.
+Build ile run arasındaki farkı netleştirdim. `main()` fonksiyonunun başlangıç
+noktası olduğunu, `return 0` ifadesinin başarılı bitiş anlattığını öğrendim.
+`printf` ile formatlı çıktı üretmeyi, input alırken `scanf` kontrolü yapmayı ve
+`gets` yerine `fgets` kullanmanın neden güvenli olduğunu pekiştirdim.
 
 ## Ekstra Gerçekçi Örnekler
 - `problem_solving/mini_atm_simulation.c`

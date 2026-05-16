@@ -1,27 +1,32 @@
-#include <stdbool.h>
+﻿#include <stdbool.h>
 #include <stdio.h>
 
-#define URUN_ADET 5
+#define PRODUCT_COUNT 5
 
-typedef struct {
-    char ad[20];
-    int stok;
-    int kritikSeviye;
-} Urun;
+typedef struct
+{
+    char name[20];
+    int stock;
+    int critical_level;
+} Product;
 
 int main(void)
 {
-    Urun urunler[URUN_ADET] = {
-        {"Kablo", 12, 10},
+    Product products[PRODUCT_COUNT] = {
+        {"Cable", 12, 10},
         {"SSD", 4, 5},
         {"RAM", 2, 4},
         {"Mouse", 7, 6},
-        {"Monitor", 1, 2}};
+        {"Monitor", 1, 2},
+    };
 
-    for (int i = 0; i < URUN_ADET; i++)
+    for (int i = 0; i < PRODUCT_COUNT; i++)
     {
-        bool kritik = urunler[i].stok <= urunler[i].kritikSeviye;
-        printf("%s -> stok:%d | %s\n", urunler[i].ad, urunler[i].stok, kritik ? "KRITIK" : "NORMAL");
+        bool critical = products[i].stock <= products[i].critical_level;
+        printf("%s -> stock:%d | %s\n",
+               products[i].name,
+               products[i].stock,
+               critical ? "CRITICAL" : "NORMAL");
     }
 
     return 0;

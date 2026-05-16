@@ -1,29 +1,35 @@
-#include <ctype.h>
+﻿#include <ctype.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
 
-bool gucluMu(const char *s)
+bool is_strong_password(const char *text)
 {
-    bool hasUpper = false, hasLower = false, hasDigit = false;
-    int len = (int)strlen(s);
+    bool has_upper = false;
+    bool has_lower = false;
+    bool has_digit = false;
+    int length = (int)strlen(text);
 
-    for (int i = 0; i < len; i++)
+    for (int i = 0; i < length; i++)
     {
-        if (isupper((unsigned char)s[i])) hasUpper = true;
-        if (islower((unsigned char)s[i])) hasLower = true;
-        if (isdigit((unsigned char)s[i])) hasDigit = true;
+        if (isupper((unsigned char)text[i]))
+            has_upper = true;
+        if (islower((unsigned char)text[i]))
+            has_lower = true;
+        if (isdigit((unsigned char)text[i]))
+            has_digit = true;
     }
 
-    return len >= 8 && hasUpper && hasLower && hasDigit;
+    return length >= 8 && has_upper && has_lower && has_digit;
 }
 
 int main(void)
 {
-    char sifre[100];
-    printf("Sifre gir: ");
-    if (scanf("%99s", sifre) != 1) return 1;
+    char password[100];
+    printf("Enter password: ");
+    if (scanf("%99s", password) != 1)
+        return 1;
 
-    printf("Sifre durumu: %s\n", gucluMu(sifre) ? "Guclu" : "Zayif");
+    printf("Password status: %s\n", is_strong_password(password) ? "Strong" : "Weak");
     return 0;
 }

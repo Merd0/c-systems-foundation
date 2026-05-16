@@ -1,26 +1,26 @@
-#include <stdbool.h>
+﻿#include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
 
 typedef struct
 {
-    char kullaniciAdi[20];
-    char rol[10];
-    bool aktif;
-} Kullanici;
+    char username[20];
+    char role[10];
+    bool active;
+} User;
 
-bool erisimVarMi(const Kullanici *k, const char *istenenIslem)
+bool has_access(const User *user, const char *requested_action)
 {
-    if (k == NULL || !k->aktif)
+    if (user == NULL || !user->active)
         return false;
 
-    if (strcmp(k->rol, "admin") == 0)
+    if (strcmp(user->role, "admin") == 0)
         return true;
 
-    if (strcmp(k->rol, "editor") == 0 && strcmp(istenenIslem, "write") == 0)
+    if (strcmp(user->role, "editor") == 0 && strcmp(requested_action, "write") == 0)
         return true;
 
-    if (strcmp(k->rol, "viewer") == 0 && strcmp(istenenIslem, "read") == 0)
+    if (strcmp(user->role, "viewer") == 0 && strcmp(requested_action, "read") == 0)
         return true;
 
     return false;
@@ -28,12 +28,12 @@ bool erisimVarMi(const Kullanici *k, const char *istenenIslem)
 
 int main(void)
 {
-    Kullanici k1 = {"ayse", "admin", true};
-    Kullanici k2 = {"mehmet", "viewer", true};
+    User user1 = {"ada", "admin", true};
+    User user2 = {"john", "viewer", true};
 
-    printf("%s write: %s\n", k1.kullaniciAdi, erisimVarMi(&k1, "write") ? "izinli" : "yasak");
-    printf("%s write: %s\n", k2.kullaniciAdi, erisimVarMi(&k2, "write") ? "izinli" : "yasak");
-    printf("%s read: %s\n", k2.kullaniciAdi, erisimVarMi(&k2, "read") ? "izinli" : "yasak");
+    printf("%s write: %s\n", user1.username, has_access(&user1, "write") ? "allowed" : "denied");
+    printf("%s write: %s\n", user2.username, has_access(&user2, "write") ? "allowed" : "denied");
+    printf("%s read: %s\n", user2.username, has_access(&user2, "read") ? "allowed" : "denied");
 
     return 0;
 }

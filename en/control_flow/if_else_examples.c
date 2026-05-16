@@ -1,28 +1,28 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(void)
 {
-    int sayi;
+    int number;
 
-    // Amaç: Koşula göre farklı çıktılar üretmek.
-    printf("Bir sayi girin: ");
-    if (scanf("%d", &sayi) != 1)
+    // Goal: produce different output depending on a condition.
+    printf("Enter an integer: ");
+    if (scanf("%d", &number) != 1)
     {
-        printf("Lutfen gecerli bir tam sayi girin.\n");
+        printf("Please enter a valid integer.\n");
         return 1;
     }
 
-    // if-else zinciri: ilk doğru koşul çalışır, kalanlar atlanır.
-    if (sayi > 0)
-        printf("Pozitif\n");
-    else if (sayi == 0)
-        printf("Sifir\n");
+    // In an if-else chain, the first true branch runs and the rest are skipped.
+    if (number > 0)
+        printf("Positive\n");
+    else if (number == 0)
+        printf("Zero\n");
     else
-        printf("Negatif\n");
+        printf("Negative\n");
 
-    // Mantıksal VE (&&): iki koşul da doğru olmalı.
-    if (sayi >= 10 && sayi <= 99)
-        printf("Iki basamakli sayi.\n");
+    // Logical AND (&&): both conditions must be true.
+    if (number >= 10 && number <= 99)
+        printf("Two-digit number.\n");
 
     return 0;
 }

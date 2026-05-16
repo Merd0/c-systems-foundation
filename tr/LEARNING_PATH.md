@@ -1,4 +1,4 @@
-# Başlangıçtan İleriye Öğrenme Sırası (TR)
+﻿# Başlangıçtan İleriye Öğrenme Sırası (TR)
 
 Bu repo sıralı kullanılabilir. Her dosyayı önce derle, çalıştır, değiştir ve
 kendi cümlelerinle açıklamaya çalış.
@@ -80,3 +80,4 @@ kendi cümlelerinle açıklamaya çalış.
 58. `problem_solving/`
 59. `projects/library_management_cli.c`
 60. `projects/library_management_file_persist.c`
+61. `projects/library_management_modular/README.md`

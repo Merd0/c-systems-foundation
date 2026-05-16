@@ -1,21 +1,34 @@
-CC ?= gcc
+﻿CC ?= gcc
 CFLAGS ?= -std=c11 -Wall -Wextra -Wpedantic
 LDLIBS ?= -lm
 
-SOURCES := $(shell find en tr -name '*.c' | sort)
-TARGETS := $(patsubst %.c,build/%,$(SOURCES))
+MODULAR_PROJECTS := en/projects/library_management_modular tr/projects/library_management_modular
+STANDALONE_SOURCES := $(shell find en tr -name '*.c' ! -path '*/projects/library_management_modular/*' | sort)
+STANDALONE_TARGETS := $(patsubst %.c,build/%,$(STANDALONE_SOURCES))
 
-.PHONY: all clean list
+.PHONY: all clean list modular-projects test
 
-all: $(TARGETS)
+all: $(STANDALONE_TARGETS) modular-projects
 
 build/%: %.c
 	@mkdir -p $(dir $@)
 	$(CC) $(CFLAGS) "$<" -o "$@" $(LDLIBS)
 
+modular-projects:
+	@set -e; for project in $(MODULAR_PROJECTS); do \
+		$(MAKE) -C $$project all; \
+	done
+
+test:
+	@set -e; for project in $(MODULAR_PROJECTS); do \
+		$(MAKE) -C $$project test; \
+	done
+
 list:
-	@printf '%s\n' $(SOURCES)
+	@printf '%s\n' $(STANDALONE_SOURCES)
 
 clean:
 	rm -rf build
-
+	@set -e; for project in $(MODULAR_PROJECTS); do \
+		$(MAKE) -C $$project clean; \
+	done

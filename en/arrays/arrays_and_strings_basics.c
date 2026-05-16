@@ -1,18 +1,18 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <string.h>
 
 int main(void)
 {
-    int notlar[4] = {70, 85, 90, 60};
-    int toplam = 0;
+    int grades[4] = {70, 85, 90, 60};
+    int total = 0;
 
     for (int i = 0; i < 4; i++)
-        toplam += notlar[i];
+        total += grades[i];
 
-    printf("Ortalama: %.2f\n", (double)toplam / 4);
+    printf("Average: %.2f\n", (double)total / 4);
 
-    char isim[] = "Ahmet"; // karakter dizisi (string)
-    printf("Isim: %s, uzunluk: %zu\n", isim, strlen(isim));
+    char name[] = "Ada";
+    printf("Name: %s, length: %zu\n", name, strlen(name));
     printf("ASCII 'A' = %d\n", 'A');
 
     return 0;

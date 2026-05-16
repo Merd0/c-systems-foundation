@@ -1,21 +1,21 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(void)
 {
-    int puan = 95;
-    float ortalama = 87.4567f;
-    char ad[] = "Ayse";
+    int score = 95;
+    float average = 87.4567f;
+    char name[] = "Ada";
 
-    // Amaç: Okunabilir ve formatlı çıktı üretmek.
-    printf("Ad: %s\n", ad);                     // %s -> metin
-    printf("Puan: %d\n", puan);                 // %d -> int
-    printf("Ortalama: %f\n", ortalama);         // %f -> float/double
-    printf("Ortalama (2 basamak): %.2f\n", ortalama); // sadece 2 ondalık
+    // Goal: produce readable formatted output.
+    printf("Name: %s\n", name);                     // %s -> string
+    printf("Score: %d\n", score);                   // %d -> int
+    printf("Average: %f\n", average);               // %f -> float/double
+    printf("Average (2 decimals): %.2f\n", average);
 
-    // Escape karakterleri: metni daha düzenli yazdırır.
-    printf("Birinci satir\nIkinci satir\n");
-    printf("Sutun1\tSutun2\n");
+    // Escape characters help format output.
+    printf("First line\nSecond line\n");
+    printf("Column1\tColumn2\n");
 
-    // Tip uyumsuzluğu hataya yol açar: float değeri %d ile yazdırma.
+    // Type mismatches are bugs: do not print a float with %d.
     return 0;
 }

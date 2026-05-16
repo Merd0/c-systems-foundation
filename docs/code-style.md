@@ -1,4 +1,4 @@
-# Code Style
+﻿# Code Style
 
 The goal of this repository is not only to show valid C syntax. Each example
 should teach habits that transfer to real work: clear naming, explicit error
@@ -53,3 +53,14 @@ A strong topic folder should include:
 - Exercises that force the reader to modify code.
 - A real-world usage note.
 
+## Project Quality Bar
+
+A project folder should go beyond a standalone example when it is meant to show
+workplace readiness:
+
+- Keep public declarations in `include/`.
+- Keep implementation files in `src/`.
+- Keep behavior checks in `tests/`.
+- Provide a local `Makefile`.
+- Separate business logic from input/output when possible.
+- Make failure states visible through return values.

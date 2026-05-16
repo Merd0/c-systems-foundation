@@ -1,29 +1,36 @@
-# Build, Run, main() ve Debugging
+﻿# Build, Run, main(), and Debugging
 
-## Build nedir?
-Build, C kodunun derlenip çalıştırılabilir çıktıya dönüştürülmesidir.
+## What Is Build?
 
-## Run nedir?
-Run, derlenmiş programı çalıştırmaktır.
+Build is the step that turns C source code into an executable program.
+
+## What Is Run?
+
+Run means executing the compiled program.
 
 ## Build vs Run
-- Build: sözdizimi/derleme hataları burada çıkar.
-- Run: mantık ve çalışma zamanı hataları burada görülür.
 
-## main() ne yapar?
-Program `main()` fonksiyonundan başlar.
+- Build errors usually come from syntax, type, include, or linker problems.
+- Run errors usually come from logic, input, memory, or runtime state problems.
 
-## return 0 ne demek?
-Programın başarılı tamamlandığını belirtir.
+## What Does main() Do?
 
-## Debugging mantığı
-- Breakpoint koy
-- Satır satır ilerle
-- Değişkenleri izle
-- Beklenen/gerçek çıktıyı karşılaştır
+A C program starts from the `main()` function.
 
-## Daha iyi pratikler
-- `gets` kullanma, risklidir.
-- Metin input'u için `fgets` kullan.
-- `scanf` dönüş değerini kontrol et.
-- `printf` formatlarını doğru tiplerle eşleştir.
+## What Does return 0 Mean?
+
+`return 0` conventionally means the program completed successfully.
+
+## Debugging Mindset
+
+- Set a breakpoint.
+- Step through code line by line.
+- Inspect variable values.
+- Compare expected output with actual output.
+
+## Better Practices
+
+- Do not use `gets`; it is unsafe.
+- Prefer `fgets` for text input.
+- Check the return value of `scanf`.
+- Match `printf` format specifiers with the correct types.

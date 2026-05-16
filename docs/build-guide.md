@@ -1,4 +1,4 @@
-# Build Guide
+﻿# Build Guide
 
 This repository is organized as many small, standalone C examples. Each `.c`
 file is expected to compile independently unless its folder documentation says
@@ -27,6 +27,12 @@ On Linux or GitHub Actions:
 make all
 ```
 
+Run the modular project tests:
+
+```sh
+make test
+```
+
 Clean generated binaries:
 
 ```sh
@@ -47,6 +53,6 @@ The repository does not commit generated binaries. Build output belongs in
 ## What CI Checks
 
 The GitHub Actions workflow compiles every standalone `.c` file in `en/` and
-`tr/`. If a new example does not compile, the workflow should fail before the
-change is merged.
-
+`tr/`, builds the modular library projects, and runs their tests. If a new
+example does not compile or a modular project test fails, the workflow should
+fail before the change is merged.

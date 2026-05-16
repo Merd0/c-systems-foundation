@@ -1,19 +1,21 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(void)
 {
-    double harcamalar[] = {125.5, 80.0, 430.2, 52.3, 210.0, 15.0, 99.9};
-    int n = sizeof(harcamalar) / sizeof(harcamalar[0]);
+    double expenses[] = {120.50, 89.90, 45.00, 230.25, 64.75};
+    int count = sizeof(expenses) / sizeof(expenses[0]);
+    double total = 0.0;
+    double max = expenses[0];
 
-    double toplam = 0, max = harcamalar[0];
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < count; i++)
     {
-        toplam += harcamalar[i];
-        if (harcamalar[i] > max) max = harcamalar[i];
+        total += expenses[i];
+        if (expenses[i] > max)
+            max = expenses[i];
     }
 
-    printf("Toplam harcama: %.2f TL\n", toplam);
-    printf("Gunluk ortalama: %.2f TL\n", toplam / n);
-    printf("En yuksek harcama: %.2f TL\n", max);
+    printf("Total expense: %.2f\n", total);
+    printf("Daily average: %.2f\n", total / count);
+    printf("Highest expense: %.2f\n", max);
     return 0;
 }

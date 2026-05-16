@@ -1,14 +1,14 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
-int kareAl(int sayi)
+int square(int number)
 {
-    return sayi * sayi;
+    return number * number;
 }
 
 int main(void)
 {
-    int deger = 6;
-    int sonuc = kareAl(deger);
-    printf("%d sayisinin karesi = %d\n", deger, sonuc);
+    int value = 6;
+    int result = square(value);
+    printf("%d squared = %d\n", value, result);
     return 0;
 }
