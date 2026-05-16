@@ -19,25 +19,29 @@ Bu repo **sıralı** kullanılabilir. Aşağıdaki sırayı takip et:
 15. `headers/header_usage_example.c`
 16. `pointers/call_by_value_reference.c`
 17. `pointers/null_pointer_and_array.c`
-18. `structs/struct_intro_and_array.c`
-19. `structs/struct_pointer_update.c`
-20. `memory_management/union_example.c`
-21. `memory_management/malloc_calloc_free_examples.c`
-22. `file_io/file_write_read_examples.c`
-23. `problem_solving/` örnekleri
-24. `projects/library_management_cli.c`
+18. `structs/README.md`
+19. `structs/struct_intro_and_array.c`
+20. `structs/struct_pointer_update.c`
+21. `structs/struct_designated_initializers.c`
+22. `structs/struct_nested_and_const.c`
+23. `structs/struct_padding_alignment.c`
+24. `memory_management/union_example.c`
+25. `memory_management/malloc_calloc_free_examples.c`
+26. `file_io/file_write_read_examples.c`
+27. `problem_solving/` örnekleri
+28. `projects/library_management_cli.c`
 
 ## İpucu
 - Her dosyayı önce derle, sonra çalıştır.
 - Anlamadığın satırı not alıp bir sonraki tekrar turunda geri dön.
 
-25. `problem_solving/password_strength_checker.c`
-26. `problem_solving/expense_tracker_summary.c`
-27. `problem_solving/inventory_stock_alert.c`
-28. `projects/library_management_file_persist.c`
+29. `problem_solving/password_strength_checker.c`
+30. `problem_solving/expense_tracker_summary.c`
+31. `problem_solving/inventory_stock_alert.c`
+32. `projects/library_management_file_persist.c`
 
-29. `algorithms/char_frequency.c`
-30. `algorithms/most_frequent_character.c`
-31. `algorithms/search_algorithms.c`
-32. `algorithms/sorting_algorithms.c`
-33. `algorithms/luhn_validator.c`
+33. `algorithms/char_frequency.c`
+34. `algorithms/most_frequent_character.c`
+35. `algorithms/search_algorithms.c`
+36. `algorithms/sorting_algorithms.c`
+37. `algorithms/luhn_validator.c`

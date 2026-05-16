@@ -2,19 +2,25 @@
 
 typedef struct
 {
-    char ad[20];
-    int yas;
-    float ortalama;
-} Ogrenci;
+    char name[20];
+    int age;
+    float average;
+} Student;
 
 int main(void)
 {
-    Ogrenci sinif[2] = {
+    Student classroom[2] = {
         {"Ayse", 20, 88.5f},
-        {"Mehmet", 21, 76.0f}};
+        {"Mehmet", 21, 76.0f},
+    };
 
     for (int i = 0; i < 2; i++)
-        printf("%s | yas:%d | ort:%.1f\n", sinif[i].ad, sinif[i].yas, sinif[i].ortalama);
+    {
+        printf("%s | age: %d | average: %.1f\n",
+               classroom[i].name,
+               classroom[i].age,
+               classroom[i].average);
+    }
 
     return 0;
 }

@@ -1,0 +1,16 @@
+build/
+*.exe
+*.out
+*.o
+*.obj
+*.ilk
+*.pdb
+*.user
+*.suo
+*.log
+
+# Runtime files produced by examples.
+kutuphane_kayit.txt
+tr_file_demo.txt
+file_demo.txt
+

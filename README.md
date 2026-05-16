@@ -30,12 +30,25 @@ This repository is designed to guide C learning **from beginner fundamentals to 
 4. Aynı örneğin küçük varyasyonlarını kendin yaz.
 5. Hata aldığında debugger ve not dosyalarını kullan.
 
+## Build / CI
+- All standalone examples are compiled by GitHub Actions.
+- Local full build: `make all`
+- Clean build output: `make clean`
+- Build notes: [`docs/build-guide.md`](docs/build-guide.md)
+
 ## ⚠️ Dikkat Edilecek Noktalar / Best Practices
 - `scanf` dönüş değerini kontrol et.
 - String input için `fgets` tercih et.
 - `malloc/calloc` sonrası `NULL` kontrolü yap.
 - `free` sonrası pointer'ı `NULL` yapmak iyi pratiktir.
 - Kodu küçük fonksiyonlara bölmek okunabilirliği artırır.
+
+## Repo Quality Standard
+- Topic folders should grow into reference pages, not only code dumps.
+- New examples should compile independently.
+- English and Turkish tracks should stay structurally parallel but linguistically clean.
+- Code style guide: [`docs/code-style.md`](docs/code-style.md)
+- Topic template: [`docs/topic-template.md`](docs/topic-template.md)
 
 ## 🚀 Hedef Profil
 Bu repo, hem yeni başlayan öğrenciye hem de temelini güçlendirmek isteyen junior mühendise göre hazırlandı.

@@ -9,6 +9,7 @@ Bu klasör, C öğrenme sürecini düzenli bir yapıda tutmak için hazırlanmı
 - Sık yapılan hataları gör
 - Daha güvenli ve okunabilir yazımı öğren
 - Aynı konuyu tekrar yazmak yerine genişlet
+- Konu klasörlerindeki `README.md` dosyalarını tekrar referansı gibi kullan
 
 ## Konu Listesi
 - fundamentals: değişkenler, temel tipler
@@ -30,6 +31,17 @@ Bu klasör, C öğrenme sürecini düzenli bir yapıda tutmak için hazırlanmı
 - notes: build/run/main/return 0 referans notları
 - notes/topic_tips.md: konu bazlı mini taktikler
 - notes/real_world_usage_map.md: örneklerin sektördeki karşılığı
+
+## Kalite Standardı
+- Tüm örnekleri derlemek için: `make all`
+- Build notları: [`../docs/build-guide.md`](../docs/build-guide.md)
+- Kod stili: [`../docs/code-style.md`](../docs/code-style.md)
+- Yeni konu şablonu: [`../docs/topic-template.md`](../docs/topic-template.md)
+
+## İlk Derin Konu
+`structs/` klasörü artık detaylı bir referans sayfası ve ek örnekler içeriyor:
+designated initializer, nested struct, `const` pointer parametresi ve
+padding/alignment.
 
 ## Bugün ne öğrendim
 Build ile run arasındaki farkı netleştirdim. `main()` fonksiyonunun başlangıç noktası olduğunu, `return 0` ifadesinin başarılı bitiş anlattığını öğrendim. `printf` ile formatlı çıktı üretmeyi, input alırken `scanf` kontrolü yapmayı ve `gets` yerine `fgets` kullanmanın neden güvenli olduğunu pekiştirdim.
