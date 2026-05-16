@@ -1,15 +1,16 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(void)
 {
-    int toplam = 7, adet = 2;
+    int total = 7;
+    int count = 2;
 
-    printf("Cast yok: %d\n", toplam / adet);
-    printf("Cast var: %.2f\n", (double)toplam / adet);
+    printf("Without cast: %d\n", total / count);
+    printf("With cast: %.2f\n", (double)total / count);
 
-    double fiyat = 19.99;
-    int asagiYuvarlanan = (int)fiyat;
-    printf("fiyat: %.2f, int'e donusum: %d\n", fiyat, asagiYuvarlanan);
+    double price = 19.99;
+    int truncated_price = (int)price;
+    printf("price: %.2f, converted to int: %d\n", price, truncated_price);
 
     return 0;
 }

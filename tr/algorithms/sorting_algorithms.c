@@ -1,23 +1,93 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
-void yazdir(const int a[], int n){ for(int i=0;i<n;i++) printf("%d ",a[i]); printf("\n"); }
-void swap(int *a, int *b){ int t=*a; *a=*b; *b=t; }
+void dizi_yazdir(const int degerler[], int uzunluk)
+{
+    for (int i = 0; i < uzunluk; i++)
+        printf("%d ", degerler[i]);
+    printf("\n");
+}
 
-void bubbleSort(int a[], int n){ for(int i=0;i<n-1;i++) for(int j=0;j<n-i-1;j++) if(a[j]>a[j+1]) swap(&a[j],&a[j+1]); }
-void selectionSort(int a[], int n){ for(int i=0;i<n-1;i++){ int min=i; for(int j=i+1;j<n;j++) if(a[j]<a[min]) min=j; swap(&a[i],&a[min]); } }
+void int_degistir(int *a, int *b)
+{
+    int gecici = *a;
+    *a = *b;
+    *b = gecici;
+}
 
-int partition(int a[], int low, int high){ int pivot=a[high], i=low-1; for(int j=low;j<high;j++) if(a[j]<pivot){ i++; swap(&a[i],&a[j]); } swap(&a[i+1],&a[high]); return i+1; }
-void quickSort(int a[], int low, int high){ if(low<high){ int pi=partition(a,low,high); quickSort(a,low,pi-1); quickSort(a,pi+1,high);} }
+void bubble_sort(int degerler[], int uzunluk)
+{
+    for (int tur = 0; tur < uzunluk - 1; tur++)
+    {
+        for (int i = 0; i < uzunluk - tur - 1; i++)
+        {
+            if (degerler[i] > degerler[i + 1])
+                int_degistir(&degerler[i], &degerler[i + 1]);
+        }
+    }
+}
+
+void selection_sort(int degerler[], int uzunluk)
+{
+    for (int baslangic = 0; baslangic < uzunluk - 1; baslangic++)
+    {
+        int en_kucuk_index = baslangic;
+
+        for (int i = baslangic + 1; i < uzunluk; i++)
+        {
+            if (degerler[i] < degerler[en_kucuk_index])
+                en_kucuk_index = i;
+        }
+
+        int_degistir(&degerler[baslangic], &degerler[en_kucuk_index]);
+    }
+}
+
+int partition(int degerler[], int low, int high)
+{
+    int pivot = degerler[high];
+    int kucuk_index = low - 1;
+
+    for (int i = low; i < high; i++)
+    {
+        if (degerler[i] < pivot)
+        {
+            kucuk_index++;
+            int_degistir(&degerler[kucuk_index], &degerler[i]);
+        }
+    }
+
+    int_degistir(&degerler[kucuk_index + 1], &degerler[high]);
+    return kucuk_index + 1;
+}
+
+void quick_sort(int degerler[], int low, int high)
+{
+    if (low >= high)
+        return;
+
+    int pivot_index = partition(degerler, low, high);
+    quick_sort(degerler, low, pivot_index - 1);
+    quick_sort(degerler, pivot_index + 1, high);
+}
 
 int main(void)
 {
-    int a1[] = {5,1,4,2,8};
-    int a2[] = {29,10,14,37,13};
-    int a3[] = {9,3,7,1,6,2};
+    int bubble_degerler[] = {5, 1, 4, 2, 8};
+    int selection_degerler[] = {29, 10, 14, 37, 13};
+    int quick_degerler[] = {9, 3, 7, 1, 6, 2};
 
-    bubbleSort(a1,5); selectionSort(a2,5); quickSort(a3,0,5);
-    printf("Bubble: "); yazdir(a1,5);
-    printf("Selection: "); yazdir(a2,5);
-    printf("Quick: "); yazdir(a3,6);
+    bubble_sort(bubble_degerler, 5);
+    selection_sort(selection_degerler, 5);
+    quick_sort(quick_degerler, 0, 5);
+
+    printf("Bubble: ");
+    dizi_yazdir(bubble_degerler, 5);
+
+    printf("Selection: ");
+    dizi_yazdir(selection_degerler, 5);
+
+    printf("Quick: ");
+    dizi_yazdir(quick_degerler, 6);
+
     return 0;
 }

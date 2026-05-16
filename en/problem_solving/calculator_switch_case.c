@@ -1,26 +1,34 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(void)
 {
-    double a, b;
+    double a;
+    double b;
     char op;
 
-    printf("Islem gir (ornek: 10 + 5): ");
+    printf("Enter operation (example: 10 + 5): ");
     if (scanf("%lf %c %lf", &a, &op, &b) != 3)
         return 1;
 
     switch (op)
     {
-    case '+': printf("Sonuc: %.2f\n", a + b); break;
-    case '-': printf("Sonuc: %.2f\n", a - b); break;
-    case '*': printf("Sonuc: %.2f\n", a * b); break;
+    case '+':
+        printf("Result: %.2f\n", a + b);
+        break;
+    case '-':
+        printf("Result: %.2f\n", a - b);
+        break;
+    case '*':
+        printf("Result: %.2f\n", a * b);
+        break;
     case '/':
         if (b == 0)
-            printf("Hata: sifira bolme yok.\n");
+            printf("Error: division by zero is not allowed.\n");
         else
-            printf("Sonuc: %.2f\n", a / b);
+            printf("Result: %.2f\n", a / b);
         break;
-    default: printf("Gecersiz operator\n");
+    default:
+        printf("Invalid operator\n");
     }
 
     return 0;

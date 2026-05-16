@@ -1,11 +1,11 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
-void degeriArtirValue(int x)
+void increment_by_value(int x)
 {
     x++;
 }
 
-void degeriArtirReference(int *x)
+void increment_by_pointer(int *x)
 {
     if (x != NULL)
         (*x)++;
@@ -13,11 +13,11 @@ void degeriArtirReference(int *x)
 
 int main(void)
 {
-    int sayi = 10;
-    degeriArtirValue(sayi);
-    printf("Call by value sonrasi: %d\n", sayi);
+    int number = 10;
+    increment_by_value(number);
+    printf("After call by value: %d\n", number);
 
-    degeriArtirReference(&sayi);
-    printf("Call by reference sonrasi: %d\n", sayi);
+    increment_by_pointer(&number);
+    printf("After pointer update: %d\n", number);
     return 0;
 }

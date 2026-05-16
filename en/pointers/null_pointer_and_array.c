@@ -1,20 +1,20 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
-int diziTopla(const int *dizi, int boyut)
+int sum_array(const int *values, int length)
 {
-    if (dizi == NULL)
+    if (values == NULL)
         return 0;
 
-    int toplam = 0;
-    for (int i = 0; i < boyut; i++)
-        toplam += *(dizi + i);
-    return toplam;
+    int total = 0;
+    for (int i = 0; i < length; i++)
+        total += *(values + i);
+    return total;
 }
 
 int main(void)
 {
-    int sayilar[] = {3, 5, 7, 9};
-    printf("Toplam: %d\n", diziTopla(sayilar, 4));
-    printf("NULL ile toplam: %d\n", diziTopla(NULL, 4));
+    int numbers[] = {3, 5, 7, 9};
+    printf("Sum: %d\n", sum_array(numbers, 4));
+    printf("Sum with NULL: %d\n", sum_array(NULL, 4));
     return 0;
 }

@@ -1,17 +1,17 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(void)
 {
     int a = 10;
     int b = 0;
 
-    // Debugger ile breakpoint koyup adim adim degerleri izle.
+    // Put a breakpoint here and inspect values step by step.
     if (b == 0)
     {
-        printf("Uyari: sifira bolme engellendi.\n");
+        printf("Warning: division by zero prevented.\n");
         return 1;
     }
 
-    printf("Sonuc: %d\n", a / b);
+    printf("Result: %d\n", a / b);
     return 0;
 }

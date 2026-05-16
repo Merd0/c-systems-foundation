@@ -1,17 +1,17 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
-double ortalamaHesapla(const int dizi[], int boyut)
+double calculate_average(const int values[], int length)
 {
-    int toplam = 0;
-    for (int i = 0; i < boyut; i++)
-        toplam += dizi[i];
-    return (double)toplam / boyut;
+    int total = 0;
+    for (int i = 0; i < length; i++)
+        total += values[i];
+    return (double)total / length;
 }
 
 int main(void)
 {
-    int notlar[] = {80, 70, 95, 60, 88};
-    int boyut = sizeof(notlar) / sizeof(notlar[0]);
-    printf("Ortalama: %.2f\n", ortalamaHesapla(notlar, boyut));
+    int grades[] = {80, 70, 95, 60, 88};
+    int length = sizeof(grades) / sizeof(grades[0]);
+    printf("Average: %.2f\n", calculate_average(grades, length));
     return 0;
 }

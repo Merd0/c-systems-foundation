@@ -1,65 +1,65 @@
-#include <stdbool.h>
+﻿#include <stdbool.h>
 #include <stdio.h>
 
 int main(void)
 {
-    double bakiye = 1000.0;
-    int secim;
-    bool calisiyor = true;
+    double balance = 1000.0;
+    int choice;
+    bool running = true;
 
-    while (calisiyor)
+    while (running)
     {
         printf("\n--- Mini ATM ---\n");
-        printf("1) Bakiye Goster\n2) Para Yatir\n3) Para Cek\n4) Cikis\nSecim: ");
+        printf("1) Show Balance\n2) Deposit\n3) Withdraw\n4) Exit\nChoice: ");
 
-        if (scanf("%d", &secim) != 1)
+        if (scanf("%d", &choice) != 1)
         {
-            printf("Hatali giris.\n");
+            printf("Invalid input.\n");
             return 1;
         }
 
-        switch (secim)
+        switch (choice)
         {
         case 1:
-            printf("Guncel bakiye: %.2f TL\n", bakiye);
+            printf("Current balance: %.2f\n", balance);
             break;
         case 2:
         {
-            double tutar;
-            printf("Yatirilacak tutar: ");
-            if (scanf("%lf", &tutar) != 1 || tutar <= 0)
+            double amount;
+            printf("Deposit amount: ");
+            if (scanf("%lf", &amount) != 1 || amount <= 0)
             {
-                printf("Gecersiz tutar.\n");
+                printf("Invalid amount.\n");
                 break;
             }
-            bakiye += tutar;
-            printf("Yeni bakiye: %.2f TL\n", bakiye);
+            balance += amount;
+            printf("New balance: %.2f\n", balance);
             break;
         }
         case 3:
         {
-            double tutar;
-            printf("Cekilecek tutar: ");
-            if (scanf("%lf", &tutar) != 1 || tutar <= 0)
+            double amount;
+            printf("Withdrawal amount: ");
+            if (scanf("%lf", &amount) != 1 || amount <= 0)
             {
-                printf("Gecersiz tutar.\n");
+                printf("Invalid amount.\n");
                 break;
             }
-            if (tutar > bakiye)
-                printf("Yetersiz bakiye!\n");
+            if (amount > balance)
+                printf("Insufficient balance.\n");
             else
             {
-                bakiye -= tutar;
-                printf("Yeni bakiye: %.2f TL\n", bakiye);
+                balance -= amount;
+                printf("New balance: %.2f\n", balance);
             }
             break;
         }
         case 4:
-            calisiyor = false;
-            printf("Cikis yapildi.\n");
+            running = false;
+            printf("Exited.\n");
             break;
         default:
-            printf("Gecersiz secim.\n");
+            printf("Invalid choice.\n");
         }
     }
 

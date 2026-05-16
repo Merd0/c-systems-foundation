@@ -1,4 +1,4 @@
-# Learning Path (EN)
+﻿# Learning Path (EN)
 
 Use this path as a sequence, but do not rush it. Compile, run, modify, and
 explain each example before moving on.
@@ -80,3 +80,4 @@ explain each example before moving on.
 58. `problem_solving/`
 59. `projects/library_management_cli.c`
 60. `projects/library_management_file_persist.c`
+61. `projects/library_management_modular/README.md`

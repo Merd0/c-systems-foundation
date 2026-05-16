@@ -1,18 +1,22 @@
-# Gerçek Dünya Kullanım Haritası
+﻿# Real-World Usage Map
 
-Bu repodaki örneklerin iş hayatındaki karşılıkları:
+How examples in this repository connect to practical software work:
 
 - `sales_report_generator.c`:
-  - E-ticaret / ERP raporlama mantığı
-  - Dizi + struct + fonksiyon ile veri toplama ve çıktı formatlama
+  - E-commerce or ERP-style reporting logic.
+  - Arrays, structs, and functions for collecting and formatting records.
 - `user_role_access_simulation.c`:
-  - Yetkilendirme (RBAC) temeli
-  - `if-else`, `strcmp`, `bool`, struct pointer kullanımı
+  - Basic role-based access control.
+  - `if-else`, `strcmp`, `bool`, and struct pointer usage.
 - `mini_atm_simulation.c`:
-  - Menü tabanlı terminal uygulaması
-  - Döngü + switch + input doğrulama
+  - Menu-driven terminal application.
+  - Loops, `switch`, and input validation.
 - `student_stats_dashboard.c`:
-  - Basit analitik ve KPI hesapları
-  - Ortalama/min/max gibi temel metrik üretimi
+  - Simple analytics and KPI calculations.
+  - Average, minimum, and maximum metrics.
+- `bitwise/permission_flags.c`:
+  - Compact permission and feature-flag modeling.
+- `unions/tagged_union_variant.c`:
+  - Variant values used in parsers, interpreters, and protocol messages.
 
-Hedef: Sadece sözdizimi değil, "bu kodu nerede kullanırım?" sorusuna cevap vermek.
+Goal: learn not only syntax, but also where each technique appears in real code.

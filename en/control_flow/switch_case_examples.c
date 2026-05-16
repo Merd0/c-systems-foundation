@@ -1,28 +1,28 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(void)
 {
-    int secim;
-    printf("1-Topla 2-Cikar 3-Carp 4-Bol sec: ");
-    if (scanf("%d", &secim) != 1)
+    int choice;
+    printf("Choose: 1-Add 2-Subtract 3-Multiply 4-Divide: ");
+    if (scanf("%d", &choice) != 1)
         return 1;
 
-    switch (secim)
+    switch (choice)
     {
     case 1:
-        printf("Toplama secildi\n");
+        printf("Addition selected\n");
         break;
     case 2:
-        printf("Cikarma secildi\n");
+        printf("Subtraction selected\n");
         break;
     case 3:
-        printf("Carpma secildi\n");
+        printf("Multiplication selected\n");
         break;
     case 4:
-        printf("Bolme secildi\n");
+        printf("Division selected\n");
         break;
     default:
-        printf("Gecersiz secim\n");
+        printf("Invalid choice\n");
     }
 
     return 0;
