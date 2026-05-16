@@ -2,20 +2,22 @@
 
 typedef struct
 {
-    char ad[20];
-    int stok;
-} Urun;
+    char name[20];
+    int stock;
+} Product;
 
-void stokArttir(Urun *u, int miktar)
+void increase_stock(Product *product, int amount)
 {
-    if (u != NULL && miktar > 0)
-        u->stok += miktar;
+    if (product != NULL && amount > 0)
+    {
+        product->stock += amount;
+    }
 }
 
 int main(void)
 {
-    Urun kalem = {"Kalem", 10};
-    stokArttir(&kalem, 5);
-    printf("%s stok: %d\n", kalem.ad, kalem.stok);
+    Product pencil = {"Pencil", 10};
+    increase_stock(&pencil, 5);
+    printf("%s stock: %d\n", pencil.name, pencil.stock);
     return 0;
 }
