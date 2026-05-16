@@ -19,8 +19,9 @@ This repository is designed to guide C learning **from beginner fundamentals to 
 - C temelleri: değişkenler, veri tipleri, formatlı çıktı, input
 - Kontrol akışı: if-else, switch, döngüler
 - Diziler, fonksiyonlar, algoritma mantığı
-- Pointer, struct, dinamik bellek yönetimi
+- Pointer, struct, union, dinamik bellek yönetimi
 - Dosya işlemleri ve kalıcılık (persistence)
+- Preprocessor, bitwise işlemler ve sistem programlama temelleri
 - Problem çözme ve mini proje geliştirme
 
 ## 🛠 Öğrenme Yöntemi / How to use this repo
@@ -49,6 +50,15 @@ This repository is designed to guide C learning **from beginner fundamentals to 
 - English and Turkish tracks should stay structurally parallel but linguistically clean.
 - Code style guide: [`docs/code-style.md`](docs/code-style.md)
 - Topic template: [`docs/topic-template.md`](docs/topic-template.md)
+
+## Deep-Dive Topics
+- [`en/pointers`](en/pointers) / [`tr/pointers`](tr/pointers)
+- [`en/structs`](en/structs) / [`tr/structs`](tr/structs)
+- [`en/unions`](en/unions) / [`tr/unions`](tr/unions)
+- [`en/memory_management`](en/memory_management) / [`tr/memory_management`](tr/memory_management)
+- [`en/file_io`](en/file_io) / [`tr/file_io`](tr/file_io)
+- [`en/preprocessor`](en/preprocessor) / [`tr/preprocessor`](tr/preprocessor)
+- [`en/bitwise`](en/bitwise) / [`tr/bitwise`](tr/bitwise)
 
 ## 🚀 Hedef Profil
 Bu repo, hem yeni başlayan öğrenciye hem de temelini güçlendirmek isteyen junior mühendise göre hazırlandı.

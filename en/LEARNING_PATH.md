@@ -30,25 +30,53 @@ explain each example before moving on.
 18. `functions/palindrome_solution.c`
 19. `headers/header_usage_example.c`
 
-## Level 4: Pointers, Structs, and Memory
-20. `pointers/call_by_value_reference.c`
-21. `pointers/null_pointer_and_array.c`
-22. `structs/README.md`
-23. `structs/struct_intro_and_array.c`
-24. `structs/struct_pointer_update.c`
-25. `structs/struct_designated_initializers.c`
-26. `structs/struct_nested_and_const.c`
-27. `structs/struct_padding_alignment.c`
-28. `memory_management/union_example.c`
-29. `memory_management/malloc_calloc_free_examples.c`
+## Level 4: Pointers
+20. `pointers/README.md`
+21. `pointers/call_by_value_reference.c`
+22. `pointers/null_pointer_and_array.c`
+23. `pointers/pointer_arithmetic_walkthrough.c`
+24. `pointers/const_pointer_parameters.c`
+25. `pointers/dangling_pointer_warning.c`
 
-## Level 5: Files, Algorithms, and Projects
-30. `file_io/file_write_read_examples.c`
-31. `algorithms/char_frequency.c`
-32. `algorithms/most_frequent_character.c`
-33. `algorithms/search_algorithms.c`
-34. `algorithms/sorting_algorithms.c`
-35. `algorithms/luhn_validator.c`
-36. `problem_solving/`
-37. `projects/library_management_cli.c`
-38. `projects/library_management_file_persist.c`
+## Level 5: Structs and Unions
+26. `structs/README.md`
+27. `structs/struct_intro_and_array.c`
+28. `structs/struct_pointer_update.c`
+29. `structs/struct_designated_initializers.c`
+30. `structs/struct_nested_and_const.c`
+31. `structs/struct_padding_alignment.c`
+32. `unions/README.md`
+33. `unions/union_size_overlay.c`
+34. `unions/tagged_union_variant.c`
+35. `unions/protocol_message_union.c`
+
+## Level 6: Dynamic Memory
+36. `memory_management/README.md`
+37. `memory_management/union_example.c`
+38. `memory_management/malloc_calloc_free_examples.c`
+39. `memory_management/realloc_growth_buffer.c`
+40. `memory_management/ownership_transfer.c`
+
+## Level 7: File I/O, Preprocessor, and Bitwise Work
+41. `file_io/README.md`
+42. `file_io/file_write_read_examples.c`
+43. `file_io/line_based_records.c`
+44. `file_io/binary_record_io.c`
+45. `preprocessor/README.md`
+46. `preprocessor/macro_constants_and_guards.c`
+47. `preprocessor/macro_pitfalls.c`
+48. `preprocessor/conditional_compilation.c`
+49. `bitwise/README.md`
+50. `bitwise/permission_flags.c`
+51. `bitwise/bit_masks_and_packing.c`
+52. `bitwise/xor_toggle_demo.c`
+
+## Level 8: Algorithms, Problem Solving, and Projects
+53. `algorithms/char_frequency.c`
+54. `algorithms/most_frequent_character.c`
+55. `algorithms/search_algorithms.c`
+56. `algorithms/sorting_algorithms.c`
+57. `algorithms/luhn_validator.c`
+58. `problem_solving/`
+59. `projects/library_management_cli.c`
+60. `projects/library_management_file_persist.c`
