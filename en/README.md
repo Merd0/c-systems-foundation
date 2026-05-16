@@ -15,7 +15,8 @@ This track helps you learn C from fundamentals to mini-projects with a practical
 - fundamentals, input/output, operators
 - control flow, loops, arrays
 - functions, headers, pointers, structs
-- memory management, file I/O
+- unions, memory management, file I/O
+- preprocessor and bitwise operations
 - algorithms, problem solving, projects
 
 ## Practical Focus
@@ -32,7 +33,14 @@ This repository teaches not only syntax but also coding habits used in real work
 - Read [`../docs/code-style.md`](../docs/code-style.md) before adding examples.
 - Use [`../docs/topic-template.md`](../docs/topic-template.md) when expanding a topic.
 
-## First Deep-Dive Topic
-The `structs/` folder now includes a detailed reference page and additional
-examples for designated initializers, nested structs, `const` pointer
-parameters, and padding/alignment.
+## Deep-Dive Topics
+These folders are intended to become complete reference sections, not only
+example dumps:
+
+- `pointers/`
+- `structs/`
+- `unions/`
+- `memory_management/`
+- `file_io/`
+- `preprocessor/`
+- `bitwise/`

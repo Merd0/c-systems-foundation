@@ -24,8 +24,11 @@ Bu klasör, C öğrenme sürecini düzenli bir yapıda tutmak için hazırlanmı
 - headers: header dosyaları ve include kullanımı
 - pointers: pointer giriş, NULL pointer, call by value/reference
 - structs: struct temel, struct dizisi, struct pointer güncelleme
+- unions: union, tagged union, memory overlay
 - memory_management: union, malloc/calloc/free
 - file_io: dosya açma, yazma, append, okuma
+- preprocessor: include, define, macro, conditional compilation
+- bitwise: flag, mask, shift ve düşük seviye veri işlemleri
 - projects: uçtan uca mini CLI projeler
 - algorithms: arama, sıralama, metin analizi, luhn
 - notes: build/run/main/return 0 referans notları
@@ -38,10 +41,17 @@ Bu klasör, C öğrenme sürecini düzenli bir yapıda tutmak için hazırlanmı
 - Kod stili: [`../docs/code-style.md`](../docs/code-style.md)
 - Yeni konu şablonu: [`../docs/topic-template.md`](../docs/topic-template.md)
 
-## İlk Derin Konu
-`structs/` klasörü artık detaylı bir referans sayfası ve ek örnekler içeriyor:
-designated initializer, nested struct, `const` pointer parametresi ve
-padding/alignment.
+## Derin Konular
+Bu klasörler sadece örnek kod değil, tekrar açıldığında referans olacak şekilde
+büyütülür:
+
+- `pointers/`
+- `structs/`
+- `unions/`
+- `memory_management/`
+- `file_io/`
+- `preprocessor/`
+- `bitwise/`
 
 ## Bugün ne öğrendim
 Build ile run arasındaki farkı netleştirdim. `main()` fonksiyonunun başlangıç noktası olduğunu, `return 0` ifadesinin başarılı bitiş anlattığını öğrendim. `printf` ile formatlı çıktı üretmeyi, input alırken `scanf` kontrolü yapmayı ve `gets` yerine `fgets` kullanmanın neden güvenli olduğunu pekiştirdim.
