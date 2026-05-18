@@ -1,4 +1,4 @@
-﻿# C Learning Repository (English)
+# C Learning Repository (English)
 
 ## Goal
 This track helps you learn C from fundamentals to mini-projects with a practical
@@ -18,6 +18,9 @@ workflow: theory + runnable example + applied scenario.
 - functions, headers, pointers, structs
 - unions, memory management, file I/O
 - preprocessor and bitwise operations
+- linked lists, dynamic arrays, and practical data structures
+- function pointers, callbacks, status-code error handling
+- safe string parsing and modular C API design
 - algorithms, problem solving, projects
 
 ## Practical Focus
@@ -46,6 +49,15 @@ example dumps:
 - `file_io/`
 - `preprocessor/`
 - `bitwise/`
+- `data_structures/`
+- `function_pointers/`
+- `error_handling/`
+- `strings_parsing/`
+- `modular_design/`
+
+## Quick Lookup
+Use [`REFERENCE_INDEX.md`](REFERENCE_INDEX.md) when you remember the problem
+but not the exact folder name.
 
 ## Production-Style Practice
 The `projects/library_management_modular/` folder shows a small project split

@@ -1,4 +1,4 @@
-﻿# C Systems Foundation
+# C Systems Foundation
 
 Bu repo, C öğrenme sürecini **başlangıçtan mini-proje seviyesine** kadar
 sistemli şekilde ilerletmek için tasarlandı.
@@ -22,6 +22,9 @@ mini-project level** in a structured way.
 - Kontrol akışı: if-else, switch, döngüler
 - Diziler, fonksiyonlar, algoritma mantığı
 - Pointer, struct, union, dinamik bellek yönetimi
+- Linked list, dynamic array ve C'de pratik veri yapıları
+- Function pointer, callback, status-code hata yönetimi
+- Safe string parsing ve modüler C API tasarımı
 - Dosya işlemleri ve kalıcılık (persistence)
 - Preprocessor, bitwise işlemler ve sistem programlama temelleri
 - Problem çözme ve mini proje geliştirme
@@ -63,6 +66,15 @@ mini-project level** in a structured way.
 - [`en/file_io`](en/file_io) / [`tr/file_io`](tr/file_io)
 - [`en/preprocessor`](en/preprocessor) / [`tr/preprocessor`](tr/preprocessor)
 - [`en/bitwise`](en/bitwise) / [`tr/bitwise`](tr/bitwise)
+- [`en/data_structures`](en/data_structures) / [`tr/data_structures`](tr/data_structures)
+- [`en/function_pointers`](en/function_pointers) / [`tr/function_pointers`](tr/function_pointers)
+- [`en/error_handling`](en/error_handling) / [`tr/error_handling`](tr/error_handling)
+- [`en/strings_parsing`](en/strings_parsing) / [`tr/strings_parsing`](tr/strings_parsing)
+- [`en/modular_design`](en/modular_design) / [`tr/modular_design`](tr/modular_design)
+
+## Quick Reference
+- EN quick lookup: [`en/REFERENCE_INDEX.md`](en/REFERENCE_INDEX.md)
+- TR hızlı referans: [`tr/REFERENCE_INDEX.md`](tr/REFERENCE_INDEX.md)
 
 ## 🚀 Hedef Profil
 Bu repo, hem yeni başlayan öğrenciye hem de temelini güçlendirmek isteyen junior mühendise göre hazırlandı.

@@ -1,4 +1,4 @@
-﻿# Learning Path (EN)
+# Learning Path (EN)
 
 Use this path as a sequence, but do not rush it. Compile, run, modify, and
 explain each example before moving on.
@@ -57,27 +57,44 @@ explain each example before moving on.
 39. `memory_management/realloc_growth_buffer.c`
 40. `memory_management/ownership_transfer.c`
 
-## Level 7: File I/O, Preprocessor, and Bitwise Work
-41. `file_io/README.md`
-42. `file_io/file_write_read_examples.c`
-43. `file_io/line_based_records.c`
-44. `file_io/binary_record_io.c`
-45. `preprocessor/README.md`
-46. `preprocessor/macro_constants_and_guards.c`
-47. `preprocessor/macro_pitfalls.c`
-48. `preprocessor/conditional_compilation.c`
-49. `bitwise/README.md`
-50. `bitwise/permission_flags.c`
-51. `bitwise/bit_masks_and_packing.c`
-52. `bitwise/xor_toggle_demo.c`
+## Level 7: Practical Data Structures
+41. `data_structures/README.md`
+42. `data_structures/dynamic_array.c`
+43. `data_structures/singly_linked_list.c`
+44. `data_structures/doubly_linked_list.c`
+45. `data_structures/intrusive_linked_list.c`
 
-## Level 8: Algorithms, Problem Solving, and Projects
-53. `algorithms/char_frequency.c`
-54. `algorithms/most_frequent_character.c`
-55. `algorithms/search_algorithms.c`
-56. `algorithms/sorting_algorithms.c`
-57. `algorithms/luhn_validator.c`
-58. `problem_solving/`
-59. `projects/library_management_cli.c`
-60. `projects/library_management_file_persist.c`
-61. `projects/library_management_modular/README.md`
+## Level 8: Practical C Interfaces
+46. `function_pointers/README.md`
+47. `function_pointers/callbacks_and_dispatch_table.c`
+48. `error_handling/README.md`
+49. `error_handling/status_code_result.c`
+50. `strings_parsing/README.md`
+51. `strings_parsing/safe_token_parsing.c`
+52. `modular_design/README.md`
+53. `modular_design/opaque_handle_pattern.c`
+
+## Level 9: File I/O, Preprocessor, and Bitwise Work
+54. `file_io/README.md`
+55. `file_io/file_write_read_examples.c`
+56. `file_io/line_based_records.c`
+57. `file_io/binary_record_io.c`
+58. `preprocessor/README.md`
+59. `preprocessor/macro_constants_and_guards.c`
+60. `preprocessor/macro_pitfalls.c`
+61. `preprocessor/conditional_compilation.c`
+62. `bitwise/README.md`
+63. `bitwise/permission_flags.c`
+64. `bitwise/bit_masks_and_packing.c`
+65. `bitwise/xor_toggle_demo.c`
+
+## Level 10: Algorithms, Problem Solving, and Projects
+66. `algorithms/char_frequency.c`
+67. `algorithms/most_frequent_character.c`
+68. `algorithms/search_algorithms.c`
+69. `algorithms/sorting_algorithms.c`
+70. `algorithms/luhn_validator.c`
+71. `problem_solving/`
+72. `projects/library_management_cli.c`
+73. `projects/library_management_file_persist.c`
+74. `projects/library_management_modular/README.md`
