@@ -1,4 +1,4 @@
-﻿# C Öğrenme Reposu (Türkçe)
+# C Öğrenme Reposu (Türkçe)
 
 ## Amaç
 Bu klasör, C öğrenme sürecini düzenli bir yapıda tutmak için hazırlanmıştır.
@@ -31,6 +31,11 @@ ilerler.
 - file_io: dosya açma, yazma, append, okuma
 - preprocessor: include, define, macro, conditional compilation
 - bitwise: flag, mask, shift ve düşük seviye veri işlemleri
+- data_structures: linked list, doubly linked list, intrusive list, dynamic array
+- function_pointers: callback ve dispatch table
+- error_handling: status code ve output parameter ile hata yönetimi
+- strings_parsing: güvenli string parsing ve `strtol`
+- modular_design: opaque handle ve modüler C API tasarımı
 - projects: uçtan uca mini CLI projeler
 - algorithms: arama, sıralama, metin analizi, luhn
 - notes: build/run/main/return 0 referans notları
@@ -55,6 +60,15 @@ büyütülür:
 - `file_io/`
 - `preprocessor/`
 - `bitwise/`
+- `data_structures/`
+- `function_pointers/`
+- `error_handling/`
+- `strings_parsing/`
+- `modular_design/`
+
+## Hızlı Referans
+Problemi hatırlayıp klasörü hatırlamadığında [`REFERENCE_INDEX.md`](REFERENCE_INDEX.md)
+dosyasından doğrudan ilgili konuya gidebilirsin.
 
 ## Production Tarzı Pratik
 `projects/library_management_modular/` klasörü küçük bir projeyi `include/`,
