@@ -1,4 +1,10 @@
-﻿#include <stdio.h>
+/*
+ * Study navigation:
+ * Back to Learning Path: https://github.com/Merd0/c-systems-foundation/blob/main/en/LEARNING_PATH.md
+ * Next step: https://github.com/Merd0/c-systems-foundation/blob/main/en/arrays/arrays_and_strings_basics.c
+ */
+
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 

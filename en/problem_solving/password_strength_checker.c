@@ -1,4 +1,10 @@
-﻿#include <ctype.h>
+/*
+ * Study navigation:
+ * Back to Learning Path: https://github.com/Merd0/c-systems-foundation/blob/main/en/LEARNING_PATH.md
+ * Next step: https://github.com/Merd0/c-systems-foundation/blob/main/en/problem_solving/expense_tracker_summary.c
+ */
+
+#include <ctype.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>

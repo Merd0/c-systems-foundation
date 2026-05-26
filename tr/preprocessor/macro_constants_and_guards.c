@@ -1,3 +1,9 @@
+/*
+ * Çalışma navigasyonu:
+ * Öğrenme Yoluna Dön: https://github.com/Merd0/c-systems-foundation/blob/main/tr/LEARNING_PATH.md
+ * Sıradaki adım: https://github.com/Merd0/c-systems-foundation/blob/main/tr/preprocessor/macro_pitfalls.c
+ */
+
 #include <stdio.h>
 
 #define UYGULAMA_ADI "C Systems Foundation"
