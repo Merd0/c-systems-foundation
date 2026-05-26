@@ -21,3 +21,9 @@ copies, explicit lengths, checked parsing, and simple formats.
 ## Example
 
 - `safe_token_parsing.c`: parse a comma-separated record with validation.
+
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: safe_token_parsing.c](safe_token_parsing.c) |

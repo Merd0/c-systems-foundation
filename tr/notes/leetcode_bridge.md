@@ -213,3 +213,9 @@ Kendine sor:
 3. Önce kendin çöz.
 4. `leetcode-c-solutions` çözümüne bakıp C mekaniğini not et.
 5. Kendi cümlenle şu notu yaz: "Bu problem bana C'de ne öğretti?"
+
+---
+
+| Geri | Ek Referans |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Hızlı Referans](../REFERENCE_INDEX.md) |

@@ -213,3 +213,9 @@ Ask yourself:
 3. Try solving them without looking first.
 4. Review `leetcode-c-solutions` and focus on the C mechanism.
 5. Write one sentence: "This problem taught me this C idea."
+
+---
+
+| Back | Extra Reference |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Reference Index](../REFERENCE_INDEX.md) |

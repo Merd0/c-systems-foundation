@@ -130,3 +130,8 @@ neredeyse her C programında karşına çıkar.
 4. `adet * sizeof(T)` neden riskli olabilir?
 5. Bir fonksiyonda ikinci allocation başarısız olursa ne yapılmalıdır?
 
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: union_example.c](union_example.c) |

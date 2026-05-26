@@ -112,3 +112,8 @@ flag, build configuration ve header organizasyonunda sık görülür.
 4. Conditional compilation ne zaman kullanılır?
 5. Macro'lar debug etmeyi neden zorlaştırabilir?
 
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: macro_constants_and_guards.c](macro_constants_and_guards.c) |

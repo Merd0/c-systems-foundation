@@ -114,3 +114,8 @@ file, embedded data dump ve hafif local storage için kullanılır.
 4. Binary struct dosyalarını taşınamaz yapan şeyler nelerdir?
 5. Dosya açıldıktan sonra fonksiyon ileride hata alırsa ne yapmalıdır?
 
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: file_write_read_examples.c](file_write_read_examples.c) |

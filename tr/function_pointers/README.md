@@ -22,3 +22,9 @@ event sistemi, sıralama callback'i ve command dispatch tablolarında sık gör�
 
 - `callbacks_and_dispatch_table.c`: table-driven command handling ve callback
   context mantığı.
+
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: callbacks_and_dispatch_table.c](callbacks_and_dispatch_table.c) |

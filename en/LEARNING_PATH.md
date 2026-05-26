@@ -1,103 +1,184 @@
-# Learning Path (EN)
+# C Systems Foundation Learning Path
 
-Use this path as a sequence, but do not rush it. Compile, run, modify, and
-explain each example before moving on.
+This file is the main control panel for the repository. You can keep only this
+page open, move through the material in order, click into every topic, and come
+back here without losing your place.
 
-## Level 0: Build and Workflow
-1. `../docs/build-guide.md`
-2. `notes/build_run_main_debugging.md`
+## How To Use It
+
+1. Follow the steps in order; do not skip ahead too early.
+2. For each `.c` file, read the code first, predict the output, then compile
+   and run it.
+3. After each example, make a small change and run it again.
+4. Treat an item as complete only when you can satisfy the "Done when" column.
+5. Topic README pages include navigation links at the bottom for returning to
+   this path and moving to the next step.
+
+## Level Map
+
+| Level | Goal |
+| --- | --- |
+| 0 | Understand build, run, `main`, compiler, and workflow basics |
+| 1 | Learn core syntax, types, input/output, and operators |
+| 2 | Build program behavior with control flow and loops |
+| 3 | Combine arrays, strings, functions, and headers |
+| 4 | Understand the pointer model safely and clearly |
+| 5 | Model real data with structs and unions |
+| 6 | Build heap, ownership, `malloc/free/realloc` discipline |
+| 7 | Implement practical data structures manually in C |
+| 8 | Learn callbacks, error handling, parsing, and modular APIs |
+| 9 | Tie together file I/O, preprocessor, and bitwise systems topics |
+| 10 | Apply the knowledge through algorithms, scenarios, and projects |
+| 11 | Connect C topics to LeetCode-style problem practice |
+
+## Level 0: Build And Workflow
+
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 1 | [`../docs/build-guide.md`](../docs/build-guide.md) | How the repo builds and what CI checks | You can explain why `make all` and `make test` exist |
+| 2 | [`notes/build_run_main_debugging.md`](notes/build_run_main_debugging.md) | `main`, build, run, debug loop | You can explain how a source file becomes runnable |
 
 ## Level 1: Core Syntax
-3. `fundamentals/variables_basics.c`
-4. `input_output/printf_examples.c`
-5. `input_output/scanf_usage.c`
-6. `operators/arithmetic_ops.c`
-7. `operators/casting_examples.c`
-8. `operators/bool_const_define_sizeof.c`
-9. `operators/math_library_examples.c`
 
-## Level 2: Control Flow and Repetition
-10. `control_flow/if_else_examples.c`
-11. `control_flow/switch_case_examples.c`
-12. `loops/for_while_do_examples.c`
-13. `loops/break_continue_rand.c`
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 3 | [`fundamentals/variables_basics.c`](fundamentals/variables_basics.c) | Variables, basic types, formatted output | You can match types with format specifiers |
+| 4 | [`input_output/printf_examples.c`](input_output/printf_examples.c) | `printf`, alignment, readable output | You can write your own formatted output |
+| 5 | [`input_output/scanf_usage.c`](input_output/scanf_usage.c) | Input and return-value checks | You can reject invalid input deliberately |
+| 6 | [`operators/arithmetic_ops.c`](operators/arithmetic_ops.c) | Arithmetic operators and precedence | You can explain integer division behavior |
+| 7 | [`operators/casting_examples.c`](operators/casting_examples.c) | Casts, data loss, conversion rules | You know when an explicit cast is needed |
+| 8 | [`operators/bool_const_define_sizeof.c`](operators/bool_const_define_sizeof.c) | `bool`, `const`, `#define`, `sizeof` | You can explain the difference between constants and macros |
+| 9 | [`operators/math_library_examples.c`](operators/math_library_examples.c) | `math.h` and `-lm` linking | You know why math functions may need linker flags |
 
-## Level 3: Arrays, Strings, and Functions
-14. `arrays/arrays_and_strings_basics.c`
-15. `arrays/multidimensional_arrays.c`
-16. `functions/functions_intro_return.c`
-17. `functions/array_parameter_examples.c`
-18. `functions/palindrome_solution.c`
-19. `headers/header_usage_example.c`
+## Level 2: Control Flow And Loops
+
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 10 | [`control_flow/if_else_examples.c`](control_flow/if_else_examples.c) | Decisions and guard conditions | You handle invalid input before main logic |
+| 11 | [`control_flow/switch_case_examples.c`](control_flow/switch_case_examples.c) | Menus and fixed choices | You can build a small `switch` menu |
+| 12 | [`loops/for_while_do_examples.c`](loops/for_while_do_examples.c) | `for`, `while`, `do-while` differences | You can explain why you chose a loop type |
+| 13 | [`loops/break_continue_rand.c`](loops/break_continue_rand.c) | `break`, `continue`, basic randomness | You can deliberately change loop flow |
+
+## Level 3: Arrays, Strings, And Functions
+
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 14 | [`arrays/arrays_and_strings_basics.c`](arrays/arrays_and_strings_basics.c) | Array indexes, char arrays, `'\0'` | You can explain where a C string ends |
+| 15 | [`arrays/multidimensional_arrays.c`](arrays/multidimensional_arrays.c) | 2D arrays and row/column traversal | You can traverse a matrix in row-major order |
+| 16 | [`functions/functions_intro_return.c`](functions/functions_intro_return.c) | Functions, parameters, return values | You can write a small single-purpose function |
+| 17 | [`functions/array_parameter_examples.c`](functions/array_parameter_examples.c) | Array parameters and size passing | You remember to pass size together with arrays |
+| 18 | [`functions/palindrome_solution.c`](functions/palindrome_solution.c) | Splitting problem logic into functions | You can keep checking logic outside `main` |
+| 19 | [`headers/header_usage_example.c`](headers/header_usage_example.c) | Headers, declarations, includes | You can explain the role of a `.h` file |
 
 ## Level 4: Pointers
-20. `pointers/README.md`
-21. `pointers/call_by_value_reference.c`
-22. `pointers/null_pointer_and_array.c`
-23. `pointers/pointer_arithmetic_walkthrough.c`
-24. `pointers/const_pointer_parameters.c`
-25. `pointers/dangling_pointer_warning.c`
 
-## Level 5: Structs and Unions
-26. `structs/README.md`
-27. `structs/struct_intro_and_array.c`
-28. `structs/struct_pointer_update.c`
-29. `structs/struct_designated_initializers.c`
-30. `structs/struct_nested_and_const.c`
-31. `structs/struct_padding_alignment.c`
-32. `unions/README.md`
-33. `unions/union_size_overlay.c`
-34. `unions/tagged_union_variant.c`
-35. `unions/protocol_message_union.c`
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 20 | [`pointers/README.md`](pointers/README.md) | Pointer mental model | You can explain address, value, and dereference |
+| 21 | [`pointers/call_by_value_reference.c`](pointers/call_by_value_reference.c) | Value/reference behavior | You know when a function changes caller data |
+| 22 | [`pointers/null_pointer_and_array.c`](pointers/null_pointer_and_array.c) | `NULL`, array-pointer relationship | You can explain why `NULL` checks matter |
+| 23 | [`pointers/pointer_arithmetic_walkthrough.c`](pointers/pointer_arithmetic_walkthrough.c) | Pointer arithmetic | You know why `ptr + 1` moves by element size |
+| 24 | [`pointers/const_pointer_parameters.c`](pointers/const_pointer_parameters.c) | `const` pointer parameters | You can express function contracts with `const` |
+| 25 | [`pointers/dangling_pointer_warning.c`](pointers/dangling_pointer_warning.c) | Dangling pointer risk | You know why expired addresses are dangerous |
+
+## Level 5: Structs And Unions
+
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 26 | [`structs/README.md`](structs/README.md) | Struct use cases | You know when to choose a struct over parallel arrays |
+| 27 | [`structs/struct_intro_and_array.c`](structs/struct_intro_and_array.c) | Struct definitions and struct arrays | You can store multiple records in a struct array |
+| 28 | [`structs/struct_pointer_update.c`](structs/struct_pointer_update.c) | Updating through struct pointers | You use `.` and `->` correctly |
+| 29 | [`structs/struct_designated_initializers.c`](structs/struct_designated_initializers.c) | Designated initializers | You can initialize fields by name |
+| 30 | [`structs/struct_nested_and_const.c`](structs/struct_nested_and_const.c) | Nested structs and `const` | You can model nested data readably |
+| 31 | [`structs/struct_padding_alignment.c`](structs/struct_padding_alignment.c) | Padding, alignment, layout | You know why struct size can exceed field totals |
+| 32 | [`unions/README.md`](unions/README.md) | Union mental model | You can explain shared storage |
+| 33 | [`unions/union_size_overlay.c`](unions/union_size_overlay.c) | Overlay and size behavior | You know union size follows the largest member |
+| 34 | [`unions/tagged_union_variant.c`](unions/tagged_union_variant.c) | Tagged unions | You can track the active union member with a tag |
+| 35 | [`unions/protocol_message_union.c`](unions/protocol_message_union.c) | Protocol/message model | You can read a union inside a real message model |
 
 ## Level 6: Dynamic Memory
-36. `memory_management/README.md`
-37. `memory_management/union_example.c`
-38. `memory_management/malloc_calloc_free_examples.c`
-39. `memory_management/realloc_growth_buffer.c`
-40. `memory_management/ownership_transfer.c`
+
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 36 | [`memory_management/README.md`](memory_management/README.md) | Heap, lifetime, ownership | You can answer who owns each allocation |
+| 37 | [`memory_management/union_example.c`](memory_management/union_example.c) | Memory overlay review | You can revisit shared-memory behavior |
+| 38 | [`memory_management/malloc_calloc_free_examples.c`](memory_management/malloc_calloc_free_examples.c) | `malloc`, `calloc`, `free` | You plan exactly one `free` for each allocation |
+| 39 | [`memory_management/realloc_growth_buffer.c`](memory_management/realloc_growth_buffer.c) | Safe growing buffers | You check `realloc` through a temporary pointer |
+| 40 | [`memory_management/ownership_transfer.c`](memory_management/ownership_transfer.c) | Ownership transfer | You can state who must free returned heap memory |
 
 ## Level 7: Practical Data Structures
-41. `data_structures/README.md`
-42. `data_structures/dynamic_array.c`
-43. `data_structures/singly_linked_list.c`
-44. `data_structures/doubly_linked_list.c`
-45. `data_structures/intrusive_linked_list.c`
+
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 41 | [`data_structures/README.md`](data_structures/README.md) | Container thinking in C | You can compare arrays, dynamic arrays, and linked lists |
+| 42 | [`data_structures/dynamic_array.c`](data_structures/dynamic_array.c) | Vector-like growth | You know the difference between size and capacity |
+| 43 | [`data_structures/singly_linked_list.c`](data_structures/singly_linked_list.c) | Singly linked lists | You can trace insert/search/delete/free |
+| 44 | [`data_structures/doubly_linked_list.c`](data_structures/doubly_linked_list.c) | Doubly linked lists | You can update `prev` and `next` safely |
+| 45 | [`data_structures/intrusive_linked_list.c`](data_structures/intrusive_linked_list.c) | Intrusive lists | You understand list nodes embedded in objects |
 
 ## Level 8: Practical C Interfaces
-46. `function_pointers/README.md`
-47. `function_pointers/callbacks_and_dispatch_table.c`
-48. `error_handling/README.md`
-49. `error_handling/status_code_result.c`
-50. `strings_parsing/README.md`
-51. `strings_parsing/safe_token_parsing.c`
-52. `modular_design/README.md`
-53. `modular_design/opaque_handle_pattern.c`
 
-## Level 9: File I/O, Preprocessor, and Bitwise Work
-54. `file_io/README.md`
-55. `file_io/file_write_read_examples.c`
-56. `file_io/line_based_records.c`
-57. `file_io/binary_record_io.c`
-58. `preprocessor/README.md`
-59. `preprocessor/macro_constants_and_guards.c`
-60. `preprocessor/macro_pitfalls.c`
-61. `preprocessor/conditional_compilation.c`
-62. `bitwise/README.md`
-63. `bitwise/permission_flags.c`
-64. `bitwise/bit_masks_and_packing.c`
-65. `bitwise/xor_toggle_demo.c`
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 46 | [`function_pointers/README.md`](function_pointers/README.md) | Function pointers and callbacks | You know why a function can be passed like data |
+| 47 | [`function_pointers/callbacks_and_dispatch_table.c`](function_pointers/callbacks_and_dispatch_table.c) | Dispatch tables | You can select behavior through a table |
+| 48 | [`error_handling/README.md`](error_handling/README.md) | Error models in C | You understand status return plus output parameter |
+| 49 | [`error_handling/status_code_result.c`](error_handling/status_code_result.c) | Status-code pattern | You can carry errors and results cleanly |
+| 50 | [`strings_parsing/README.md`](strings_parsing/README.md) | Safe string parsing | You can explain why `strtol` is safer than `atoi` |
+| 51 | [`strings_parsing/safe_token_parsing.c`](strings_parsing/safe_token_parsing.c) | Token and number parsing | You do not silently accept invalid tokens |
+| 52 | [`modular_design/README.md`](modular_design/README.md) | Modular C APIs | You understand header/implementation separation |
+| 53 | [`modular_design/opaque_handle_pattern.c`](modular_design/opaque_handle_pattern.c) | Opaque handles | You can hide struct internals behind an API |
 
-## Level 10: Algorithms, Problem Solving, and Projects
-66. `algorithms/char_frequency.c`
-67. `algorithms/most_frequent_character.c`
-68. `algorithms/search_algorithms.c`
-69. `algorithms/sorting_algorithms.c`
-70. `algorithms/luhn_validator.c`
-71. `problem_solving/`
-72. `projects/library_management_cli.c`
-73. `projects/library_management_file_persist.c`
-74. `projects/library_management_modular/README.md`
+## Level 9: File I/O, Preprocessor, And Bitwise Work
+
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 54 | [`file_io/README.md`](file_io/README.md) | Opening, reading, writing files | You check `fopen` and always close files |
+| 55 | [`file_io/file_write_read_examples.c`](file_io/file_write_read_examples.c) | Basic read/write | You can write output and read it back |
+| 56 | [`file_io/line_based_records.c`](file_io/line_based_records.c) | Line-based records | You can parse records with `fgets` |
+| 57 | [`file_io/binary_record_io.c`](file_io/binary_record_io.c) | Binary record I/O | You know binary and text formats differ |
+| 58 | [`preprocessor/README.md`](preprocessor/README.md) | Preprocessor mental model | You know macros run before compilation |
+| 59 | [`preprocessor/macro_constants_and_guards.c`](preprocessor/macro_constants_and_guards.c) | Macro constants and include guards | You can explain header guards |
+| 60 | [`preprocessor/macro_pitfalls.c`](preprocessor/macro_pitfalls.c) | Macro risks | You know why macro arguments need parentheses |
+| 61 | [`preprocessor/conditional_compilation.c`](preprocessor/conditional_compilation.c) | Conditional compilation | You can include/exclude code through build flags |
+| 62 | [`bitwise/README.md`](bitwise/README.md) | Bitwise mental model | You can distinguish flags, masks, and shifts |
+| 63 | [`bitwise/permission_flags.c`](bitwise/permission_flags.c) | Permission flags | You can store permissions in bits |
+| 64 | [`bitwise/bit_masks_and_packing.c`](bitwise/bit_masks_and_packing.c) | Masks and packing | You can pack and extract a value |
+| 65 | [`bitwise/xor_toggle_demo.c`](bitwise/xor_toggle_demo.c) | XOR toggle | You know XOR toggle/cancel behavior |
+
+## Level 10: Algorithms, Problem Solving, And Projects
+
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 66 | [`algorithms/char_frequency.c`](algorithms/char_frequency.c) | Frequency arrays | You can count characters with a small array |
+| 67 | [`algorithms/most_frequent_character.c`](algorithms/most_frequent_character.c) | Max frequency | You can select a result from counts |
+| 68 | [`algorithms/search_algorithms.c`](algorithms/search_algorithms.c) | Linear/binary search | You choose binary search for sorted data |
+| 69 | [`algorithms/sorting_algorithms.c`](algorithms/sorting_algorithms.c) | Sorting logic | You can trace simple sorting steps |
+| 70 | [`algorithms/luhn_validator.c`](algorithms/luhn_validator.c) | Real algorithm implementation | You can translate a rule set into code |
+| 71 | [`problem_solving/`](problem_solving/) | Small scenario problems | You have modified and run at least two examples |
+| 72 | [`projects/library_management_cli.c`](projects/library_management_cli.c) | Single-file CLI project | You can read menu, struct array, and input flow |
+| 73 | [`projects/library_management_file_persist.c`](projects/library_management_file_persist.c) | File persistence project | You know how data survives program exit |
+| 74 | [`projects/library_management_modular/README.md`](projects/library_management_modular/README.md) | Modular project layout | You understand `include/`, `src/`, and `tests/` |
 
 ## Level 11: LeetCode Practice Bridge
-75. `notes/leetcode_bridge.md`
+
+| Step | Go To | Focus | Done when |
+| --- | --- | --- | --- |
+| 75 | [`notes/leetcode_bridge.md`](notes/leetcode_bridge.md) | Connect C topics to LeetCode practice | You can create a review plan from selected problems |
+
+## Completion Routine
+
+At the end of each level:
+
+1. Rewrite one example from that level from scratch.
+2. Break one example intentionally and fix it.
+3. Write this note: "What real C problem does this level help me solve?"
+4. Move to the next level.
+
+## Quick Navigation
+
+| Go To | Link |
+| --- | --- |
+| Repository home | [`../README.md`](../README.md) |
+| English reference index | [`REFERENCE_INDEX.md`](REFERENCE_INDEX.md) |
+| LeetCode bridge | [`notes/leetcode_bridge.md`](notes/leetcode_bridge.md) |

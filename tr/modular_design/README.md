@@ -23,3 +23,9 @@ kullanmasını sağlar.
 
 - `opaque_handle_pattern.c`: tek dosyada public API ve private implementation
   ayrımını gösterir.
+
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: opaque_handle_pattern.c](opaque_handle_pattern.c) |

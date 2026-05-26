@@ -154,3 +154,8 @@ caller'ın verdiği buffer'ları pointer üzerinden doldurur.
 4. `const int *p` neyi korur?
 5. Pointer'ın owning veya non-owning olması ne demektir?
 
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: call_by_value_reference.c](call_by_value_reference.c) |

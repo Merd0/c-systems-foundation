@@ -27,3 +27,9 @@ Programın başarılı tamamlandığını belirtir.
 - Metin input'u için `fgets` kullan.
 - `scanf` dönüş değerini kontrol et.
 - `printf` formatlarını doğru tiplerle eşleştir.
+
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: variables_basics.c](../fundamentals/variables_basics.c) |

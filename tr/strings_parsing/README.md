@@ -21,3 +21,9 @@ kontrollü parsing ve basit formatlar tercih edilmelidir.
 ## Örnek
 
 - `safe_token_parsing.c`: comma-separated record parse eder ve doğrular.
+
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: safe_token_parsing.c](safe_token_parsing.c) |

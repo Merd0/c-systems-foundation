@@ -114,3 +114,8 @@ tools, save files, embedded data dumps, and lightweight local storage.
 4. What can make binary struct files non-portable?
 5. What should a function do after opening a file successfully but failing later?
 
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: file_write_read_examples.c](file_write_read_examples.c) |

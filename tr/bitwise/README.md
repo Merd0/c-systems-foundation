@@ -121,3 +121,8 @@ sistemlerinde karşına çıkar.
 4. `izinler == IZIN_YAZ` kontrolü neden çoğu zaman yanlıştır?
 5. Signed shift işlemlerinde hangi riskler vardır?
 
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: permission_flags.c](permission_flags.c) |

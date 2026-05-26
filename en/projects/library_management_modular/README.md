@@ -1,4 +1,4 @@
-﻿# Modular Library Management Project
+# Modular Library Management Project
 
 This project is a more professional version of the single-file library examples.
 It separates public declarations, implementation, application code, and tests.
@@ -44,3 +44,9 @@ make test
 - bounded string copying
 - status-returning functions
 - `assert`-based tests
+
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../../LEARNING_PATH.md) | [Next: leetcode_bridge.md](../../notes/leetcode_bridge.md) |

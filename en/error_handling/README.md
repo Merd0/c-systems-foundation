@@ -21,3 +21,9 @@ status codes, output parameters, sentinel values, or small result structs.
 ## Example
 
 - `status_code_result.c`: status enum + output parameter + validation.
+
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: status_code_result.c](status_code_result.c) |
