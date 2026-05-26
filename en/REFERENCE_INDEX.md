@@ -22,3 +22,4 @@ Use this file when you remember the problem but not the exact folder name.
 | Use macros carefully | `preprocessor/macro_pitfalls.c` |
 | Use bit flags and masks | `bitwise/permission_flags.c` |
 | Study modular project layout | `projects/library_management_modular/README.md` |
+| Reinforce C topics with LeetCode practice | `notes/leetcode_bridge.md` |

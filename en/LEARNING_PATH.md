@@ -98,3 +98,6 @@ explain each example before moving on.
 72. `projects/library_management_cli.c`
 73. `projects/library_management_file_persist.c`
 74. `projects/library_management_modular/README.md`
+
+## Level 11: LeetCode Practice Bridge
+75. `notes/leetcode_bridge.md`

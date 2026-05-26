@@ -22,3 +22,4 @@ Problemi hatırlayıp klasörü hatırlamadığında buradan hızlıca git.
 | Macro hatalarını hatırlamak | `preprocessor/macro_pitfalls.c` |
 | Bit flag ve mask kullanmak | `bitwise/permission_flags.c` |
 | Modüler proje yapısı çalışmak | `projects/library_management_modular/README.md` |
+| C konusundan sonra LeetCode ile pekiştirmek | `notes/leetcode_bridge.md` |

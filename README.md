@@ -75,6 +75,8 @@ mini-project level** in a structured way.
 ## Quick Reference
 - EN quick lookup: [`en/REFERENCE_INDEX.md`](en/REFERENCE_INDEX.md)
 - TR hızlı referans: [`tr/REFERENCE_INDEX.md`](tr/REFERENCE_INDEX.md)
+- LeetCode practice bridge: [`en/notes/leetcode_bridge.md`](en/notes/leetcode_bridge.md) /
+  [`tr/notes/leetcode_bridge.md`](tr/notes/leetcode_bridge.md)
 
 ## 🚀 Hedef Profil
 Bu repo, hem yeni başlayan öğrenciye hem de temelini güçlendirmek isteyen junior mühendise göre hazırlandı.

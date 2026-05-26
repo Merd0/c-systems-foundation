@@ -11,6 +11,8 @@ workflow: theory + runnable example + applied scenario.
 4. Modify examples and test your own variants.
 5. Use notes and debugging examples to fix mistakes.
 6. Use topic `README.md` files as deeper reference pages.
+7. Use [`notes/leetcode_bridge.md`](notes/leetcode_bridge.md) after each major
+   topic to reinforce the C concept with selected LeetCode problems.
 
 ## Topics Covered
 - fundamentals, input/output, operators

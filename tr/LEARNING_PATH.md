@@ -98,3 +98,6 @@ kendi cümlelerinle açıklamaya çalış.
 72. `projects/library_management_cli.c`
 73. `projects/library_management_file_persist.c`
 74. `projects/library_management_modular/README.md`
+
+## Seviye 11: LeetCode ile Pekiştirme
+75. `notes/leetcode_bridge.md`

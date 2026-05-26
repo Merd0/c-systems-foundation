@@ -35,6 +35,10 @@ Show what goes wrong and how to fix it.
 Connect the topic to systems, embedded, CLI tools, parsers, data structures, or
 application code.
 
+## Practice Bridge
+If the topic maps well to problem solving, link a small number of focused
+LeetCode-style practice problems and state what each one reinforces.
+
 ## Exercises
 Give small tasks that require editing or extending the examples.
 
@@ -50,4 +54,3 @@ Ask questions that reveal whether the reader really understood the topic.
 - Use safe input and memory patterns unless the file is intentionally
   demonstrating a mistake.
 - If the example contains a deliberate risk, name it clearly.
-
