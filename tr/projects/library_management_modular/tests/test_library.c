@@ -1,4 +1,10 @@
-﻿#include "library.h"
+/*
+ * Çalışma navigasyonu:
+ * Öğrenme Yoluna Dön: https://github.com/Merd0/c-systems-foundation/blob/main/tr/LEARNING_PATH.md
+ * Sıradaki adım: https://github.com/Merd0/c-systems-foundation/blob/main/tr/LEARNING_PATH.md
+ */
+
+#include "library.h"
 
 #include <assert.h>
 #include <stdio.h>

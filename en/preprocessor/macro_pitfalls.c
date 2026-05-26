@@ -1,3 +1,9 @@
+/*
+ * Study navigation:
+ * Back to Learning Path: https://github.com/Merd0/c-systems-foundation/blob/main/en/LEARNING_PATH.md
+ * Next step: https://github.com/Merd0/c-systems-foundation/blob/main/en/preprocessor/conditional_compilation.c
+ */
+
 #include <stdio.h>
 
 #define UNSAFE_SQUARE(x) ((x) * (x))

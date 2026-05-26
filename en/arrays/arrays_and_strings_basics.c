@@ -1,4 +1,10 @@
-﻿#include <stdio.h>
+/*
+ * Study navigation:
+ * Back to Learning Path: https://github.com/Merd0/c-systems-foundation/blob/main/en/LEARNING_PATH.md
+ * Next step: https://github.com/Merd0/c-systems-foundation/blob/main/en/arrays/multidimensional_arrays.c
+ */
+
+#include <stdio.h>
 #include <string.h>
 
 int main(void)

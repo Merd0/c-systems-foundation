@@ -154,7 +154,7 @@ Learning Path'e dönebilirsin.
 | 68 | [`algorithms/search_algorithms.c`](algorithms/search_algorithms.c) | Linear/binary search | Sıralı veri için binary search seçebiliyorsan |
 | 69 | [`algorithms/sorting_algorithms.c`](algorithms/sorting_algorithms.c) | Sorting mantığı | Basit sort adımlarını izleyebiliyorsan |
 | 70 | [`algorithms/luhn_validator.c`](algorithms/luhn_validator.c) | Gerçek algoritma uygulaması | Kural setini kod akışına çevirebiliyorsan |
-| 71 | [`problem_solving/`](problem_solving/) | Küçük senaryo problemleri | En az iki örneği değiştirip çalıştırdıysan |
+| 71 | [`problem_solving/README.md`](problem_solving/README.md) | Küçük senaryo problemleri | En az iki örneği değiştirip çalıştırdıysan |
 | 72 | [`projects/library_management_cli.c`](projects/library_management_cli.c) | Tek dosya CLI proje | Menü, struct array ve input akışını okuyabiliyorsan |
 | 73 | [`projects/library_management_file_persist.c`](projects/library_management_file_persist.c) | Dosya kalıcılığı olan proje | Verinin program kapanınca nasıl saklandığını biliyorsan |
 | 74 | [`projects/library_management_modular/README.md`](projects/library_management_modular/README.md) | Modüler proje düzeni | `include/`, `src/`, `tests/` ayrımını anlayabiliyorsan |

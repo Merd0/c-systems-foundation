@@ -155,7 +155,7 @@ back here without losing your place.
 | 68 | [`algorithms/search_algorithms.c`](algorithms/search_algorithms.c) | Linear/binary search | You choose binary search for sorted data |
 | 69 | [`algorithms/sorting_algorithms.c`](algorithms/sorting_algorithms.c) | Sorting logic | You can trace simple sorting steps |
 | 70 | [`algorithms/luhn_validator.c`](algorithms/luhn_validator.c) | Real algorithm implementation | You can translate a rule set into code |
-| 71 | [`problem_solving/`](problem_solving/) | Small scenario problems | You have modified and run at least two examples |
+| 71 | [`problem_solving/README.md`](problem_solving/README.md) | Small scenario problems | You have modified and run at least two examples |
 | 72 | [`projects/library_management_cli.c`](projects/library_management_cli.c) | Single-file CLI project | You can read menu, struct array, and input flow |
 | 73 | [`projects/library_management_file_persist.c`](projects/library_management_file_persist.c) | File persistence project | You know how data survives program exit |
 | 74 | [`projects/library_management_modular/README.md`](projects/library_management_modular/README.md) | Modular project layout | You understand `include/`, `src/`, and `tests/` |

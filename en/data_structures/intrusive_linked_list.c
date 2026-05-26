@@ -1,3 +1,9 @@
+/*
+ * Study navigation:
+ * Back to Learning Path: https://github.com/Merd0/c-systems-foundation/blob/main/en/LEARNING_PATH.md
+ * Next step: https://github.com/Merd0/c-systems-foundation/blob/main/en/function_pointers/README.md
+ */
+
 #include <stddef.h>
 #include <stdio.h>
 

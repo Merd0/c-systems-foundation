@@ -1,3 +1,9 @@
+/*
+ * Çalışma navigasyonu:
+ * Öğrenme Yoluna Dön: https://github.com/Merd0/c-systems-foundation/blob/main/tr/LEARNING_PATH.md
+ * Sıradaki adım: https://github.com/Merd0/c-systems-foundation/blob/main/tr/input_output/printf_examples.c
+ */
+
 #include <stdio.h>
 
 int main(void)

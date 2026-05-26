@@ -1,3 +1,9 @@
+/*
+ * Çalışma navigasyonu:
+ * Öğrenme Yoluna Dön: https://github.com/Merd0/c-systems-foundation/blob/main/tr/LEARNING_PATH.md
+ * Sıradaki adım: https://github.com/Merd0/c-systems-foundation/blob/main/tr/unions/tagged_union_variant.c
+ */
+
 #include <stdio.h>
 
 typedef union

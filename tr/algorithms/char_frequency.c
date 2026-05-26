@@ -1,3 +1,9 @@
+/*
+ * Çalışma navigasyonu:
+ * Öğrenme Yoluna Dön: https://github.com/Merd0/c-systems-foundation/blob/main/tr/LEARNING_PATH.md
+ * Sıradaki adım: https://github.com/Merd0/c-systems-foundation/blob/main/tr/algorithms/most_frequent_character.c
+ */
+
 #include <ctype.h>
 #include <stdio.h>
 #include <string.h>

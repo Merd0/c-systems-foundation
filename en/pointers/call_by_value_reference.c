@@ -1,4 +1,10 @@
-﻿#include <stdio.h>
+/*
+ * Study navigation:
+ * Back to Learning Path: https://github.com/Merd0/c-systems-foundation/blob/main/en/LEARNING_PATH.md
+ * Next step: https://github.com/Merd0/c-systems-foundation/blob/main/en/pointers/null_pointer_and_array.c
+ */
+
+#include <stdio.h>
 
 void increment_by_value(int x)
 {
