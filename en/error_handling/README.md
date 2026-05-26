@@ -26,4 +26,4 @@ status codes, output parameters, sentinel values, or small result structs.
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: status_code_result.c](status_code_result.c) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: status_code_result.c](../study/049-status-code-result.md) |

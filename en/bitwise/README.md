@@ -122,4 +122,4 @@ feature flags.
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: permission_flags.c](permission_flags.c) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: permission_flags.c](../study/063-permission-flags.md) |

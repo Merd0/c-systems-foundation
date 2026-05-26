@@ -32,4 +32,4 @@ Programın başarılı tamamlandığını belirtir.
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: variables_basics.c](../fundamentals/variables_basics.c) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: variables_basics.c](../study/003-variables-basics.md) |

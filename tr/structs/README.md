@@ -191,4 +191,4 @@ Struct C kodunun her yerinde karşına çıkar:
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: struct_intro_and_array.c](struct_intro_and_array.c) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: struct_intro_and_array.c](../study/027-struct-intro-and-array.md) |

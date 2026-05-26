@@ -158,4 +158,4 @@ caller'ın verdiği buffer'ları pointer üzerinden doldurur.
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: call_by_value_reference.c](call_by_value_reference.c) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: call_by_value_reference.c](../study/021-call-by-value-reference.md) |

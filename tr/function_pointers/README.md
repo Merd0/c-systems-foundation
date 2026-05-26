@@ -27,4 +27,4 @@ event sistemi, sıralama callback'i ve command dispatch tablolarında sık gör�
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: callbacks_and_dispatch_table.c](callbacks_and_dispatch_table.c) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: callbacks_and_dispatch_table.c](../study/047-callbacks-and-dispatch-table.md) |

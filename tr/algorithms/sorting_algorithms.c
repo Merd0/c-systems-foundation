@@ -1,9 +1,3 @@
-/*
- * Çalışma navigasyonu:
- * Öğrenme Yoluna Dön: https://github.com/Merd0/c-systems-foundation/blob/main/tr/LEARNING_PATH.md
- * Sıradaki adım: https://github.com/Merd0/c-systems-foundation/blob/main/tr/algorithms/luhn_validator.c
- */
-
 #include <stdio.h>
 
 void dizi_yazdir(const int degerler[], int uzunluk)

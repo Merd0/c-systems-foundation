@@ -33,4 +33,4 @@ zaman kendin kurarsın veya projenin kendi container yardımcılarını kullanı
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: dynamic_array.c](dynamic_array.c) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: dynamic_array.c](../study/042-dynamic-array.md) |

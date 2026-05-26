@@ -118,4 +118,4 @@ tools, save files, embedded data dumps, and lightweight local storage.
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: file_write_read_examples.c](file_write_read_examples.c) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: file_write_read_examples.c](../study/055-file-write-read-examples.md) |

@@ -116,4 +116,4 @@ flag, build configuration ve header organizasyonunda sık görülür.
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: macro_constants_and_guards.c](macro_constants_and_guards.c) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: macro_constants_and_guards.c](../study/059-macro-constants-and-guards.md) |

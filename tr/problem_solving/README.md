@@ -30,4 +30,4 @@ Bu klasörü bitirmiş sayılmak için en az iki örneği değiştir:
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: library_management_cli.c](../projects/library_management_cli.c) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: library_management_cli.c](../study/072-library-management-cli.md) |

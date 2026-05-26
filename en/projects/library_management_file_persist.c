@@ -1,9 +1,3 @@
-/*
- * Study navigation:
- * Back to Learning Path: https://github.com/Merd0/c-systems-foundation/blob/main/en/LEARNING_PATH.md
- * Next step: https://github.com/Merd0/c-systems-foundation/blob/main/en/projects/library_management_modular/README.md
- */
-
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
