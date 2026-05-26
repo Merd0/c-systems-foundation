@@ -17,6 +17,13 @@ mini-project level** in a structured way.
 - TR öğrenme sırası: [`tr/LEARNING_PATH.md`](tr/LEARNING_PATH.md)
 - EN learning sequence: [`en/LEARNING_PATH.md`](en/LEARNING_PATH.md)
 
+## Start Here
+Use the Learning Path as the main navigation hub. It links every major lesson,
+states what to focus on, and gives a completion check before moving forward.
+
+- Türkçe ana çalışma yolu: [`tr/LEARNING_PATH.md`](tr/LEARNING_PATH.md)
+- English main study path: [`en/LEARNING_PATH.md`](en/LEARNING_PATH.md)
+
 ## 🧭 Bu repoda neler öğreneceksin? / What you'll learn
 - C temelleri: değişkenler, veri tipleri, formatlı çıktı, input
 - Kontrol akışı: if-else, switch, döngüler

@@ -21,3 +21,9 @@ output parameter, sentinel değer veya küçük result struct ile taşır.
 ## Örnek
 
 - `status_code_result.c`: status enum + output parameter + validation.
+
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: status_code_result.c](status_code_result.c) |

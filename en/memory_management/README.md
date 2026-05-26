@@ -129,3 +129,8 @@ handles data whose size is not known at compile time.
 4. Why can `count * sizeof(T)` be risky?
 5. What should happen if the second allocation in a function fails?
 
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: union_example.c](union_example.c) |

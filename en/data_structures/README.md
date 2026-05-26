@@ -26,3 +26,9 @@ data structures yourself, or use project-specific container utilities.
 - `doubly_linked_list.c`: previous/next links and tail insertion.
 - `intrusive_linked_list.c`: low-level pattern used by systems-style C code.
 - `dynamic_array.c`: vector-like growth with `realloc`.
+
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: dynamic_array.c](dynamic_array.c) |

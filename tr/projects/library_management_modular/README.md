@@ -1,4 +1,4 @@
-﻿# Modüler Kütüphane Yönetimi Projesi
+# Modüler Kütüphane Yönetimi Projesi
 
 Bu proje, tek dosyalık kütüphane örneklerinin daha profesyonel sürümüdür.
 Public declaration, implementation, uygulama akışı ve testler ayrı tutulur.
@@ -44,3 +44,9 @@ make test
 - sınırlı string kopyalama
 - status döndüren fonksiyonlar
 - `assert` tabanlı testler
+
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../../LEARNING_PATH.md) | [Sıradaki: leetcode_bridge.md](../../notes/leetcode_bridge.md) |

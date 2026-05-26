@@ -23,3 +23,9 @@ fields.
 
 - `opaque_handle_pattern.c`: single-file demonstration of a public API section
   and a private implementation section.
+
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: opaque_handle_pattern.c](opaque_handle_pattern.c) |

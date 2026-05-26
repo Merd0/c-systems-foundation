@@ -115,3 +115,8 @@ değeri, AST node ve variant data taşıyan API'lerde kullanılır.
 4. Sistem programlamada union ne zaman işe yarar?
 5. Yanlış üyeyi okursan ne ters gidebilir?
 
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: union_size_overlay.c](union_size_overlay.c) |

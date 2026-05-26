@@ -154,3 +154,8 @@ pointers, and OS APIs often fill caller-provided buffers through pointers.
 4. What does `const int *p` protect?
 5. What makes a pointer owning or non-owning?
 
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: call_by_value_reference.c](call_by_value_reference.c) |

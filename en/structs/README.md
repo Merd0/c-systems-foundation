@@ -182,3 +182,8 @@ Structs appear everywhere in C:
 4. Why can `sizeof(struct)` be larger than expected?
 5. When would you prefer a struct over separate arrays?
 
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: struct_intro_and_array.c](struct_intro_and_array.c) |

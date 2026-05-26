@@ -5,7 +5,7 @@ This track helps you learn C from fundamentals to mini-projects with a practical
 workflow: theory + runnable example + applied scenario.
 
 ## Learning Approach
-1. Follow `en/LEARNING_PATH.md` in order.
+1. Use [`LEARNING_PATH.md`](LEARNING_PATH.md) as the main study hub.
 2. Compile and run each file.
 3. Predict output before running.
 4. Modify examples and test your own variants.

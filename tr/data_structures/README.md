@@ -28,3 +28,9 @@ zaman kendin kurarsın veya projenin kendi container yardımcılarını kullanı
 - `intrusive_linked_list.c`: systems-style C kodunda kullanılan düşük seviye
   linked list pattern'i.
 - `dynamic_array.c`: `realloc` ile vector benzeri büyüme.
+
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: dynamic_array.c](dynamic_array.c) |

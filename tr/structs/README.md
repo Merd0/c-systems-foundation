@@ -187,3 +187,8 @@ Struct C kodunun her yerinde karşına çıkar:
 4. `sizeof(struct)` neden beklenenden büyük çıkabilir?
 5. Ayrı diziler yerine struct kullanmak ne zaman daha doğrudur?
 
+---
+
+| Geri | Sıradaki |
+| --- | --- |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: struct_intro_and_array.c](struct_intro_and_array.c) |

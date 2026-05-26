@@ -112,3 +112,8 @@ instrumentation, feature flags, build configuration, and header organization.
 4. When is conditional compilation useful?
 5. Why can macros make debugging harder?
 
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: macro_constants_and_guards.c](macro_constants_and_guards.c) |

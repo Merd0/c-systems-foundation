@@ -6,6 +6,7 @@ Konular kısa teori + çalışan örnek kod + hatalardan kaçınma notları şek
 ilerler.
 
 ## Öğrenme Yaklaşımı
+- Ana çalışma ekranı olarak [`LEARNING_PATH.md`](LEARNING_PATH.md) dosyasını kullan
 - Konuyu küçük parçalara böl
 - Çalışan kodu derle/çalıştır
 - Sık yapılan hataları gör

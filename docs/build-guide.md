@@ -1,4 +1,4 @@
-﻿# Build Guide
+# Build Guide
 
 This repository is organized as many small, standalone C examples. Each `.c`
 file is expected to compile independently unless its folder documentation says
@@ -56,3 +56,10 @@ The GitHub Actions workflow compiles every standalone `.c` file in `en/` and
 `tr/`, builds the modular library projects, and runs their tests. If a new
 example does not compile or a modular project test fails, the workflow should
 fail before the change is merged.
+
+---
+
+| TR | EN |
+| --- | --- |
+| [TR Learning Path](../tr/LEARNING_PATH.md) | [EN Learning Path](../en/LEARNING_PATH.md) |
+| [Next TR: build_run_main_debugging.md](../tr/notes/build_run_main_debugging.md) | [Next EN: build_run_main_debugging.md](../en/notes/build_run_main_debugging.md) |

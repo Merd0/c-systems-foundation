@@ -1,4 +1,4 @@
-﻿# Build, Run, main(), and Debugging
+# Build, Run, main(), and Debugging
 
 ## What Is Build?
 
@@ -34,3 +34,9 @@ A C program starts from the `main()` function.
 - Prefer `fgets` for text input.
 - Check the return value of `scanf`.
 - Match `printf` format specifiers with the correct types.
+
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: variables_basics.c](../fundamentals/variables_basics.c) |

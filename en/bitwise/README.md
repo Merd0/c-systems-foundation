@@ -118,3 +118,8 @@ feature flags.
 4. Why is `permissions == PERM_WRITE` usually the wrong check?
 5. What risks exist with signed shifts?
 
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: permission_flags.c](permission_flags.c) |

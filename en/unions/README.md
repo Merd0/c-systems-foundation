@@ -117,3 +117,8 @@ views, token values, AST nodes, and APIs that carry variant data.
 4. When are unions useful in systems programming?
 5. What can go wrong if you read the wrong member?
 
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: union_size_overlay.c](union_size_overlay.c) |

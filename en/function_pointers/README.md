@@ -22,3 +22,9 @@ parsers, event systems, sorting callbacks, and table-driven command handling.
 
 - `callbacks_and_dispatch_table.c`: table-driven command handling and callback
   context.
+
+---
+
+| Back | Next |
+| --- | --- |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: callbacks_and_dispatch_table.c](callbacks_and_dispatch_table.c) |
