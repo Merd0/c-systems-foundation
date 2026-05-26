@@ -26,4 +26,4 @@ output parameter, sentinel değer veya küçük result struct ile taşır.
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: status_code_result.c](status_code_result.c) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: status_code_result.c](../study/049-status-code-result.md) |

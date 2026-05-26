@@ -134,4 +134,4 @@ neredeyse her C programında karşına çıkar.
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: union_example.c](union_example.c) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: union_example.c](../study/037-union-example.md) |

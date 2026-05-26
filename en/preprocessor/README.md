@@ -116,4 +116,4 @@ instrumentation, feature flags, build configuration, and header organization.
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: macro_constants_and_guards.c](macro_constants_and_guards.c) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: macro_constants_and_guards.c](../study/059-macro-constants-and-guards.md) |

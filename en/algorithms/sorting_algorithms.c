@@ -1,9 +1,3 @@
-/*
- * Study navigation:
- * Back to Learning Path: https://github.com/Merd0/c-systems-foundation/blob/main/en/LEARNING_PATH.md
- * Next step: https://github.com/Merd0/c-systems-foundation/blob/main/en/algorithms/luhn_validator.c
- */
-
 #include <stdio.h>
 
 void print_array(const int values[], int length)

@@ -26,4 +26,4 @@ kontrollü parsing ve basit formatlar tercih edilmelidir.
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: safe_token_parsing.c](safe_token_parsing.c) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: safe_token_parsing.c](../study/051-safe-token-parsing.md) |

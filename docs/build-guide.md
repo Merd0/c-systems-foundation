@@ -62,4 +62,4 @@ fail before the change is merged.
 | TR | EN |
 | --- | --- |
 | [TR Learning Path](../tr/LEARNING_PATH.md) | [EN Learning Path](../en/LEARNING_PATH.md) |
-| [Next TR: build_run_main_debugging.md](../tr/notes/build_run_main_debugging.md) | [Next EN: build_run_main_debugging.md](../en/notes/build_run_main_debugging.md) |
+| [Next TR: build_run_main_debugging.md](../tr/study/002-build-run-main-debugging.md) | [Next EN: build_run_main_debugging.md](../en/study/002-build-run-main-debugging.md) |

@@ -186,4 +186,4 @@ Structs appear everywhere in C:
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: struct_intro_and_array.c](struct_intro_and_array.c) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: struct_intro_and_array.c](../study/027-struct-intro-and-array.md) |

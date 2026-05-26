@@ -133,4 +133,4 @@ handles data whose size is not known at compile time.
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: union_example.c](union_example.c) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: union_example.c](../study/037-union-example.md) |

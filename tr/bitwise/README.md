@@ -125,4 +125,4 @@ sistemlerinde karşına çıkar.
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: permission_flags.c](permission_flags.c) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: permission_flags.c](../study/063-permission-flags.md) |

@@ -26,4 +26,4 @@ copies, explicit lengths, checked parsing, and simple formats.
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: safe_token_parsing.c](safe_token_parsing.c) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: safe_token_parsing.c](../study/051-safe-token-parsing.md) |

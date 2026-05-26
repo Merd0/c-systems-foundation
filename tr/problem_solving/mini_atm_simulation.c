@@ -1,9 +1,3 @@
-/*
- * Çalışma navigasyonu:
- * Öğrenme Yoluna Dön: https://github.com/Merd0/c-systems-foundation/blob/main/tr/LEARNING_PATH.md
- * Sıradaki adım: https://github.com/Merd0/c-systems-foundation/blob/main/tr/problem_solving/password_strength_checker.c
- */
-
 #include <stdbool.h>
 #include <stdio.h>
 

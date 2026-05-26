@@ -1,9 +1,3 @@
-/*
- * Study navigation:
- * Back to Learning Path: https://github.com/Merd0/c-systems-foundation/blob/main/en/LEARNING_PATH.md
- * Next step: https://github.com/Merd0/c-systems-foundation/blob/main/en/problem_solving/sales_report_generator.c
- */
-
 #include <stdio.h>
 
 int main(void)

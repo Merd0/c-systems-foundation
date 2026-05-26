@@ -1,9 +1,3 @@
-/*
- * Çalışma navigasyonu:
- * Öğrenme Yoluna Dön: https://github.com/Merd0/c-systems-foundation/blob/main/tr/LEARNING_PATH.md
- * Sıradaki adım: https://github.com/Merd0/c-systems-foundation/blob/main/tr/problem_solving/mini_atm_simulation.c
- */
-
 #include <stdio.h>
 
 int main(void)
