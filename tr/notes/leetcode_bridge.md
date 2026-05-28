@@ -157,6 +157,22 @@ Kendine sor:
 - Key nasıl temsil ediliyor?
 - Negative key hashlenirken neye dikkat edilmeli?
 
+## Trie Ve Suffix Matching
+
+İlgili klasörler:
+- `../data_structures/`
+- `../strings_parsing/`
+- `../algorithms/`
+
+| Problem | Odak |
+|---|---|
+| [#3093 Longest Common Suffix Queries](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3093-longest-common-suffix-queries) | Reversed trie, node içinde en iyi index tutma |
+
+Kendine sor:
+- Suffix problemi neden string'i sondan okuyunca prefix problemine dönüşüyor?
+- `child[26]` array'i hangi durumda hash table yerine yeterli olur?
+- Her node'da `bestIndex` tutmak query sırasında tekrar aramayı nasıl engeller?
+
 ## Sliding Window
 
 İlgili klasörler:
