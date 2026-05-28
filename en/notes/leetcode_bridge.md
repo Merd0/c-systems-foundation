@@ -157,6 +157,22 @@ Ask yourself:
 - How is the key represented?
 - What should be considered when hashing negative keys?
 
+## Trie And Suffix Matching
+
+Related folders:
+- `../data_structures/`
+- `../strings_parsing/`
+- `../algorithms/`
+
+| Problem | Focus |
+|---|---|
+| [#3093 Longest Common Suffix Queries](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3093-longest-common-suffix-queries) | Reversed trie, storing the best index inside each node |
+
+Ask yourself:
+- Why does reading a string backward turn suffix matching into prefix matching?
+- When is a `child[26]` array enough instead of a hash table?
+- How does storing `bestIndex` in each node avoid extra searching during queries?
+
 ## Sliding Window
 
 Related folders:
