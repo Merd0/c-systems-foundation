@@ -37,11 +37,13 @@ Solved problems tablosu:
 | [#1480 Running Sum of 1d Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1480-running-sum-of-1d-array) | Prefix sum, tek geçiş |
 | [#283 Move Zeroes](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0283-move-zeroes) | In-place compaction |
 | [#448 Find All Numbers Disappeared in an Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0448-find-all-numbers-disappeared-in-an-array) | Index marking, array'i işaretleme alanı gibi kullanma |
+| [#3300 Minimum Element After Replacement With Digit Sum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3300-minimum-element-after-replacement-with-digit-sum) | Array scan, digit sum simulation |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
 - Hangi çözüm input array'i değiştiriyor?
 - In-place çözüm ile yeni array döndüren çözüm arasındaki fark ne?
+- İç içe sayı/rakam döngüsünde asıl maliyet nereden geliyor?
 
 ## Strings And Character Arrays
 
