@@ -199,6 +199,12 @@ Kendine sor:
 
 | Problem | Odak |
 |---|---|
+| [#191 Number of 1 Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0191-number-of-1-bits) | Set bit sayma |
+| [#231 Power of Two](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0231-power-of-two) | Tek set bit kontrolü |
+| [#461 Hamming Distance](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0461-hamming-distance) | XOR ile farklı bitleri bulma |
+| [#476 Number Complement](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0476-number-complement) | Mask üretip bit flip yapma |
+| [#190 Reverse Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0190-reverse-bits) | 32-bit shift ve bit sırası |
+| [#405 Convert a Number to Hexadecimal](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0405-convert-a-number-to-hexadecimal) | 4-bit nibble ve hex gösterim |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | XOR ile eksik sayı bulma |
 
@@ -206,6 +212,8 @@ Kendine sor:
 - `x ^ x` neden 0 olur?
 - XOR sırasının sonucu değiştirmemesi hangi avantajı sağlar?
 - Bu çözümler neden ek bellek kullanmaz?
+- `n & (n - 1)` neden en sağdaki set bit'i temizler?
+- Hex gösterimde neden her karakter 4 biti temsil eder?
 
 ## Recursion And Trees
 

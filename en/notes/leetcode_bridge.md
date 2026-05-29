@@ -199,6 +199,12 @@ Related folders:
 
 | Problem | Focus |
 |---|---|
+| [#191 Number of 1 Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0191-number-of-1-bits) | Counting set bits |
+| [#231 Power of Two](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0231-power-of-two) | Single set bit check |
+| [#461 Hamming Distance](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0461-hamming-distance) | Finding different bits with XOR |
+| [#476 Number Complement](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0476-number-complement) | Building a mask and flipping bits |
+| [#190 Reverse Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0190-reverse-bits) | 32-bit shifts and bit order |
+| [#405 Convert a Number to Hexadecimal](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0405-convert-a-number-to-hexadecimal) | 4-bit nibbles and hex representation |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | Finding a missing value with XOR |
 
@@ -206,6 +212,8 @@ Ask yourself:
 - Why does `x ^ x` become 0?
 - Why does XOR order not matter here?
 - Why do these solutions need no extra memory?
+- Why does `n & (n - 1)` clear the rightmost set bit?
+- Why does each hexadecimal character represent 4 bits?
 
 ## Recursion And Trees
 
