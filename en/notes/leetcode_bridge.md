@@ -38,12 +38,17 @@ Related folders:
 | [#283 Move Zeroes](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0283-move-zeroes) | In-place compaction |
 | [#448 Find All Numbers Disappeared in an Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0448-find-all-numbers-disappeared-in-an-array) | Index marking, using the array as state |
 | [#3300 Minimum Element After Replacement With Digit Sum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3300-minimum-element-after-replacement-with-digit-sum) | Array scan, digit sum simulation |
+| [#961 N-Repeated Element in Size 2N Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0961-n-repeated-element-in-size-2n-array) | Frequency array, first repeated value |
+| [#1266 Minimum Time Visiting All Points](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1266-minimum-time-visiting-all-points) | Coordinate scan, Chebyshev distance |
+| [#1984 Minimum Difference Between Highest and Lowest of K Scores](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1984-minimum-difference-between-highest-and-lowest-of-k-scores) | Sort, then scan `k`-sized windows |
+| [#3507 Minimum Pair Removal to Sort Array I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3507-minimum-pair-removal-to-sort-array-i) | In-place simulation, adjacent pair merge |
 
 Ask yourself:
 - How is the array length passed to the function?
 - Which solutions modify the input array?
 - What changes when the solution returns a new array instead?
 - Where does the real cost come from in a nested number/digit loop?
+- When is a direct simulation good enough because the constraints are small?
 
 ## Strings And Character Arrays
 
@@ -207,6 +212,7 @@ Related folders:
 | [#476 Number Complement](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0476-number-complement) | Building a mask and flipping bits |
 | [#190 Reverse Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0190-reverse-bits) | 32-bit shifts and bit order |
 | [#405 Convert a Number to Hexadecimal](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0405-convert-a-number-to-hexadecimal) | 4-bit nibbles and hex representation |
+| [#3314 Construct the Minimum Bitwise Array I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3314-construct-the-minimum-bitwise-array-i) | Testing the `x | (x + 1)` bit pattern |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | Finding a missing value with XOR |
 
