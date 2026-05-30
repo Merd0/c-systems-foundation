@@ -223,6 +223,25 @@ Kendine sor:
 - `n & (n - 1)` neden en sağdaki set bit'i temizler?
 - Hex gösterimde neden her karakter 4 biti temsil eder?
 
+## Integer Parsing And Byte-Level Work
+
+İlgili klasörler:
+- `../strings_parsing/`
+- `../bitwise/`
+- `../operators/`
+
+| Problem | Odak |
+|---|---|
+| [#67 Add Binary](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0067-add-binary) | Binary string toplama, carry taşıma |
+| [#7 Reverse Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0007-reverse-integer) | Çarpma öncesi 32-bit overflow kontrolü |
+| [#8 String to Integer (atoi)](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0008-string-to-integer-atoi) | Parser aşamaları, sign kontrolü, integer clamp |
+| [#393 UTF-8 Validation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0393-utf-8-validation) | Byte prefix kontrolü ve continuation byte mantığı |
+
+Kendine sor:
+- Parser hangi state'i hatırlamak zorunda?
+- Hangi işlem final assignment'tan önce overflow üretebilir?
+- Birkaç high bit, byte sequence'in şeklini nasıl anlatır?
+
 ## Recursion And Trees
 
 İlgili klasörler:

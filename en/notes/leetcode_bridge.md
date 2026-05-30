@@ -223,6 +223,25 @@ Ask yourself:
 - Why does `n & (n - 1)` clear the rightmost set bit?
 - Why does each hexadecimal character represent 4 bits?
 
+## Integer Parsing And Byte-Level Work
+
+Related folders:
+- `../strings_parsing/`
+- `../bitwise/`
+- `../operators/`
+
+| Problem | Focus |
+|---|---|
+| [#67 Add Binary](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0067-add-binary) | Binary string addition, carry propagation |
+| [#7 Reverse Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0007-reverse-integer) | 32-bit overflow guard before multiplication |
+| [#8 String to Integer (atoi)](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0008-string-to-integer-atoi) | Parser phases, sign handling, integer clamp |
+| [#393 UTF-8 Validation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0393-utf-8-validation) | Byte prefix validation and continuation bytes |
+
+Ask yourself:
+- What state does the parser need to remember?
+- Which operation can overflow before the final result is assigned?
+- How can a few high bits describe the shape of a byte sequence?
+
 ## Recursion And Trees
 
 Related folders:
