@@ -42,6 +42,7 @@ Solved problems tablosu:
 | [#1266 Minimum Time Visiting All Points](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1266-minimum-time-visiting-all-points) | Koordinat tarama, Chebyshev distance |
 | [#1984 Minimum Difference Between Highest and Lowest of K Scores](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1984-minimum-difference-between-highest-and-lowest-of-k-scores) | Sort sonrası `k` boyutlu pencere tarama |
 | [#3507 Minimum Pair Removal to Sort Array I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3507-minimum-pair-removal-to-sort-array-i) | In-place simulation, bitişik çift merge |
+| [#2126 Destroying Asteroids](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2126-destroying-asteroids) | Sort sonrası greedy kütle büyütme |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
@@ -213,6 +214,11 @@ Kendine sor:
 | [#190 Reverse Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0190-reverse-bits) | 32-bit shift ve bit sırası |
 | [#405 Convert a Number to Hexadecimal](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0405-convert-a-number-to-hexadecimal) | 4-bit nibble ve hex gösterim |
 | [#3314 Construct the Minimum Bitwise Array I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3314-construct-the-minimum-bitwise-array-i) | `x | (x + 1)` bit pattern'ini test etme |
+| [#338 Counting Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0338-counting-bits) | Tekrarli set-bit sayma |
+| [#342 Power of Four](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0342-power-of-four) | Base-4 bolunebilirlik kontrolu |
+| [#389 Find the Difference](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0389-find-the-difference) | Karakterlerde XOR cancellation |
+| [#868 Binary Gap](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0868-binary-gap) | Shift ederken bit pozisyonu takip etme |
+| [#693 Binary Number with Alternating Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0693-binary-number-with-alternating-bits) | Komsu bitleri karsilastirma |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | XOR ile eksik sayı bulma |
 
