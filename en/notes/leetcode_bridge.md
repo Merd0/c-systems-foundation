@@ -42,6 +42,7 @@ Related folders:
 | [#1266 Minimum Time Visiting All Points](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1266-minimum-time-visiting-all-points) | Coordinate scan, Chebyshev distance |
 | [#1984 Minimum Difference Between Highest and Lowest of K Scores](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1984-minimum-difference-between-highest-and-lowest-of-k-scores) | Sort, then scan `k`-sized windows |
 | [#3507 Minimum Pair Removal to Sort Array I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3507-minimum-pair-removal-to-sort-array-i) | In-place simulation, adjacent pair merge |
+| [#2126 Destroying Asteroids](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2126-destroying-asteroids) | Sort, then greedily accumulate mass |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -213,6 +214,11 @@ Related folders:
 | [#190 Reverse Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0190-reverse-bits) | 32-bit shifts and bit order |
 | [#405 Convert a Number to Hexadecimal](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0405-convert-a-number-to-hexadecimal) | 4-bit nibbles and hex representation |
 | [#3314 Construct the Minimum Bitwise Array I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3314-construct-the-minimum-bitwise-array-i) | Testing the `x | (x + 1)` bit pattern |
+| [#338 Counting Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0338-counting-bits) | Repeated set-bit counting |
+| [#342 Power of Four](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0342-power-of-four) | Base-4 divisibility check |
+| [#389 Find the Difference](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0389-find-the-difference) | XOR cancellation on characters |
+| [#868 Binary Gap](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0868-binary-gap) | Track positions while shifting |
+| [#693 Binary Number with Alternating Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0693-binary-number-with-alternating-bits) | Compare adjacent bits |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | Finding a missing value with XOR |
 
