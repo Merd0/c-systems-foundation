@@ -219,6 +219,11 @@ Related folders:
 | [#389 Find the Difference](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0389-find-the-difference) | XOR cancellation on characters |
 | [#868 Binary Gap](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0868-binary-gap) | Track positions while shifting |
 | [#693 Binary Number with Alternating Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0693-binary-number-with-alternating-bits) | Compare adjacent bits |
+| [#1342 Number of Steps to Reduce a Number to Zero](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1342-number-of-steps-to-reduce-a-number-to-zero) | Even/odd reduction loop |
+| [#2220 Minimum Bit Flips to Convert Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2220-minimum-bit-flips-to-convert-number) | XOR difference mask, count set bits |
+| [#2595 Number of Even and Odd Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2595-number-of-even-and-odd-bits) | Count set bits by bit position parity |
+| [#371 Sum of Two Integers](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0371-sum-of-two-integers) | XOR sum and shifted carry |
+| [#201 Bitwise AND of Numbers Range](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0201-bitwise-and-of-numbers-range) | Common binary prefix across a range |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | Finding a missing value with XOR |
 
