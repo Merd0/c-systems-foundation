@@ -43,6 +43,7 @@ Related folders:
 | [#1984 Minimum Difference Between Highest and Lowest of K Scores](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1984-minimum-difference-between-highest-and-lowest-of-k-scores) | Sort, then scan `k`-sized windows |
 | [#3507 Minimum Pair Removal to Sort Array I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3507-minimum-pair-removal-to-sort-array-i) | In-place simulation, adjacent pair merge |
 | [#2126 Destroying Asteroids](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2126-destroying-asteroids) | Sort, then greedily accumulate mass |
+| [#2144 Minimum Cost of Buying Candies With Discount](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2144-minimum-cost-of-buying-candies-with-discount) | Descending sort, grouped greedy discount |
 
 Ask yourself:
 - How is the array length passed to the function?

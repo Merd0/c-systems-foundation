@@ -43,6 +43,7 @@ Solved problems tablosu:
 | [#1984 Minimum Difference Between Highest and Lowest of K Scores](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1984-minimum-difference-between-highest-and-lowest-of-k-scores) | Sort sonrası `k` boyutlu pencere tarama |
 | [#3507 Minimum Pair Removal to Sort Array I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3507-minimum-pair-removal-to-sort-array-i) | In-place simulation, bitişik çift merge |
 | [#2126 Destroying Asteroids](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2126-destroying-asteroids) | Sort sonrası greedy kütle büyütme |
+| [#2144 Minimum Cost of Buying Candies With Discount](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2144-minimum-cost-of-buying-candies-with-discount) | Descending sort, uclu grupta greedy discount |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
