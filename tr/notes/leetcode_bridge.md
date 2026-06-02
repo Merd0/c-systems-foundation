@@ -44,6 +44,7 @@ Solved problems tablosu:
 | [#3507 Minimum Pair Removal to Sort Array I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3507-minimum-pair-removal-to-sort-array-i) | In-place simulation, bitişik çift merge |
 | [#2126 Destroying Asteroids](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2126-destroying-asteroids) | Sort sonrası greedy kütle büyütme |
 | [#2144 Minimum Cost of Buying Candies With Discount](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2144-minimum-cost-of-buying-candies-with-discount) | Descending sort, uclu grupta greedy discount |
+| [#3633 Earliest Finish Time for Land and Water Rides I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3633-earliest-finish-time-for-land-and-water-rides-i) | Pair enumeration ve iki sirayi da deneme |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
@@ -67,6 +68,7 @@ Kendine sor:
 | [#242 Valid Anagram](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0242-valid-anagram) | 26 elemanlı frequency array |
 | [#387 First Unique Character in a String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0387-first-unique-character-in-a-string) | Önce say, sonra tara modeli |
 | [#438 Find All Anagrams in a String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0438-find-all-anagrams-in-a-string) | Sliding window + character frequency |
+| [#443 String Compression](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0443-string-compression) | In-place read/write buffer compression |
 
 Kendine sor:
 - C string'i nerede biter?
@@ -225,6 +227,10 @@ Kendine sor:
 | [#2595 Number of Even and Odd Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2595-number-of-even-and-odd-bits) | Bit pozisyon parity'sine gore set bit sayma |
 | [#371 Sum of Two Integers](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0371-sum-of-two-integers) | XOR toplam ve sola kaymis carry |
 | [#201 Bitwise AND of Numbers Range](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0201-bitwise-and-of-numbers-range) | Aralikta ortak binary prefix |
+| [#137 Single Number II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0137-single-number-ii) | Sorting fallback, bit-count alternatifi |
+| [#260 Single Number III](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0260-single-number-iii) | Sorting fallback, XOR partition alternatifi |
+| [#1318 Minimum Flips to Make a OR b Equal to c](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1318-minimum-flips-to-make-a-or-b-equal-to-c) | Bit bit OR condition kontrolu |
+| [#318 Maximum Product of Word Lengths](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0318-maximum-product-of-word-lengths) | Kelimeler icin 26-bit mask |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | XOR ile eksik sayı bulma |
 

@@ -44,6 +44,7 @@ Related folders:
 | [#3507 Minimum Pair Removal to Sort Array I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3507-minimum-pair-removal-to-sort-array-i) | In-place simulation, adjacent pair merge |
 | [#2126 Destroying Asteroids](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2126-destroying-asteroids) | Sort, then greedily accumulate mass |
 | [#2144 Minimum Cost of Buying Candies With Discount](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2144-minimum-cost-of-buying-candies-with-discount) | Descending sort, grouped greedy discount |
+| [#3633 Earliest Finish Time for Land and Water Rides I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3633-earliest-finish-time-for-land-and-water-rides-i) | Enumerate pairs and both execution orders |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -67,6 +68,7 @@ Related folders:
 | [#242 Valid Anagram](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0242-valid-anagram) | 26-slot frequency array |
 | [#387 First Unique Character in a String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0387-first-unique-character-in-a-string) | Count first, scan second |
 | [#438 Find All Anagrams in a String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0438-find-all-anagrams-in-a-string) | Sliding window + character frequency |
+| [#443 String Compression](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0443-string-compression) | In-place read/write buffer compression |
 
 Ask yourself:
 - Where does a C string end?
@@ -225,6 +227,10 @@ Related folders:
 | [#2595 Number of Even and Odd Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2595-number-of-even-and-odd-bits) | Count set bits by bit position parity |
 | [#371 Sum of Two Integers](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0371-sum-of-two-integers) | XOR sum and shifted carry |
 | [#201 Bitwise AND of Numbers Range](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0201-bitwise-and-of-numbers-range) | Common binary prefix across a range |
+| [#137 Single Number II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0137-single-number-ii) | Sorting fallback, bit-count alternative |
+| [#260 Single Number III](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0260-single-number-iii) | Sorting fallback, XOR partition alternative |
+| [#1318 Minimum Flips to Make a OR b Equal to c](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1318-minimum-flips-to-make-a-or-b-equal-to-c) | Bit-by-bit OR condition checks |
+| [#318 Maximum Product of Word Lengths](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0318-maximum-product-of-word-lengths) | 26-bit masks for word letters |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | Finding a missing value with XOR |
 
