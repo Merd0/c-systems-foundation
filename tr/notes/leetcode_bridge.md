@@ -45,6 +45,8 @@ Solved problems tablosu:
 | [#2126 Destroying Asteroids](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2126-destroying-asteroids) | Sort sonrası greedy kütle büyütme |
 | [#2144 Minimum Cost of Buying Candies With Discount](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2144-minimum-cost-of-buying-candies-with-discount) | Descending sort, uclu grupta greedy discount |
 | [#3633 Earliest Finish Time for Land and Water Rides I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3633-earliest-finish-time-for-land-and-water-rides-i) | Pair enumeration ve iki sirayi da deneme |
+| [#3635 Earliest Finish Time for Land and Water Rides II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3635-earliest-finish-time-for-land-and-water-rides-ii) | En erken ilk ride bitisini hesaplayip ikinci kategoriyi tarama |
+| [#189 Rotate Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0189-rotate-array) | Uc reverse ile in-place array rotation |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
@@ -254,6 +256,10 @@ Kendine sor:
 | [#7 Reverse Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0007-reverse-integer) | Çarpma öncesi 32-bit overflow kontrolü |
 | [#8 String to Integer (atoi)](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0008-string-to-integer-atoi) | Parser aşamaları, sign kontrolü, integer clamp |
 | [#393 UTF-8 Validation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0393-utf-8-validation) | Byte prefix kontrolü ve continuation byte mantığı |
+| [#165 Compare Version Numbers](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0165-compare-version-numbers) | Dotted integer revision parse etme, substring allocate etmeden |
+| [#468 Validate IP Address](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0468-validate-ip-address) | IPv4 ve IPv6 parser kurallari |
+| [#43 Multiply Strings](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0043-multiply-strings) | Elle digit buffer multiplication |
+| [#65 Valid Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0065-valid-number) | Numeric parser state flag'leri |
 
 Kendine sor:
 - Parser hangi state'i hatırlamak zorunda?
