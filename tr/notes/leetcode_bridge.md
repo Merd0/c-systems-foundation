@@ -47,6 +47,7 @@ Solved problems tablosu:
 | [#3633 Earliest Finish Time for Land and Water Rides I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3633-earliest-finish-time-for-land-and-water-rides-i) | Pair enumeration ve iki sirayi da deneme |
 | [#3635 Earliest Finish Time for Land and Water Rides II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3635-earliest-finish-time-for-land-and-water-rides-ii) | En erken ilk ride bitisini hesaplayip ikinci kategoriyi tarama |
 | [#189 Rotate Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0189-rotate-array) | Uc reverse ile in-place array rotation |
+| [#3751 Total Waviness of Numbers in Range I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3751-total-waviness-of-numbers-in-range-i) | Kucuk constraint'te enumeration ve digit scan |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
@@ -54,6 +55,25 @@ Kendine sor:
 - In-place çözüm ile yeni array döndüren çözüm arasındaki fark ne?
 - İç içe sayı/rakam döngüsünde asıl maliyet nereden geliyor?
 - Constraint küçükse direct simulation ne zaman yeterli olur?
+
+## Matrix And 2D Arrays
+
+İlgili klasörler:
+- `../arrays/`
+- `../memory_management/`
+
+| Problem | Odak |
+|---|---|
+| [#54 Spiral Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0054-spiral-matrix) | Dort boundary ile matrix traversal |
+| [#59 Spiral Matrix II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0059-spiral-matrix-ii) | 2D result allocate edip doldurma |
+| [#73 Set Matrix Zeroes](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0073-set-matrix-zeroes) | Row ve column marker array kullanimi |
+| [#48 Rotate Image](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0048-rotate-image) | In-place transpose ve row reverse |
+| [#289 Game of Life](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0289-game-of-life) | Matrix icinde temporary state encode etme |
+
+Kendine sor:
+- Matrix yeni allocation olarak mi donuyor yoksa in-place mi degisiyor?
+- Satir ve sutun boundary'lerini hangi degiskenler temsil ediyor?
+- Bir hucrenin hem eski hem yeni state'i ne zaman korunmali?
 
 ## Strings And Character Arrays
 

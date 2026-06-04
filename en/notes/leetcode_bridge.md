@@ -47,6 +47,7 @@ Related folders:
 | [#3633 Earliest Finish Time for Land and Water Rides I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3633-earliest-finish-time-for-land-and-water-rides-i) | Enumerate pairs and both execution orders |
 | [#3635 Earliest Finish Time for Land and Water Rides II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3635-earliest-finish-time-for-land-and-water-rides-ii) | Precompute earliest first ride finish, then scan the second category |
 | [#189 Rotate Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0189-rotate-array) | Three-reversal in-place array rotation |
+| [#3751 Total Waviness of Numbers in Range I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3751-total-waviness-of-numbers-in-range-i) | Small-constraint enumeration and digit scanning |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -54,6 +55,25 @@ Ask yourself:
 - What changes when the solution returns a new array instead?
 - Where does the real cost come from in a nested number/digit loop?
 - When is a direct simulation good enough because the constraints are small?
+
+## Matrix And 2D Arrays
+
+Related folders:
+- `../arrays/`
+- `../memory_management/`
+
+| Problem | Focus |
+|---|---|
+| [#54 Spiral Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0054-spiral-matrix) | Four-boundary traversal |
+| [#59 Spiral Matrix II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0059-spiral-matrix-ii) | Allocating and filling a 2D result |
+| [#73 Set Matrix Zeroes](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0073-set-matrix-zeroes) | Row and column marker arrays |
+| [#48 Rotate Image](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0048-rotate-image) | In-place transpose and row reverse |
+| [#289 Game of Life](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0289-game-of-life) | Encoding temporary states inside the matrix |
+
+Ask yourself:
+- Is the matrix returned as a new allocation or modified in place?
+- Which variables represent row and column boundaries?
+- When does a cell need to preserve both old and new state?
 
 ## Strings And Character Arrays
 
