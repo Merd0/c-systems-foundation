@@ -147,11 +147,19 @@ Related folders:
 | [#225 Implement Stack using Queues](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0225-implement-stack-using-queues) | Queue behavior used as stack behavior |
 | [#21 Merge Two Sorted Lists](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0021-merge-two-sorted-lists) | Linked-list node structure |
 | [#82 Remove Duplicates from Sorted List II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0082-remove-duplicates-from-sorted-list-ii) | Removing duplicate groups, pointer rewiring |
+| [#622 Design Circular Queue](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0622-design-circular-queue) | Struct-owned circular buffer |
+| [#641 Design Circular Deque](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0641-design-circular-deque) | Front/rear state with modulo movement |
+| [#705 Design HashSet](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0705-design-hashset) | Direct-address presence table |
+| [#706 Design HashMap](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0706-design-hashmap) | Separate value and existence arrays |
+| [#707 Design Linked List](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0707-design-linked-list) | Dummy-head linked-list API |
 
 Ask yourself:
 - What state does the struct own?
 - Do functions receive the struct by value or by pointer?
 - Which links change when a node is removed?
+- Which heap buffers must be freed by the custom `Free` function?
+- Why does a `size` field make circular buffers easier to reason about?
+- Why does a direct-address table need a separate existence marker?
 
 ## Search And Binary Search
 

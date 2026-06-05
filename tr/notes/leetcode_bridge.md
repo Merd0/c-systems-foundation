@@ -147,11 +147,19 @@ Kendine sor:
 | [#225 Implement Stack using Queues](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0225-implement-stack-using-queues) | Queue davranışını stack gibi kullanma |
 | [#21 Merge Two Sorted Lists](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0021-merge-two-sorted-lists) | Linked list node yapısı |
 | [#82 Remove Duplicates from Sorted List II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0082-remove-duplicates-from-sorted-list-ii) | Duplicate group silme, pointer rewiring |
+| [#622 Design Circular Queue](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0622-design-circular-queue) | Struct'un own ettigi circular buffer |
+| [#641 Design Circular Deque](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0641-design-circular-deque) | Modulo ile front/rear state yonetimi |
+| [#705 Design HashSet](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0705-design-hashset) | Direct-address presence table |
+| [#706 Design HashMap](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0706-design-hashmap) | Value ve existence array'lerini ayri tutma |
+| [#707 Design Linked List](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0707-design-linked-list) | Dummy-head linked-list API |
 
 Kendine sor:
 - Struct hangi state'i saklıyor?
 - Fonksiyonlar struct'ı value ile mi pointer ile mi alıyor?
 - Listede node silerken hangi linkler değişiyor?
+- Custom `Free` fonksiyonu hangi heap buffer'lari temizlemeli?
+- Circular buffer'da `size` alani neden dusunmeyi kolaylastirir?
+- Direct-address table neden ayri bir existence marker ister?
 
 ## Search And Binary Search
 
