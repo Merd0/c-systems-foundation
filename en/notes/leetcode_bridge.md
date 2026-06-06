@@ -48,6 +48,7 @@ Related folders:
 | [#3635 Earliest Finish Time for Land and Water Rides II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3635-earliest-finish-time-for-land-and-water-rides-ii) | Precompute earliest first ride finish, then scan the second category |
 | [#189 Rotate Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0189-rotate-array) | Three-reversal in-place array rotation |
 | [#3751 Total Waviness of Numbers in Range I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3751-total-waviness-of-numbers-in-range-i) | Small-constraint enumeration and digit scanning |
+| [#2574 Left and Right Sum Differences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2574-left-and-right-sum-differences) | Total sum with a running left-side accumulator |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -284,6 +285,7 @@ Related folders:
 | [#7 Reverse Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0007-reverse-integer) | 32-bit overflow guard before multiplication |
 | [#8 String to Integer (atoi)](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0008-string-to-integer-atoi) | Parser phases, sign handling, integer clamp |
 | [#393 UTF-8 Validation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0393-utf-8-validation) | Byte prefix validation and continuation bytes |
+| [#717 1-bit and 2-bit Characters](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0717-1-bit-and-2-bit-characters) | Variable-length bit-stream parsing |
 | [#165 Compare Version Numbers](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0165-compare-version-numbers) | Parse dotted integer revisions without allocating substrings |
 | [#468 Validate IP Address](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0468-validate-ip-address) | IPv4 and IPv6 parser rules |
 | [#43 Multiply Strings](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0043-multiply-strings) | Manual digit buffer multiplication |
