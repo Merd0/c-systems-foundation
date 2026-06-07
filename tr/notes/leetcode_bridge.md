@@ -153,6 +153,9 @@ Kendine sor:
 | [#705 Design HashSet](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0705-design-hashset) | Direct-address presence table |
 | [#706 Design HashMap](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0706-design-hashmap) | Value ve existence array'lerini ayri tutma |
 | [#707 Design Linked List](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0707-design-linked-list) | Dummy-head linked-list API |
+| [#1603 Design Parking System](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1603-design-parking-system) | Struct icinde capacity ve state yonetimi |
+| [#933 Number of Recent Calls](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0933-number-of-recent-calls) | Artan timestamp'ler uzerinde queue window |
+| [#303 Range Sum Query - Immutable](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0303-range-sum-query-immutable) | Struct'un own ettigi prefix buffer ve cleanup |
 
 Kendine sor:
 - Struct hangi state'i saklıyor?
@@ -261,6 +264,7 @@ Kendine sor:
 | [#137 Single Number II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0137-single-number-ii) | Sorting fallback, bit-count alternatifi |
 | [#260 Single Number III](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0260-single-number-iii) | Sorting fallback, XOR partition alternatifi |
 | [#1318 Minimum Flips to Make a OR b Equal to c](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1318-minimum-flips-to-make-a-or-b-equal-to-c) | Bit bit OR condition kontrolu |
+| [#1310 XOR Queries of a Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1310-xor-queries-of-a-subarray) | Prefix XOR ve aralikta cancellation |
 | [#318 Maximum Product of Word Lengths](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0318-maximum-product-of-word-lengths) | Kelimeler icin 26-bit mask |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | XOR ile eksik sayı bulma |

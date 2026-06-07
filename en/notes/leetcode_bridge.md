@@ -153,6 +153,9 @@ Related folders:
 | [#705 Design HashSet](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0705-design-hashset) | Direct-address presence table |
 | [#706 Design HashMap](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0706-design-hashmap) | Separate value and existence arrays |
 | [#707 Design Linked List](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0707-design-linked-list) | Dummy-head linked-list API |
+| [#1603 Design Parking System](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1603-design-parking-system) | Small struct-owned counters and state transitions |
+| [#933 Number of Recent Calls](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0933-number-of-recent-calls) | Queue window over increasing timestamps |
+| [#303 Range Sum Query - Immutable](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0303-range-sum-query-immutable) | Struct-owned prefix buffer and cleanup |
 
 Ask yourself:
 - What state does the struct own?
@@ -261,6 +264,7 @@ Related folders:
 | [#137 Single Number II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0137-single-number-ii) | Sorting fallback, bit-count alternative |
 | [#260 Single Number III](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0260-single-number-iii) | Sorting fallback, XOR partition alternative |
 | [#1318 Minimum Flips to Make a OR b Equal to c](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1318-minimum-flips-to-make-a-or-b-equal-to-c) | Bit-by-bit OR condition checks |
+| [#1310 XOR Queries of a Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1310-xor-queries-of-a-subarray) | Prefix XOR and cancellation across ranges |
 | [#318 Maximum Product of Word Lengths](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0318-maximum-product-of-word-lengths) | 26-bit masks for word letters |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | Finding a missing value with XOR |
