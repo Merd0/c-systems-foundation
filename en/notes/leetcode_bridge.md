@@ -50,6 +50,7 @@ Related folders:
 | [#3751 Total Waviness of Numbers in Range I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3751-total-waviness-of-numbers-in-range-i) | Small-constraint enumeration and digit scanning |
 | [#2574 Left and Right Sum Differences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2574-left-and-right-sum-differences) | Total sum with a running left-side accumulator |
 | [#2161 Partition Array According to Given Pivot](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2161-partition-array-according-to-given-pivot) | Stable three-way partition into a new array |
+| [#3689 Maximum Total Subarray Value I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3689-maximum-total-subarray-value-i) | Global min/max scan and repeated optimal choice |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -71,6 +72,7 @@ Related folders:
 | [#73 Set Matrix Zeroes](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0073-set-matrix-zeroes) | Row and column marker arrays |
 | [#48 Rotate Image](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0048-rotate-image) | In-place transpose and row reverse |
 | [#289 Game of Life](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0289-game-of-life) | Encoding temporary states inside the matrix |
+| [#832 Flipping an Image](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0832-flipping-an-image) | Reverse and invert each binary row in one pass |
 
 Ask yourself:
 - Is the matrix returned as a new allocation or modified in place?

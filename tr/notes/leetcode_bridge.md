@@ -50,6 +50,7 @@ Solved problems tablosu:
 | [#3751 Total Waviness of Numbers in Range I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3751-total-waviness-of-numbers-in-range-i) | Kucuk constraint'te enumeration ve digit scan |
 | [#2574 Left and Right Sum Differences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2574-left-and-right-sum-differences) | Total sum ve ilerleyen left accumulator |
 | [#2161 Partition Array According to Given Pivot](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2161-partition-array-according-to-given-pivot) | Yeni array'e stable three-way partition |
+| [#3689 Maximum Total Subarray Value I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3689-maximum-total-subarray-value-i) | Global min/max taramasi ve tekrarli optimal secim |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
@@ -71,6 +72,7 @@ Kendine sor:
 | [#73 Set Matrix Zeroes](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0073-set-matrix-zeroes) | Row ve column marker array kullanimi |
 | [#48 Rotate Image](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0048-rotate-image) | In-place transpose ve row reverse |
 | [#289 Game of Life](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0289-game-of-life) | Matrix icinde temporary state encode etme |
+| [#832 Flipping an Image](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0832-flipping-an-image) | Binary row'u tek geciste reverse ve invert etme |
 
 Kendine sor:
 - Matrix yeni allocation olarak mi donuyor yoksa in-place mi degisiyor?
