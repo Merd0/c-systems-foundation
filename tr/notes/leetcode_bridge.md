@@ -49,8 +49,10 @@ Solved problems tablosu:
 | [#189 Rotate Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0189-rotate-array) | Uc reverse ile in-place array rotation |
 | [#3751 Total Waviness of Numbers in Range I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3751-total-waviness-of-numbers-in-range-i) | Kucuk constraint'te enumeration ve digit scan |
 | [#2574 Left and Right Sum Differences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2574-left-and-right-sum-differences) | Total sum ve ilerleyen left accumulator |
+| [#1732 Find the Highest Altitude](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1732-find-the-highest-altitude) | Running prefix altitude ve maksimum takip etme |
 | [#2161 Partition Array According to Given Pivot](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2161-partition-array-according-to-given-pivot) | Yeni array'e stable three-way partition |
 | [#3689 Maximum Total Subarray Value I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3689-maximum-total-subarray-value-i) | Global min/max taramasi ve tekrarli optimal secim |
+| [#1827 Minimum Operations to Make the Array Increasing](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1827-minimum-operations-to-make-the-array-increasing) | Onceki elemana gore greedy in-place update |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
