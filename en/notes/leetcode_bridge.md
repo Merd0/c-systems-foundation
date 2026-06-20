@@ -199,6 +199,7 @@ Related folders:
 | [#349 Intersection of Two Arrays](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0349-intersection-of-two-arrays) | Unique result checks |
 | [#49 Group Anagrams](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0049-group-anagrams) | Key generation, sorting strings |
 | [#560 Subarray Sum Equals K](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0560-subarray-sum-equals-k) | Prefix sum + custom hash table |
+| [#1207 Unique Number of Occurrences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1207-unique-number-of-occurrences) | Fixed frequency array with negative-value offset, then duplicate count detection |
 | [#3120 Count the Number of Special Characters I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3120-count-the-number-of-special-characters-i) | Lowercase and uppercase presence arrays |
 | [#3121 Count the Number of Special Characters II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3121-count-the-number-of-special-characters-ii) | Lowercase and uppercase ordering with index arrays |
 

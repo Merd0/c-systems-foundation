@@ -199,6 +199,7 @@ Kendine sor:
 | [#349 Intersection of Two Arrays](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0349-intersection-of-two-arrays) | Unique result kontrolü |
 | [#49 Group Anagrams](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0049-group-anagrams) | Key oluşturma, string sıralama |
 | [#560 Subarray Sum Equals K](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0560-subarray-sum-equals-k) | Prefix sum + custom hash table |
+| [#1207 Unique Number of Occurrences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1207-unique-number-of-occurrences) | Negative value offset ile fixed frequency array, sonra duplicate count kontrolu |
 | [#3120 Count the Number of Special Characters I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3120-count-the-number-of-special-characters-i) | Lower/upper presence arrays |
 | [#3121 Count the Number of Special Characters II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3121-count-the-number-of-special-characters-ii) | Lower/upper sirasi ve index kontrolu |
 
