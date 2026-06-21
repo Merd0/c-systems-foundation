@@ -97,6 +97,7 @@ Kendine sor:
 | [#387 First Unique Character in a String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0387-first-unique-character-in-a-string) | Önce say, sonra tara modeli |
 | [#438 Find All Anagrams in a String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0438-find-all-anagrams-in-a-string) | Sliding window + character frequency |
 | [#443 String Compression](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0443-string-compression) | In-place read/write buffer compression |
+| [#1773 Count Items Matching a Rule](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1773-count-items-matching-a-rule) | `char***` item tablosu, rule-to-column mapping, `strcmp` |
 
 Kendine sor:
 - C string'i nerede biter?
@@ -197,6 +198,7 @@ Kendine sor:
 |---|---|
 | [#169 Majority Element](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0169-majority-element) | Sorting ile frequency sonucu |
 | [#349 Intersection of Two Arrays](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0349-intersection-of-two-arrays) | Unique result kontrolü |
+| [#1512 Number of Good Pairs](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1512-number-of-good-pairs) | Equal-value pair sayma, frequency optimizasyon yolu |
 | [#49 Group Anagrams](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0049-group-anagrams) | Key oluşturma, string sıralama |
 | [#560 Subarray Sum Equals K](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0560-subarray-sum-equals-k) | Prefix sum + custom hash table |
 | [#1207 Unique Number of Occurrences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1207-unique-number-of-occurrences) | Negative value offset ile fixed frequency array, sonra duplicate count kontrolu |
