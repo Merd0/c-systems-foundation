@@ -50,6 +50,7 @@ Related folders:
 | [#3751 Total Waviness of Numbers in Range I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3751-total-waviness-of-numbers-in-range-i) | Small-constraint enumeration and digit scanning |
 | [#2574 Left and Right Sum Differences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2574-left-and-right-sum-differences) | Total sum with a running left-side accumulator |
 | [#1732 Find the Highest Altitude](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1732-find-the-highest-altitude) | Running prefix altitude and maximum tracking |
+| [#1464 Maximum Product of Two Elements in an Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1464-maximum-product-of-two-elements-in-an-array) | Track the largest two values in a single pass |
 | [#2161 Partition Array According to Given Pivot](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2161-partition-array-according-to-given-pivot) | Stable three-way partition into a new array |
 | [#3689 Maximum Total Subarray Value I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3689-maximum-total-subarray-value-i) | Global min/max scan and repeated optimal choice |
 | [#1827 Minimum Operations to Make the Array Increasing](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1827-minimum-operations-to-make-the-array-increasing) | Greedy in-place update based on the previous element |
