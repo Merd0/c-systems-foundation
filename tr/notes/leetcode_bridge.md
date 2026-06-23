@@ -51,6 +51,7 @@ Solved problems tablosu:
 | [#2574 Left and Right Sum Differences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2574-left-and-right-sum-differences) | Total sum ve ilerleyen left accumulator |
 | [#1732 Find the Highest Altitude](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1732-find-the-highest-altitude) | Running prefix altitude ve maksimum takip etme |
 | [#1464 Maximum Product of Two Elements in an Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1464-maximum-product-of-two-elements-in-an-array) | Tek geciste en buyuk iki degeri takip etme |
+| [#1346 Check If N and Its Double Exist](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1346-check-if-n-and-its-double-exist) | Farkli indexlerle pair scan ve iki kat iliskisi |
 | [#2161 Partition Array According to Given Pivot](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2161-partition-array-according-to-given-pivot) | Yeni array'e stable three-way partition |
 | [#3689 Maximum Total Subarray Value I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3689-maximum-total-subarray-value-i) | Global min/max taramasi ve tekrarli optimal secim |
 | [#1827 Minimum Operations to Make the Array Increasing](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1827-minimum-operations-to-make-the-array-increasing) | Onceki elemana gore greedy in-place update |
