@@ -52,6 +52,7 @@ Related folders:
 | [#1732 Find the Highest Altitude](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1732-find-the-highest-altitude) | Running prefix altitude and maximum tracking |
 | [#1464 Maximum Product of Two Elements in an Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1464-maximum-product-of-two-elements-in-an-array) | Track the largest two values in a single pass |
 | [#1346 Check If N and Its Double Exist](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1346-check-if-n-and-its-double-exist) | Pair scan with distinct indices and double relation |
+| [#941 Valid Mountain Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0941-valid-mountain-array) | State-free climb/peak/descend array validation |
 | [#2161 Partition Array According to Given Pivot](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2161-partition-array-according-to-given-pivot) | Stable three-way partition into a new array |
 | [#3689 Maximum Total Subarray Value I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3689-maximum-total-subarray-value-i) | Global min/max scan and repeated optimal choice |
 | [#1827 Minimum Operations to Make the Array Increasing](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1827-minimum-operations-to-make-the-array-increasing) | Greedy in-place update based on the previous element |
