@@ -56,6 +56,7 @@ Related folders:
 | [#2161 Partition Array According to Given Pivot](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2161-partition-array-according-to-given-pivot) | Stable three-way partition into a new array |
 | [#3689 Maximum Total Subarray Value I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3689-maximum-total-subarray-value-i) | Global min/max scan and repeated optimal choice |
 | [#1827 Minimum Operations to Make the Array Increasing](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1827-minimum-operations-to-make-the-array-increasing) | Greedy in-place update based on the previous element |
+| [#3737 Count Subarrays With Majority Element I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3737-count-subarrays-with-majority-element-i) | Nested subarray enumeration and majority condition |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -78,6 +79,7 @@ Related folders:
 | [#48 Rotate Image](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0048-rotate-image) | In-place transpose and row reverse |
 | [#289 Game of Life](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0289-game-of-life) | Encoding temporary states inside the matrix |
 | [#832 Flipping an Image](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0832-flipping-an-image) | Reverse and invert each binary row in one pass |
+| [#1582 Special Positions in a Binary Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1582-special-positions-in-a-binary-matrix) | Row and column counting around a candidate cell |
 
 Ask yourself:
 - Is the matrix returned as a new allocation or modified in place?
@@ -205,6 +207,7 @@ Related folders:
 | [#49 Group Anagrams](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0049-group-anagrams) | Key generation, sorting strings |
 | [#560 Subarray Sum Equals K](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0560-subarray-sum-equals-k) | Prefix sum + custom hash table |
 | [#1207 Unique Number of Occurrences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1207-unique-number-of-occurrences) | Fixed frequency array with negative-value offset, then duplicate count detection |
+| [#1748 Sum of Unique Elements](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1748-sum-of-unique-elements) | Small fixed frequency table and count-one values |
 | [#3120 Count the Number of Special Characters I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3120-count-the-number-of-special-characters-i) | Lowercase and uppercase presence arrays |
 | [#3121 Count the Number of Special Characters II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3121-count-the-number-of-special-characters-ii) | Lowercase and uppercase ordering with index arrays |
 
@@ -242,6 +245,7 @@ Related folders:
 | [#209 Minimum Size Subarray Sum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0209-minimum-size-subarray-sum) | Shrink while the sum is enough |
 | [#76 Minimum Window Substring](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0076-minimum-window-substring) | Cover then shrink model |
 | [#239 Sliding Window Maximum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0239-sliding-window-maximum) | Monotonic deque |
+| [#1456 Maximum Number of Vowels in a Substring of Given Length](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1456-maximum-number-of-vowels-in-a-substring-of-given-length) | Fixed-size window with one entering and one leaving character |
 
 Ask yourself:
 - Is the window fixed-size or variable-size?

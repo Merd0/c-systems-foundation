@@ -56,6 +56,7 @@ Solved problems tablosu:
 | [#2161 Partition Array According to Given Pivot](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2161-partition-array-according-to-given-pivot) | Yeni array'e stable three-way partition |
 | [#3689 Maximum Total Subarray Value I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3689-maximum-total-subarray-value-i) | Global min/max taramasi ve tekrarli optimal secim |
 | [#1827 Minimum Operations to Make the Array Increasing](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1827-minimum-operations-to-make-the-array-increasing) | Onceki elemana gore greedy in-place update |
+| [#3737 Count Subarrays With Majority Element I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3737-count-subarrays-with-majority-element-i) | Nested subarray enumeration ve majority kosulu |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
@@ -78,6 +79,7 @@ Kendine sor:
 | [#48 Rotate Image](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0048-rotate-image) | In-place transpose ve row reverse |
 | [#289 Game of Life](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0289-game-of-life) | Matrix icinde temporary state encode etme |
 | [#832 Flipping an Image](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0832-flipping-an-image) | Binary row'u tek geciste reverse ve invert etme |
+| [#1582 Special Positions in a Binary Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1582-special-positions-in-a-binary-matrix) | Aday hucre icin row ve column 1 sayma |
 
 Kendine sor:
 - Matrix yeni allocation olarak mi donuyor yoksa in-place mi degisiyor?
@@ -205,6 +207,7 @@ Kendine sor:
 | [#49 Group Anagrams](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0049-group-anagrams) | Key oluşturma, string sıralama |
 | [#560 Subarray Sum Equals K](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0560-subarray-sum-equals-k) | Prefix sum + custom hash table |
 | [#1207 Unique Number of Occurrences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1207-unique-number-of-occurrences) | Negative value offset ile fixed frequency array, sonra duplicate count kontrolu |
+| [#1748 Sum of Unique Elements](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1748-sum-of-unique-elements) | Kucuk fixed frequency table ve count-one degerler |
 | [#3120 Count the Number of Special Characters I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3120-count-the-number-of-special-characters-i) | Lower/upper presence arrays |
 | [#3121 Count the Number of Special Characters II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3121-count-the-number-of-special-characters-ii) | Lower/upper sirasi ve index kontrolu |
 
@@ -242,6 +245,7 @@ Kendine sor:
 | [#209 Minimum Size Subarray Sum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0209-minimum-size-subarray-sum) | Sum yeterliyken shrink etme |
 | [#76 Minimum Window Substring](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0076-minimum-window-substring) | Cover then shrink modeli |
 | [#239 Sliding Window Maximum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0239-sliding-window-maximum) | Monotonic deque |
+| [#1456 Maximum Number of Vowels in a Substring of Given Length](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1456-maximum-number-of-vowels-in-a-substring-of-given-length) | Sabit pencere, giren ve cikan karakter sayimi |
 
 Kendine sor:
 - Pencere sabit mi, değişken mi?
