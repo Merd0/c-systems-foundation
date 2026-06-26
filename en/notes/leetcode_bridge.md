@@ -59,6 +59,7 @@ Related folders:
 | [#3737 Count Subarrays With Majority Element I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3737-count-subarrays-with-majority-element-i) | Nested subarray enumeration and majority condition |
 | [#238 Product of Array Except Self](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0238-product-of-array-except-self) | Prefix and suffix accumulators without division |
 | [#75 Sort Colors](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0075-sort-colors) | Counting write-back and in-place three-way partition |
+| [#1979 Find Greatest Common Divisor of Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1979-find-greatest-common-divisor-of-array) | Safe min/max initialization and descending divisor search |
 
 Ask yourself:
 - How is the array length passed to the function?

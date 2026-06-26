@@ -59,6 +59,7 @@ Solved problems tablosu:
 | [#3737 Count Subarrays With Majority Element I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3737-count-subarrays-with-majority-element-i) | Nested subarray enumeration ve majority kosulu |
 | [#238 Product of Array Except Self](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0238-product-of-array-except-self) | Bolmesiz prefix ve suffix accumulator kullanimi |
 | [#75 Sort Colors](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0075-sort-colors) | Counting write-back ve in-place three-way partition |
+| [#1979 Find Greatest Common Divisor of Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1979-find-greatest-common-divisor-of-array) | Guvenli min/max baslatma ve geriye dogru ortak bolen arama |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
