@@ -60,6 +60,7 @@ Related folders:
 | [#238 Product of Array Except Self](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0238-product-of-array-except-self) | Prefix and suffix accumulators without division |
 | [#75 Sort Colors](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0075-sort-colors) | Counting write-back and in-place three-way partition |
 | [#1979 Find Greatest Common Divisor of Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1979-find-greatest-common-divisor-of-array) | Safe min/max initialization and descending divisor search |
+| [#287 Find the Duplicate Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0287-find-the-duplicate-number) | Frequency table first, then array-as-linked-list cycle detection |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -123,6 +124,7 @@ Related folders:
 | [#344 Reverse String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0344-reverse-string) | In-place updates and address thinking |
 | [#21 Merge Two Sorted Lists](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0021-merge-two-sorted-lists) | Linking node pointers |
 | [#206 Reverse Linked List](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0206-reverse-linked-list) | `prev/current/next` pointer model |
+| [#287 Find the Duplicate Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0287-find-the-duplicate-number) | Floyd slow/fast pointer idea applied to array indices |
 | [#19 Remove Nth Node From End of List](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0019-remove-nth-node-from-end-of-list) | Dummy node, head may change |
 
 Ask yourself:
@@ -211,6 +213,7 @@ Related folders:
 | [#560 Subarray Sum Equals K](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0560-subarray-sum-equals-k) | Prefix sum + custom hash table |
 | [#1207 Unique Number of Occurrences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1207-unique-number-of-occurrences) | Fixed frequency array with negative-value offset, then duplicate count detection |
 | [#1748 Sum of Unique Elements](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1748-sum-of-unique-elements) | Small fixed frequency table and count-one values |
+| [#287 Find the Duplicate Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0287-find-the-duplicate-number) | Frequency array solution and O(1) memory alternative |
 | [#3120 Count the Number of Special Characters I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3120-count-the-number-of-special-characters-i) | Lowercase and uppercase presence arrays |
 | [#3121 Count the Number of Special Characters II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3121-count-the-number-of-special-characters-ii) | Lowercase and uppercase ordering with index arrays |
 
