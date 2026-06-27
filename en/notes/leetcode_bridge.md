@@ -61,6 +61,7 @@ Related folders:
 | [#75 Sort Colors](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0075-sort-colors) | Counting write-back and in-place three-way partition |
 | [#1979 Find Greatest Common Divisor of Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1979-find-greatest-common-divisor-of-array) | Safe min/max initialization and descending divisor search |
 | [#287 Find the Duplicate Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0287-find-the-duplicate-number) | Frequency table first, then array-as-linked-list cycle detection |
+| [#152 Maximum Product Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0152-maximum-product-subarray) | Carrying max/min running state because negative products flip roles |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -106,6 +107,7 @@ Related folders:
 | [#387 First Unique Character in a String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0387-first-unique-character-in-a-string) | Count first, scan second |
 | [#438 Find All Anagrams in a String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0438-find-all-anagrams-in-a-string) | Sliding window + character frequency |
 | [#443 String Compression](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0443-string-compression) | In-place read/write buffer compression |
+| [#1662 Check If Two String Arrays are Equivalent](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1662-check-if-two-string-arrays-are-equivalent) | Comparing fragmented strings as character streams without allocation |
 | [#1773 Count Items Matching a Rule](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1773-count-items-matching-a-rule) | `char***` item table, rule-to-column mapping, `strcmp` |
 
 Ask yourself:
