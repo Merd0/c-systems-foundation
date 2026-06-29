@@ -60,6 +60,7 @@ Related folders:
 | [#238 Product of Array Except Self](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0238-product-of-array-except-self) | Prefix and suffix accumulators without division |
 | [#75 Sort Colors](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0075-sort-colors) | Counting write-back and in-place three-way partition |
 | [#1979 Find Greatest Common Divisor of Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1979-find-greatest-common-divisor-of-array) | Safe min/max initialization and descending divisor search |
+| [#80 Remove Duplicates from Sorted Array II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0080-remove-duplicates-from-sorted-array-ii) | In-place write index with a sorted array constraint |
 | [#287 Find the Duplicate Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0287-find-the-duplicate-number) | Frequency table first, then array-as-linked-list cycle detection |
 | [#152 Maximum Product Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0152-maximum-product-subarray) | Carrying max/min running state because negative products flip roles |
 | [#134 Gas Station](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0134-gas-station) | Resource balance tracking and greedy restart when state goes invalid |

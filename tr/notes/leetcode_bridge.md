@@ -60,6 +60,7 @@ Solved problems tablosu:
 | [#238 Product of Array Except Self](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0238-product-of-array-except-self) | Bolmesiz prefix ve suffix accumulator kullanimi |
 | [#75 Sort Colors](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0075-sort-colors) | Counting write-back ve in-place three-way partition |
 | [#1979 Find Greatest Common Divisor of Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1979-find-greatest-common-divisor-of-array) | Guvenli min/max baslatma ve geriye dogru ortak bolen arama |
+| [#80 Remove Duplicates from Sorted Array II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0080-remove-duplicates-from-sorted-array-ii) | Sorted array kosuluyla in-place write index kullanimi |
 | [#287 Find the Duplicate Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0287-find-the-duplicate-number) | Once frequency table, sonra array'i linked list gibi dusunerek cycle tespiti |
 | [#152 Maximum Product Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0152-maximum-product-subarray) | Negatif carpimlar rol degistirdigi icin max/min running state tasima |
 | [#134 Gas Station](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0134-gas-station) | Kaynak dengesi takip etme ve state gecersiz olunca greedy restart |
