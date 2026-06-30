@@ -64,6 +64,7 @@ Solved problems tablosu:
 | [#287 Find the Duplicate Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0287-find-the-duplicate-number) | Once frequency table, sonra array'i linked list gibi dusunerek cycle tespiti |
 | [#152 Maximum Product Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0152-maximum-product-subarray) | Negatif carpimlar rol degistirdigi icin max/min running state tasima |
 | [#134 Gas Station](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0134-gas-station) | Kaynak dengesi takip etme ve state gecersiz olunca greedy restart |
+| [#1679 Max Number of K-Sum Pairs](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1679-max-number-of-k-sum-pairs) | Pair enumeration TLE sinyali, sonra sorted two-pointer eslestirme |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
@@ -176,6 +177,7 @@ Kendine sor:
 | [#1603 Design Parking System](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1603-design-parking-system) | Struct icinde capacity ve state yonetimi |
 | [#933 Number of Recent Calls](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0933-number-of-recent-calls) | Artan timestamp'ler uzerinde queue window |
 | [#303 Range Sum Query - Immutable](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0303-range-sum-query-immutable) | Struct'un own ettigi prefix buffer ve cleanup |
+| [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Return array'i stack gibi kullanarak state simulation yapma |
 
 Kendine sor:
 - Struct hangi state'i saklıyor?

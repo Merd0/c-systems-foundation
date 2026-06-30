@@ -64,6 +64,7 @@ Related folders:
 | [#287 Find the Duplicate Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0287-find-the-duplicate-number) | Frequency table first, then array-as-linked-list cycle detection |
 | [#152 Maximum Product Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0152-maximum-product-subarray) | Carrying max/min running state because negative products flip roles |
 | [#134 Gas Station](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0134-gas-station) | Resource balance tracking and greedy restart when state goes invalid |
+| [#1679 Max Number of K-Sum Pairs](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1679-max-number-of-k-sum-pairs) | TLE from pair enumeration, then sorted two-pointer pairing |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -176,6 +177,7 @@ Related folders:
 | [#1603 Design Parking System](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1603-design-parking-system) | Small struct-owned counters and state transitions |
 | [#933 Number of Recent Calls](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0933-number-of-recent-calls) | Queue window over increasing timestamps |
 | [#303 Range Sum Query - Immutable](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0303-range-sum-query-immutable) | Struct-owned prefix buffer and cleanup |
+| [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Using the returned array as a stack for state simulation |
 
 Ask yourself:
 - What state does the struct own?
