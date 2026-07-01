@@ -294,6 +294,7 @@ Related folders:
 | [#1318 Minimum Flips to Make a OR b Equal to c](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1318-minimum-flips-to-make-a-or-b-equal-to-c) | Bit-by-bit OR condition checks |
 | [#1310 XOR Queries of a Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1310-xor-queries-of-a-subarray) | Prefix XOR and cancellation across ranges |
 | [#1486 XOR Operation in an Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1486-xor-operation-in-an-array) | Generate a numeric sequence and accumulate XOR |
+| [#1371 Find the Longest Substring Containing Vowels in Even Counts](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1371-find-the-longest-substring-containing-vowels-in-even-counts) | Prefix parity mask, store the first index of each state |
 | [#318 Maximum Product of Word Lengths](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0318-maximum-product-of-word-lengths) | 26-bit masks for word letters |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | Finding a missing value with XOR |
