@@ -295,6 +295,8 @@ Kendine sor:
 | [#1310 XOR Queries of a Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1310-xor-queries-of-a-subarray) | Prefix XOR ve aralikta cancellation |
 | [#1486 XOR Operation in an Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1486-xor-operation-in-an-array) | Sayisal sequence uretip XOR accumulator kullanma |
 | [#1371 Find the Longest Substring Containing Vowels in Even Counts](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1371-find-the-longest-substring-containing-vowels-in-even-counts) | Prefix parity mask, her state'in ilk indexini saklama |
+| [#2433 Find The Original Array of Prefix Xor](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2433-find-the-original-array-of-prefix-xor) | Komsu prefix XOR state'lerinden orijinal degerleri geri kurma |
+| [#1829 Maximum XOR for Each Query](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1829-maximum-xor-for-each-query) | All-ones bit mask ve XOR cancellation ile sondan silme |
 | [#318 Maximum Product of Word Lengths](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0318-maximum-product-of-word-lengths) | Kelimeler icin 26-bit mask |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | XOR ile eksik sayı bulma |
