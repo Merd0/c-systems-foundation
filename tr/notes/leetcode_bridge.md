@@ -65,6 +65,7 @@ Solved problems tablosu:
 | [#152 Maximum Product Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0152-maximum-product-subarray) | Negatif carpimlar rol degistirdigi icin max/min running state tasima |
 | [#134 Gas Station](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0134-gas-station) | Kaynak dengesi takip etme ve state gecersiz olunca greedy restart |
 | [#1679 Max Number of K-Sum Pairs](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1679-max-number-of-k-sum-pairs) | Pair enumeration TLE sinyali, sonra sorted two-pointer eslestirme |
+| [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Sirali signed degerler, zero orta boundary degeri |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
@@ -199,6 +200,7 @@ Kendine sor:
 | [#33 Search in Rotated Sorted Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0033-search-in-rotated-sorted-array) | Sıralı yarıyı tespit etme |
 | [#153 Find Minimum in Rotated Sorted Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0153-find-minimum-in-rotated-sorted-array) | `left < right` binary search modeli |
 | [#2300 Successful Pairs of Spells and Potions](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2300-successful-pairs-of-spells-and-potions) | Bir kere sort edip her threshold icin lower-bound binary search |
+| [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Ilk `>= 0` ve ilk `> 0` boundary'lerini bulma |
 
 Kendine sor:
 - `left <= right` ile `left < right` farkı ne?

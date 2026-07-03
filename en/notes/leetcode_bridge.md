@@ -65,6 +65,7 @@ Related folders:
 | [#152 Maximum Product Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0152-maximum-product-subarray) | Carrying max/min running state because negative products flip roles |
 | [#134 Gas Station](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0134-gas-station) | Resource balance tracking and greedy restart when state goes invalid |
 | [#1679 Max Number of K-Sum Pairs](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1679-max-number-of-k-sum-pairs) | TLE from pair enumeration, then sorted two-pointer pairing |
+| [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Sorted signed values, zero as the middle boundary |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -199,6 +200,7 @@ Related folders:
 | [#33 Search in Rotated Sorted Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0033-search-in-rotated-sorted-array) | Detecting the sorted half |
 | [#153 Find Minimum in Rotated Sorted Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0153-find-minimum-in-rotated-sorted-array) | `left < right` binary search model |
 | [#2300 Successful Pairs of Spells and Potions](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2300-successful-pairs-of-spells-and-potions) | Sort once, then lower-bound binary search for each threshold |
+| [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Find first `>= 0` and first `> 0` boundaries |
 
 Ask yourself:
 - What is the difference between `left <= right` and `left < right`?
