@@ -89,6 +89,7 @@ Related folders:
 | [#289 Game of Life](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0289-game-of-life) | Encoding temporary states inside the matrix |
 | [#832 Flipping an Image](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0832-flipping-an-image) | Reverse and invert each binary row in one pass |
 | [#1582 Special Positions in a Binary Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1582-special-positions-in-a-binary-matrix) | Row and column counting around a candidate cell |
+| [#1572 Matrix Diagonal Sum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1572-matrix-diagonal-sum) | Direct diagonal index formulas |
 
 Ask yourself:
 - Is the matrix returned as a new allocation or modified in place?
@@ -113,6 +114,8 @@ Related folders:
 | [#443 String Compression](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0443-string-compression) | In-place read/write buffer compression |
 | [#1662 Check If Two String Arrays are Equivalent](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1662-check-if-two-string-arrays-are-equivalent) | Comparing fragmented strings as character streams without allocation |
 | [#1773 Count Items Matching a Rule](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1773-count-items-matching-a-rule) | `char***` item table, rule-to-column mapping, `strcmp` |
+| [#1784 Check if Binary String Has at Most One Segment of Ones](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1784-check-if-binary-string-has-at-most-one-segment-of-ones) | One-flag state machine over a binary string |
+| [#1758 Minimum Changes To Make Alternating Binary String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1758-minimum-changes-to-make-alternating-binary-string) | Compare against expected binary patterns |
 
 Ask yourself:
 - Where does a C string end?
@@ -299,6 +302,7 @@ Related folders:
 | [#1371 Find the Longest Substring Containing Vowels in Even Counts](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1371-find-the-longest-substring-containing-vowels-in-even-counts) | Prefix parity mask, store the first index of each state |
 | [#2433 Find The Original Array of Prefix Xor](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2433-find-the-original-array-of-prefix-xor) | Recover original values from adjacent prefix XOR states |
 | [#1829 Maximum XOR for Each Query](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1829-maximum-xor-for-each-query) | All-ones bit mask and suffix removal with XOR cancellation |
+| [#1461 Check If a String Contains All Binary Codes of Size K](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1461-check-if-a-string-contains-all-binary-codes-of-size-k) | Rolling k-bit shift-register window and seen-pattern table |
 | [#318 Maximum Product of Word Lengths](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0318-maximum-product-of-word-lengths) | 26-bit masks for word letters |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | Finding a missing value with XOR |
