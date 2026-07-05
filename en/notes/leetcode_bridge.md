@@ -181,6 +181,8 @@ Related folders:
 | [#1603 Design Parking System](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1603-design-parking-system) | Small struct-owned counters and state transitions |
 | [#933 Number of Recent Calls](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0933-number-of-recent-calls) | Queue window over increasing timestamps |
 | [#303 Range Sum Query - Immutable](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0303-range-sum-query-immutable) | Struct-owned prefix buffer and cleanup |
+| [#1352 Product of the Last K Numbers](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1352-product-of-the-last-k-numbers) | Struct-owned prefix product state; brute force query loop vs O(1) stateful query |
+| [#1472 Design Browser History](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1472-design-browser-history) | Struct-owned history array, current index, and forward-history truncation |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Using the returned array as a stack for state simulation |
 
 Ask yourself:

@@ -181,6 +181,8 @@ Kendine sor:
 | [#1603 Design Parking System](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1603-design-parking-system) | Struct icinde capacity ve state yonetimi |
 | [#933 Number of Recent Calls](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0933-number-of-recent-calls) | Artan timestamp'ler uzerinde queue window |
 | [#303 Range Sum Query - Immutable](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0303-range-sum-query-immutable) | Struct'un own ettigi prefix buffer ve cleanup |
+| [#1352 Product of the Last K Numbers](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1352-product-of-the-last-k-numbers) | Struct icinde prefix product state; brute force query dongusu ile O(1) stateful query farki |
+| [#1472 Design Browser History](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1472-design-browser-history) | Struct'un own ettigi history array, current index ve forward history temizleme |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Return array'i stack gibi kullanarak state simulation yapma |
 
 Kendine sor:
