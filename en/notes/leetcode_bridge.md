@@ -183,6 +183,8 @@ Related folders:
 | [#303 Range Sum Query - Immutable](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0303-range-sum-query-immutable) | Struct-owned prefix buffer and cleanup |
 | [#1352 Product of the Last K Numbers](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1352-product-of-the-last-k-numbers) | Struct-owned prefix product state; brute force query loop vs O(1) stateful query |
 | [#1472 Design Browser History](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1472-design-browser-history) | Struct-owned history array, current index, and forward-history truncation |
+| [#900 RLE Iterator](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0900-rle-iterator) | Stateful compressed-stream consumption with current run index |
+| [#1656 Design an Ordered Stream](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1656-design-an-ordered-stream) | Out-of-order stream buffering with next-expected-id state |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Using the returned array as a stack for state simulation |
 
 Ask yourself:

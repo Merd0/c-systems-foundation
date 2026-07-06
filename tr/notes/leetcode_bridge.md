@@ -183,6 +183,8 @@ Kendine sor:
 | [#303 Range Sum Query - Immutable](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0303-range-sum-query-immutable) | Struct'un own ettigi prefix buffer ve cleanup |
 | [#1352 Product of the Last K Numbers](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1352-product-of-the-last-k-numbers) | Struct icinde prefix product state; brute force query dongusu ile O(1) stateful query farki |
 | [#1472 Design Browser History](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1472-design-browser-history) | Struct'un own ettigi history array, current index ve forward history temizleme |
+| [#900 RLE Iterator](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0900-rle-iterator) | Current run index ile stateful compressed-stream tuketimi |
+| [#1656 Design an Ordered Stream](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1656-design-an-ordered-stream) | Next-expected-id state ile sirasi karisik stream buffering |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Return array'i stack gibi kullanarak state simulation yapma |
 
 Kendine sor:
