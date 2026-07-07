@@ -66,6 +66,7 @@ Related folders:
 | [#134 Gas Station](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0134-gas-station) | Resource balance tracking and greedy restart when state goes invalid |
 | [#1679 Max Number of K-Sum Pairs](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1679-max-number-of-k-sum-pairs) | TLE from pair enumeration, then sorted two-pointer pairing |
 | [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Sorted signed values, zero as the middle boundary |
+| [#2073 Time Needed to Buy Tickets](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2073-time-needed-to-buy-tickets) | Queue-like tick simulation with a circular array index |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -185,6 +186,7 @@ Related folders:
 | [#1472 Design Browser History](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1472-design-browser-history) | Struct-owned history array, current index, and forward-history truncation |
 | [#900 RLE Iterator](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0900-rle-iterator) | Stateful compressed-stream consumption with current run index |
 | [#1656 Design an Ordered Stream](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1656-design-an-ordered-stream) | Out-of-order stream buffering with next-expected-id state |
+| [#901 Online Stock Span](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0901-online-stock-span) | Monotonic stack state with price/span blocks |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Using the returned array as a stack for state simulation |
 
 Ask yourself:
@@ -268,6 +270,7 @@ Related folders:
 | [#76 Minimum Window Substring](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0076-minimum-window-substring) | Cover then shrink model |
 | [#239 Sliding Window Maximum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0239-sliding-window-maximum) | Monotonic deque |
 | [#1456 Maximum Number of Vowels in a Substring of Given Length](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1456-maximum-number-of-vowels-in-a-substring-of-given-length) | Fixed-size window with one entering and one leaving character |
+| [#1658 Minimum Operations to Reduce X to Zero](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1658-minimum-operations-to-reduce-x-to-zero) | Transform edge removals into longest valid middle window |
 
 Ask yourself:
 - Is the window fixed-size or variable-size?

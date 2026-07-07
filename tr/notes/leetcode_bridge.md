@@ -66,6 +66,7 @@ Solved problems tablosu:
 | [#134 Gas Station](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0134-gas-station) | Kaynak dengesi takip etme ve state gecersiz olunca greedy restart |
 | [#1679 Max Number of K-Sum Pairs](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1679-max-number-of-k-sum-pairs) | Pair enumeration TLE sinyali, sonra sorted two-pointer eslestirme |
 | [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Sirali signed degerler, zero orta boundary degeri |
+| [#2073 Time Needed to Buy Tickets](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2073-time-needed-to-buy-tickets) | Circular array index ile queue benzeri tick simulasyonu |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
@@ -185,6 +186,7 @@ Kendine sor:
 | [#1472 Design Browser History](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1472-design-browser-history) | Struct'un own ettigi history array, current index ve forward history temizleme |
 | [#900 RLE Iterator](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0900-rle-iterator) | Current run index ile stateful compressed-stream tuketimi |
 | [#1656 Design an Ordered Stream](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1656-design-an-ordered-stream) | Next-expected-id state ile sirasi karisik stream buffering |
+| [#901 Online Stock Span](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0901-online-stock-span) | Price/span bloklariyla monotonic stack state |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Return array'i stack gibi kullanarak state simulation yapma |
 
 Kendine sor:
@@ -268,6 +270,7 @@ Kendine sor:
 | [#76 Minimum Window Substring](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0076-minimum-window-substring) | Cover then shrink modeli |
 | [#239 Sliding Window Maximum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0239-sliding-window-maximum) | Monotonic deque |
 | [#1456 Maximum Number of Vowels in a Substring of Given Length](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1456-maximum-number-of-vowels-in-a-substring-of-given-length) | Sabit pencere, giren ve cikan karakter sayimi |
+| [#1658 Minimum Operations to Reduce X to Zero](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1658-minimum-operations-to-reduce-x-to-zero) | Edge removal fikrini en uzun valid orta window'a cevirme |
 
 Kendine sor:
 - Pencere sabit mi, değişken mi?
