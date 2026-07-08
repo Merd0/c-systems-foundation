@@ -187,6 +187,8 @@ Kendine sor:
 | [#900 RLE Iterator](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0900-rle-iterator) | Current run index ile stateful compressed-stream tuketimi |
 | [#1656 Design an Ordered Stream](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1656-design-an-ordered-stream) | Next-expected-id state ile sirasi karisik stream buffering |
 | [#901 Online Stock Span](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0901-online-stock-span) | Price/span bloklariyla monotonic stack state |
+| [#946 Validate Stack Sequences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0946-validate-stack-sequences) | Sabit push sirasini simule edip beklenen pop olaylarini stack state uzerinden tuketme |
+| [#1381 Design a Stack With Increment Operation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1381-design-a-stack-with-increment-operation) | Struct'un own ettigi stack array, top index, capacity kontrolu ve alttaki k elemani guncelleme |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Return array'i stack gibi kullanarak state simulation yapma |
 
 Kendine sor:

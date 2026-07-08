@@ -187,6 +187,8 @@ Related folders:
 | [#900 RLE Iterator](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0900-rle-iterator) | Stateful compressed-stream consumption with current run index |
 | [#1656 Design an Ordered Stream](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1656-design-an-ordered-stream) | Out-of-order stream buffering with next-expected-id state |
 | [#901 Online Stock Span](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0901-online-stock-span) | Monotonic stack state with price/span blocks |
+| [#946 Validate Stack Sequences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0946-validate-stack-sequences) | Simulate a fixed push order and consume expected pop events from stack state |
+| [#1381 Design a Stack With Increment Operation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1381-design-a-stack-with-increment-operation) | Struct-owned stack array, top index, capacity guard, and bottom-k update |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Using the returned array as a stack for state simulation |
 
 Ask yourself:
