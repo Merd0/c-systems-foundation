@@ -312,6 +312,7 @@ Related folders:
 | [#2433 Find The Original Array of Prefix Xor](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2433-find-the-original-array-of-prefix-xor) | Recover original values from adjacent prefix XOR states |
 | [#1829 Maximum XOR for Each Query](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1829-maximum-xor-for-each-query) | All-ones bit mask and suffix removal with XOR cancellation |
 | [#1461 Check If a String Contains All Binary Codes of Size K](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1461-check-if-a-string-contains-all-binary-codes-of-size-k) | Rolling k-bit shift-register window and seen-pattern table |
+| [#2997 Minimum Number of Operations to Make Array XOR Equal to K](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2997-minimum-number-of-operations-to-make-array-xor-equal-to-k) | Final XOR difference mask, set-bit counting, and clear-lowest-set-bit trick |
 | [#318 Maximum Product of Word Lengths](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0318-maximum-product-of-word-lengths) | 26-bit masks for word letters |
 | [#136 Single Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0136-single-number) | XOR cancellation |
 | [#268 Missing Number](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0268-missing-number) | Finding a missing value with XOR |
