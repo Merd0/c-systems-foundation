@@ -290,6 +290,7 @@ Kendine sor:
 | [#231 Power of Two](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0231-power-of-two) | Tek set bit kontrolü |
 | [#461 Hamming Distance](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0461-hamming-distance) | XOR ile farklı bitleri bulma |
 | [#476 Number Complement](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0476-number-complement) | Mask üretip bit flip yapma |
+| [#1009 Complement of Base 10 Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1009-complement-of-base-10-integer) | Kullanilan bitler icin maske uretip sadece aktif bitleri XOR ile flip etme |
 | [#190 Reverse Bits](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0190-reverse-bits) | 32-bit shift ve bit sırası |
 | [#405 Convert a Number to Hexadecimal](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0405-convert-a-number-to-hexadecimal) | 4-bit nibble ve hex gösterim |
 | [#3314 Construct the Minimum Bitwise Array I](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/3314-construct-the-minimum-bitwise-array-i) | `x | (x + 1)` bit pattern'ini test etme |
