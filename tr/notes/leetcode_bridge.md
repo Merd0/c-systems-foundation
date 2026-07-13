@@ -65,6 +65,7 @@ Solved problems tablosu:
 | [#152 Maximum Product Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0152-maximum-product-subarray) | Negatif carpimlar rol degistirdigi icin max/min running state tasima |
 | [#134 Gas Station](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0134-gas-station) | Kaynak dengesi takip etme ve state gecersiz olunca greedy restart |
 | [#55 Jump Game](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0055-jump-game) | Farthest reachable index ile greedy ilerleme |
+| [#621 Task Scheduler](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0621-task-scheduler) | Frequency table ve CPU cooldown skeleton hesabi |
 | [#1679 Max Number of K-Sum Pairs](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1679-max-number-of-k-sum-pairs) | Pair enumeration TLE sinyali, sonra sorted two-pointer eslestirme |
 | [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Sirali signed degerler, zero orta boundary degeri |
 | [#2073 Time Needed to Buy Tickets](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2073-time-needed-to-buy-tickets) | Circular array index ile queue benzeri tick simulasyonu |
@@ -192,6 +193,7 @@ Kendine sor:
 | [#946 Validate Stack Sequences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0946-validate-stack-sequences) | Sabit push sirasini simule edip beklenen pop olaylarini stack state uzerinden tuketme |
 | [#1381 Design a Stack With Increment Operation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1381-design-a-stack-with-increment-operation) | Struct'un own ettigi stack array, top index, capacity kontrolu ve alttaki k elemani guncelleme |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Return array'i stack gibi kullanarak state simulation yapma |
+| [#649 Dota2 Senate](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0649-dota2-senate) | Iki index queue ile cyclic turn scheduling |
 
 Kendine sor:
 - Struct hangi state'i saklıyor?

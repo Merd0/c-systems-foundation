@@ -65,6 +65,7 @@ Related folders:
 | [#152 Maximum Product Subarray](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0152-maximum-product-subarray) | Carrying max/min running state because negative products flip roles |
 | [#134 Gas Station](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0134-gas-station) | Resource balance tracking and greedy restart when state goes invalid |
 | [#55 Jump Game](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0055-jump-game) | Greedy progress with the farthest reachable index |
+| [#621 Task Scheduler](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0621-task-scheduler) | Frequency table and cooldown skeleton for CPU scheduling |
 | [#1679 Max Number of K-Sum Pairs](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1679-max-number-of-k-sum-pairs) | TLE from pair enumeration, then sorted two-pointer pairing |
 | [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Sorted signed values, zero as the middle boundary |
 | [#2073 Time Needed to Buy Tickets](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2073-time-needed-to-buy-tickets) | Queue-like tick simulation with a circular array index |
@@ -192,6 +193,7 @@ Related folders:
 | [#946 Validate Stack Sequences](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0946-validate-stack-sequences) | Simulate a fixed push order and consume expected pop events from stack state |
 | [#1381 Design a Stack With Increment Operation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1381-design-a-stack-with-increment-operation) | Struct-owned stack array, top index, capacity guard, and bottom-k update |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Using the returned array as a stack for state simulation |
+| [#649 Dota2 Senate](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0649-dota2-senate) | Two index queues for cyclic turn scheduling |
 
 Ask yourself:
 - What state does the struct own?
