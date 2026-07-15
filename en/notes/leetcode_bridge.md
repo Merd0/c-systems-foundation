@@ -194,6 +194,7 @@ Related folders:
 | [#1381 Design a Stack With Increment Operation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1381-design-a-stack-with-increment-operation) | Struct-owned stack array, top index, capacity guard, and bottom-k update |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Using the returned array as a stack for state simulation |
 | [#649 Dota2 Senate](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0649-dota2-senate) | Two index queues for cyclic turn scheduling |
+| [#503 Next Greater Element II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0503-next-greater-element-ii) | Monotonic stack over a circular array/ring-buffer scan |
 
 Ask yourself:
 - What state does the struct own?
@@ -215,6 +216,7 @@ Related folders:
 | [#33 Search in Rotated Sorted Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0033-search-in-rotated-sorted-array) | Detecting the sorted half |
 | [#153 Find Minimum in Rotated Sorted Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0153-find-minimum-in-rotated-sorted-array) | `left < right` binary search model |
 | [#2300 Successful Pairs of Spells and Potions](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2300-successful-pairs-of-spells-and-potions) | Sort once, then lower-bound binary search for each threshold |
+| [#1011 Capacity To Ship Packages Within D Days](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1011-capacity-to-ship-packages-within-d-days) | Binary search on answer with an order-preserving feasibility check |
 | [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Find first `>= 0` and first `> 0` boundaries |
 
 Ask yourself:

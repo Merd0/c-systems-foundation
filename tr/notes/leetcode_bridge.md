@@ -194,6 +194,7 @@ Kendine sor:
 | [#1381 Design a Stack With Increment Operation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1381-design-a-stack-with-increment-operation) | Struct'un own ettigi stack array, top index, capacity kontrolu ve alttaki k elemani guncelleme |
 | [#735 Asteroid Collision](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0735-asteroid-collision) | Return array'i stack gibi kullanarak state simulation yapma |
 | [#649 Dota2 Senate](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0649-dota2-senate) | Iki index queue ile cyclic turn scheduling |
+| [#503 Next Greater Element II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0503-next-greater-element-ii) | Circular array/ring-buffer taramasinda monotonic stack |
 
 Kendine sor:
 - Struct hangi state'i saklıyor?
@@ -215,6 +216,7 @@ Kendine sor:
 | [#33 Search in Rotated Sorted Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0033-search-in-rotated-sorted-array) | Sıralı yarıyı tespit etme |
 | [#153 Find Minimum in Rotated Sorted Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0153-find-minimum-in-rotated-sorted-array) | `left < right` binary search modeli |
 | [#2300 Successful Pairs of Spells and Potions](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2300-successful-pairs-of-spells-and-potions) | Bir kere sort edip her threshold icin lower-bound binary search |
+| [#1011 Capacity To Ship Packages Within D Days](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1011-capacity-to-ship-packages-within-d-days) | Answer uzerinde binary search ve sirayi koruyan feasibility check |
 | [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Ilk `>= 0` ve ilk `> 0` boundary'lerini bulma |
 
 Kendine sor:
