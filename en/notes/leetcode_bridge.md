@@ -69,6 +69,7 @@ Related folders:
 | [#1679 Max Number of K-Sum Pairs](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1679-max-number-of-k-sum-pairs) | TLE from pair enumeration, then sorted two-pointer pairing |
 | [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Sorted signed values, zero as the middle boundary |
 | [#2073 Time Needed to Buy Tickets](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2073-time-needed-to-buy-tickets) | Queue-like tick simulation with a circular array index |
+| [#495 Teemo Attacking](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0495-teemo-attacking) | Event windows and overlap accounting |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -94,6 +95,7 @@ Related folders:
 | [#1582 Special Positions in a Binary Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1582-special-positions-in-a-binary-matrix) | Row and column counting around a candidate cell |
 | [#1572 Matrix Diagonal Sum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1572-matrix-diagonal-sum) | Direct diagonal index formulas |
 | [#74 Search a 2D Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0074-search-a-2d-matrix) | Binary search with 1D index to row/column mapping |
+| [#56 Merge Intervals](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0056-merge-intervals) | Sorting intervals and returning malloced 2-column rows |
 
 Ask yourself:
 - Is the matrix returned as a new allocation or modified in place?
@@ -120,6 +122,7 @@ Related folders:
 | [#1773 Count Items Matching a Rule](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1773-count-items-matching-a-rule) | `char***` item table, rule-to-column mapping, `strcmp` |
 | [#1784 Check if Binary String Has at Most One Segment of Ones](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1784-check-if-binary-string-has-at-most-one-segment-of-ones) | One-flag state machine over a binary string |
 | [#1758 Minimum Changes To Make Alternating Binary String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1758-minimum-changes-to-make-alternating-binary-string) | Compare against expected binary patterns |
+| [#1209 Remove All Adjacent Duplicates in String II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1209-remove-all-adjacent-duplicates-in-string-ii) | In-place stack, write pointer, and run-length metadata |
 
 Ask yourself:
 - Where does a C string end?

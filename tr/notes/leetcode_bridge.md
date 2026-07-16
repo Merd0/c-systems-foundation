@@ -69,6 +69,7 @@ Solved problems tablosu:
 | [#1679 Max Number of K-Sum Pairs](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1679-max-number-of-k-sum-pairs) | Pair enumeration TLE sinyali, sonra sorted two-pointer eslestirme |
 | [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Sirali signed degerler, zero orta boundary degeri |
 | [#2073 Time Needed to Buy Tickets](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2073-time-needed-to-buy-tickets) | Circular array index ile queue benzeri tick simulasyonu |
+| [#495 Teemo Attacking](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0495-teemo-attacking) | Event window ve cakisma suresi hesabi |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
@@ -94,6 +95,7 @@ Kendine sor:
 | [#1582 Special Positions in a Binary Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1582-special-positions-in-a-binary-matrix) | Aday hucre icin row ve column 1 sayma |
 | [#1572 Matrix Diagonal Sum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1572-matrix-diagonal-sum) | Direkt diagonal index formulleri |
 | [#74 Search a 2D Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0074-search-a-2d-matrix) | 1D index'i row/col hesabina cevirerek binary search |
+| [#56 Merge Intervals](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0056-merge-intervals) | Interval sort ve malloc edilen 2 kolonlu result satirlari |
 
 Kendine sor:
 - Matrix yeni allocation olarak mi donuyor yoksa in-place mi degisiyor?
@@ -120,6 +122,7 @@ Kendine sor:
 | [#1773 Count Items Matching a Rule](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1773-count-items-matching-a-rule) | `char***` item tablosu, rule-to-column mapping, `strcmp` |
 | [#1784 Check if Binary String Has at Most One Segment of Ones](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1784-check-if-binary-string-has-at-most-one-segment-of-ones) | Binary string uzerinde tek flag'li state machine |
 | [#1758 Minimum Changes To Make Alternating Binary String](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1758-minimum-changes-to-make-alternating-binary-string) | Beklenen binary patternlerle karsilastirma |
+| [#1209 Remove All Adjacent Duplicates in String II](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1209-remove-all-adjacent-duplicates-in-string-ii) | In-place stack, write pointer ve run-length metadata |
 
 Kendine sor:
 - C string'i nerede biter?
