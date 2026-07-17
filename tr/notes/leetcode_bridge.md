@@ -70,6 +70,8 @@ Solved problems tablosu:
 | [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Sirali signed degerler, zero orta boundary degeri |
 | [#2073 Time Needed to Buy Tickets](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2073-time-needed-to-buy-tickets) | Circular array index ile queue benzeri tick simulasyonu |
 | [#495 Teemo Attacking](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0495-teemo-attacking) | Event window ve cakisma suresi hesabi |
+| [#1041 Robot Bounded In Circle](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1041-robot-bounded-in-circle) | Komut stream'i icin direction state table |
+| [#874 Walking Robot Simulation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0874-walking-robot-simulation) | Robot hareket state'i ve encoded obstacle lookup |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?

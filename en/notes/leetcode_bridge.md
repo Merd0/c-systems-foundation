@@ -70,6 +70,8 @@ Related folders:
 | [#2529 Maximum Count of Positive Integer and Negative Integer](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2529-maximum-count-of-positive-integer-and-negative-integer) | Sorted signed values, zero as the middle boundary |
 | [#2073 Time Needed to Buy Tickets](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2073-time-needed-to-buy-tickets) | Queue-like tick simulation with a circular array index |
 | [#495 Teemo Attacking](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0495-teemo-attacking) | Event windows and overlap accounting |
+| [#1041 Robot Bounded In Circle](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1041-robot-bounded-in-circle) | Direction state table for command-stream simulation |
+| [#874 Walking Robot Simulation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0874-walking-robot-simulation) | Robot movement state plus encoded obstacle lookup |
 
 Ask yourself:
 - How is the array length passed to the function?
