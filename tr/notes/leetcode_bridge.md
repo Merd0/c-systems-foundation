@@ -72,6 +72,7 @@ Solved problems tablosu:
 | [#495 Teemo Attacking](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0495-teemo-attacking) | Event window ve cakisma suresi hesabi |
 | [#1041 Robot Bounded In Circle](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1041-robot-bounded-in-circle) | Komut stream'i icin direction state table |
 | [#874 Walking Robot Simulation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0874-walking-robot-simulation) | Robot hareket state'i ve encoded obstacle lookup |
+| [#657 Robot Return to Origin](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0657-robot-return-to-origin) | Hareket komutlarindan basit x/y displacement state |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?

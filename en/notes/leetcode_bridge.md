@@ -72,6 +72,7 @@ Related folders:
 | [#495 Teemo Attacking](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0495-teemo-attacking) | Event windows and overlap accounting |
 | [#1041 Robot Bounded In Circle](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1041-robot-bounded-in-circle) | Direction state table for command-stream simulation |
 | [#874 Walking Robot Simulation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0874-walking-robot-simulation) | Robot movement state plus encoded obstacle lookup |
+| [#657 Robot Return to Origin](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0657-robot-return-to-origin) | Simple x/y displacement state from movement commands |
 
 Ask yourself:
 - How is the array length passed to the function?
