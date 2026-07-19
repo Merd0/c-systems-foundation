@@ -73,6 +73,7 @@ Related folders:
 | [#1041 Robot Bounded In Circle](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1041-robot-bounded-in-circle) | Direction state table for command-stream simulation |
 | [#874 Walking Robot Simulation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0874-walking-robot-simulation) | Robot movement state plus encoded obstacle lookup |
 | [#657 Robot Return to Origin](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0657-robot-return-to-origin) | Simple x/y displacement state from movement commands |
+| [#1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) | Fixed-size moving average with threshold detection |
 
 Ask yourself:
 - How is the array length passed to the function?
