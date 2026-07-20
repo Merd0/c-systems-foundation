@@ -121,4 +121,4 @@ views, token values, AST nodes, and APIs that carry variant data.
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: union_size_overlay.c](../study/033-union-size-overlay.md) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: union_size_overlay.c](union_size_overlay.c) |

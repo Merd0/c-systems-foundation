@@ -118,4 +118,4 @@ file, embedded data dump ve hafif local storage için kullanılır.
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: file_write_read_examples.c](../study/055-file-write-read-examples.md) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: file_write_read_examples.c](file_write_read_examples.c) |

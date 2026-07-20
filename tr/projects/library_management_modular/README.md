@@ -49,4 +49,4 @@ make test
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../../LEARNING_PATH.md) | [Sıradaki: leetcode_bridge.md](../../study/075-leetcode-bridge.md) |
+| [Öğrenme Yoluna Dön](../../LEARNING_PATH.md) | [Sıradaki: leetcode_bridge.md](../../notes/leetcode_bridge.md) |

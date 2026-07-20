@@ -39,4 +39,4 @@ A C program starts from the `main()` function.
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: variables_basics.c](../study/003-variables-basics.md) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: variables_basics.c](../fundamentals/variables_basics.c) |

@@ -31,4 +31,4 @@ Treat this folder as complete after modifying at least two examples:
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: library_management_cli.c](../study/072-library-management-cli.md) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: library_management_cli.c](../projects/library_management_cli.c) |

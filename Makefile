@@ -1,9 +1,10 @@
-﻿CC ?= gcc
+CC ?= gcc
 CFLAGS ?= -std=c11 -Wall -Wextra -Wpedantic
 LDLIBS ?= -lm
+PYTHON ?= python3
 
 MODULAR_PROJECTS := en/projects/library_management_modular tr/projects/library_management_modular
-STANDALONE_SOURCES := $(shell find en tr -name '*.c' ! -path '*/projects/library_management_modular/*' | sort)
+STANDALONE_SOURCES := $(shell $(PYTHON) scripts/list_c_sources.py)
 STANDALONE_TARGETS := $(patsubst %.c,build/%,$(STANDALONE_SOURCES))
 
 .PHONY: all clean list modular-projects test

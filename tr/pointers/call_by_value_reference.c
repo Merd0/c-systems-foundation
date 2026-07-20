@@ -3,6 +3,7 @@
 void degeriArtirValue(int x)
 {
     x++;
+    (void)x; /* Degistirilen yerel kopya bilerek kullanilmiyor. */
 }
 
 void degeriArtirReference(int *x)

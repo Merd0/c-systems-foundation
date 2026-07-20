@@ -1,89 +1,96 @@
 # C Systems Foundation
 
-Bu repo, C öğrenme sürecini **başlangıçtan mini-proje seviyesine** kadar
-sistemli şekilde ilerletmek için tasarlandı.
-This repository is designed to guide C learning **from beginner fundamentals to
-mini-project level** in a structured way.
+English | [Türkçe](README_TR.md)
 
-## 🎯 Repo Amacı / Repo Goal
-- Konuları dağınık değil, tek bir büyüyen yapı içinde toplamak.
-- Teori + çalışan örnek + uygulamalı senaryo yaklaşımı ile kalıcı öğrenme sağlamak.
-- Kod yazarken sadece "doğru sonuç" değil, "okunabilirlik, güvenlik, sürdürülebilirlik" alışkanlığı kazandırmak.
-- Build/run/debug döngüsünü gerçekçi şekilde öğretmek.
+A structured personal learning repository for building practical C and systems-programming foundations through runnable examples, focused references, and small projects.
 
-## 🌍 Dil Yapısı / Language Structure
-- Türkçe içerik: [`tr/README.md`](tr/README.md)
-- English content: [`en/README.md`](en/README.md)
-- TR öğrenme sırası: [`tr/LEARNING_PATH.md`](tr/LEARNING_PATH.md)
-- EN learning sequence: [`en/LEARNING_PATH.md`](en/LEARNING_PATH.md)
+[Start Learning](en/LEARNING_PATH.md) | [Browse Topics](docs/topic-index.md) | [View Projects](#projects) | [Resume Study](STUDY_TRACKER.md) | [Türkçe](README_TR.md)
+
+## What This Repository Offers
+
+- Parallel English and Turkish learning tracks under `en/` and `tr/`.
+- A verified 75-step path from build basics to pointers, ownership, data structures, file I/O, bitwise work, and projects.
+- Small C11 programs that can be compiled independently.
+- Deeper references for memory, structs, unions, parsing, callbacks, and modular C APIs.
+- Three stages of a library-management exercise: single-file CLI, file persistence, and a tested modular version.
 
 ## Start Here
-Use the Learning Path as the main navigation hub. It links every major lesson,
-states what to focus on, and gives a completion check before moving forward.
 
-- Türkçe ana çalışma yolu: [`tr/LEARNING_PATH.md`](tr/LEARNING_PATH.md)
-- English main study path: [`en/LEARNING_PATH.md`](en/LEARNING_PATH.md)
+1. Choose the [English learning path](en/LEARNING_PATH.md) or [Turkish learning path](tr/LEARNING_PATH.md).
+2. Open each linked source directly, predict its behavior, then compile and modify it.
+3. Use the completion criterion in the learning path before moving forward.
+4. Mark your progress in [STUDY_TRACKER.md](STUDY_TRACKER.md).
 
-## 🧭 Bu repoda neler öğreneceksin? / What you'll learn
-- C temelleri: değişkenler, veri tipleri, formatlı çıktı, input
-- Kontrol akışı: if-else, switch, döngüler
-- Diziler, fonksiyonlar, algoritma mantığı
-- Pointer, struct, union, dinamik bellek yönetimi
-- Linked list, dynamic array ve C'de pratik veri yapıları
-- Function pointer, callback, status-code hata yönetimi
-- Safe string parsing ve modüler C API tasarımı
-- Dosya işlemleri ve kalıcılık (persistence)
-- Preprocessor, bitwise işlemler ve sistem programlama temelleri
-- Problem çözme ve mini proje geliştirme
+For quick lookup, use the [topic index](docs/topic-index.md), [English reference index](en/REFERENCE_INDEX.md), or [Turkish reference index](tr/REFERENCE_INDEX.md).
 
-## 🛠 Öğrenme Yöntemi / How to use this repo
-1. `LEARNING_PATH.md` sırasını takip et.
-2. Her dosyayı derle ve çalıştır.
-3. Kodun çıktısını tahmin et, sonra çalıştırıp karşılaştır.
-4. Aynı örneğin küçük varyasyonlarını kendin yaz.
-5. Hata aldığında debugger ve not dosyalarını kullan.
+## Learning Path
 
-## Build / CI
-- All standalone examples are compiled by GitHub Actions.
-- Modular projects are built and tested by GitHub Actions.
-- Local full build: `make all`
-- Local tests: `make test`
-- Clean build output: `make clean`
-- Build notes: [`docs/build-guide.md`](docs/build-guide.md)
+| Level | Focus |
+| --- | --- |
+| 00 | Tooling, build, run, and debugging |
+| 01 | C fundamentals, input/output, and operators |
+| 02 | Control flow and loops |
+| 03 | Arrays, strings, functions, and headers |
+| 04 | Pointers and function interfaces |
+| 05 | Structs, unions, layout, and tagged data |
+| 06 | Dynamic memory, lifetime, and ownership |
+| 07 | Dynamic arrays and linked data structures |
+| 08 | Callbacks, errors, parsing, and modular APIs |
+| 09 | Files, preprocessor, and bitwise operations |
+| 10 | Algorithms, applied exercises, and projects |
+| 11 | LeetCode practice bridge |
 
-## ⚠️ Dikkat Edilecek Noktalar / Best Practices
-- `scanf` dönüş değerini kontrol et.
-- String input için `fgets` tercih et.
-- `malloc/calloc` sonrası `NULL` kontrolü yap.
-- `free` sonrası pointer'ı `NULL` yapmak iyi pratiktir.
-- Kodu küçük fonksiyonlara bölmek okunabilirliği artırır.
+The logical levels organize the study sequence while the language folders keep localized examples and explanations easy to find.
 
-## Repo Quality Standard
-- Topic folders should grow into reference pages, not only code dumps.
-- New examples should compile independently.
-- English and Turkish tracks should stay structurally parallel but linguistically clean.
-- Code style guide: [`docs/code-style.md`](docs/code-style.md)
-- Topic template: [`docs/topic-template.md`](docs/topic-template.md)
+## Applied Highlights
 
-## Deep-Dive Topics
-- [`en/pointers`](en/pointers) / [`tr/pointers`](tr/pointers)
-- [`en/structs`](en/structs) / [`tr/structs`](tr/structs)
-- [`en/unions`](en/unions) / [`tr/unions`](tr/unions)
-- [`en/memory_management`](en/memory_management) / [`tr/memory_management`](tr/memory_management)
-- [`en/file_io`](en/file_io) / [`tr/file_io`](tr/file_io)
-- [`en/preprocessor`](en/preprocessor) / [`tr/preprocessor`](tr/preprocessor)
-- [`en/bitwise`](en/bitwise) / [`tr/bitwise`](tr/bitwise)
-- [`en/data_structures`](en/data_structures) / [`tr/data_structures`](tr/data_structures)
-- [`en/function_pointers`](en/function_pointers) / [`tr/function_pointers`](tr/function_pointers)
-- [`en/error_handling`](en/error_handling) / [`tr/error_handling`](tr/error_handling)
-- [`en/strings_parsing`](en/strings_parsing) / [`tr/strings_parsing`](tr/strings_parsing)
-- [`en/modular_design`](en/modular_design) / [`tr/modular_design`](tr/modular_design)
+- Pointer arithmetic, `const` contracts, and dangling-pointer warnings
+- Struct padding, tagged unions, and protocol-style messages
+- `malloc`, `calloc`, `realloc`, ownership transfer, and cleanup
+- Dynamic arrays, singly/doubly linked lists, and intrusive lists
+- Callback tables, status-code APIs, safe token parsing, and opaque handles
+- Text and binary records, macros, flags, masks, and bit packing
 
-## Quick Reference
-- EN quick lookup: [`en/REFERENCE_INDEX.md`](en/REFERENCE_INDEX.md)
-- TR hızlı referans: [`tr/REFERENCE_INDEX.md`](tr/REFERENCE_INDEX.md)
-- LeetCode practice bridge: [`en/notes/leetcode_bridge.md`](en/notes/leetcode_bridge.md) /
-  [`tr/notes/leetcode_bridge.md`](tr/notes/leetcode_bridge.md)
+## Projects
 
-## 🚀 Hedef Profil
-Bu repo, hem yeni başlayan öğrenciye hem de temelini güçlendirmek isteyen junior mühendise göre hazırlandı.
+| Project | English | Turkish | Focus |
+| --- | --- | --- | --- |
+| Library CLI | [Source](en/projects/library_management_cli.c) | [Kaynak](tr/projects/library_management_cli.c) | Menu flow, struct arrays, input validation |
+| File persistence | [Source](en/projects/library_management_file_persist.c) | [Kaynak](tr/projects/library_management_file_persist.c) | Durable records and file handling |
+| Modular library | [Project](en/projects/library_management_modular/README.md) | [Proje](tr/projects/library_management_modular/README.md) | `include/`, `src/`, tests, and a local Makefile |
+
+## Build And Test
+
+The root Makefile discovers C sources directly from the filesystem, compiles standalone examples with C11 and strict warnings, then builds and tests both modular project variants. Discovery works in a Git clone, a downloaded ZIP, and before a new example is tracked by Git.
+
+```sh
+make clean
+make all
+make test
+python3 scripts/validate_repository.py
+```
+
+See the [build guide](docs/build-guide.md) for compiler and Windows notes. On Windows, `py -3` can be used instead of `python3`. CI runs the same build, test, and repository-structure validation.
+
+## Repository Structure
+
+```text
+.
+|-- en/                     English lessons, examples, and projects
+|-- tr/                     Turkish lessons, examples, and projects
+|-- docs/                   Build, style, structure, and topic guides
+|-- scripts/                Lightweight repository validation
+|-- STUDY_TRACKER.md        Personal progress checklist
+|-- Makefile                Full build and modular test entry point
+`-- README_TR.md            Turkish repository home
+```
+
+The code trees remain parallel because most paired files contain localized identifiers, output, or teaching context; they are not interchangeable copies. The rationale and maintenance rules are documented in [repository structure](docs/repository-structure.md).
+
+## Continue With Algorithms
+
+After the relevant C foundation, move to [Merd0/leetcode-c-solutions](https://github.com/Merd0/leetcode-c-solutions) for focused algorithm practice. The [LeetCode bridge](en/notes/leetcode_bridge.md) maps C topics to selected problems.
+
+## Project Status
+
+This is an ongoing learning archive. Examples and documentation are expected to grow while existing build and validation checks remain green.

@@ -28,4 +28,4 @@ kullanmasını sağlar.
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: opaque_handle_pattern.c](../study/053-opaque-handle-pattern.md) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: opaque_handle_pattern.c](opaque_handle_pattern.c) |

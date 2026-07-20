@@ -28,4 +28,4 @@ fields.
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: opaque_handle_pattern.c](../study/053-opaque-handle-pattern.md) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: opaque_handle_pattern.c](opaque_handle_pattern.c) |

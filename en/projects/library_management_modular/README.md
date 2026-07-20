@@ -49,4 +49,4 @@ make test
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../../LEARNING_PATH.md) | [Next: leetcode_bridge.md](../../study/075-leetcode-bridge.md) |
+| [Back To Learning Path](../../LEARNING_PATH.md) | [Next: leetcode_bridge.md](../../notes/leetcode_bridge.md) |

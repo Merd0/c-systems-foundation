@@ -1,4 +1,4 @@
-﻿# Code Style
+# Code Style
 
 The goal of this repository is not only to show valid C syntax. Each example
 should teach habits that transfer to real work: clear naming, explicit error
@@ -6,8 +6,8 @@ handling, readable functions, and safe memory ownership.
 
 ## Naming
 
-- Use English identifiers in `en/`.
-- Use Turkish identifiers in `tr/` only when it improves learning clarity.
+- Prefer English identifiers in new examples in both tracks so the code vocabulary transfers to documentation and APIs.
+- Keep existing Turkish identifiers when their localization has clear teaching value; update both language counterparts deliberately.
 - Use `snake_case` for functions and variables in new examples.
 - Use uppercase names for constants and macros.
 - Prefer descriptive names over abbreviations.

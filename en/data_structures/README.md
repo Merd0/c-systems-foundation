@@ -31,4 +31,4 @@ data structures yourself, or use project-specific container utilities.
 
 | Back | Next |
 | --- | --- |
-| [Back To Learning Path](../LEARNING_PATH.md) | [Next: dynamic_array.c](../study/042-dynamic-array.md) |
+| [Back To Learning Path](../LEARNING_PATH.md) | [Next: dynamic_array.c](dynamic_array.c) |

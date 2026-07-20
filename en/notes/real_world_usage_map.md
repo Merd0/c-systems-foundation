@@ -1,4 +1,4 @@
-﻿# Real-World Usage Map
+# Real-World Usage Map
 
 How examples in this repository connect to practical software work:
 

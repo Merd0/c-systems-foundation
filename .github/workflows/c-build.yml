@@ -1,4 +1,4 @@
-﻿name: C Build
+name: C Build and Repository Validation
 
 on:
   push:
@@ -17,8 +17,14 @@ jobs:
       - name: Install build tools
         run: sudo apt-get update && sudo apt-get install -y build-essential make
 
+      - name: Validate curriculum, links, sources, and encoding
+        run: python3 scripts/validate_repository.py
+
       - name: Compile examples
-        run: make all
+        run: make clean && make all
 
       - name: Run modular project tests
         run: make test
+
+      - name: Ensure validation leaves the repository unchanged
+        run: git diff --exit-code

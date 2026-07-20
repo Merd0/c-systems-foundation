@@ -119,4 +119,4 @@ değeri, AST node ve variant data taşıyan API'lerde kullanılır.
 
 | Geri | Sıradaki |
 | --- | --- |
-| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: union_size_overlay.c](../study/033-union-size-overlay.md) |
+| [Öğrenme Yoluna Dön](../LEARNING_PATH.md) | [Sıradaki: union_size_overlay.c](union_size_overlay.c) |

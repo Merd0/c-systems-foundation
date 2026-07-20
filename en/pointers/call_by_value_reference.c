@@ -3,6 +3,7 @@
 void increment_by_value(int x)
 {
     x++;
+    (void)x; /* The modified local copy is intentionally discarded. */
 }
 
 void increment_by_pointer(int *x)
