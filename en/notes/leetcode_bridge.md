@@ -74,6 +74,8 @@ Related folders:
 | [#874 Walking Robot Simulation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0874-walking-robot-simulation) | Robot movement state plus encoded obstacle lookup |
 | [#657 Robot Return to Origin](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0657-robot-return-to-origin) | Simple x/y displacement state from movement commands |
 | [#1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) | Fixed-size moving average with threshold detection |
+| [#1652 Defuse the Bomb](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1652-defuse-the-bomb) | Ring-buffer indexing and circular sliding sums |
+| [#845 Longest Mountain in Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0845-longest-mountain-in-array) | Up/down state scan for peak-shaped signal detection |
 
 Ask yourself:
 - How is the array length passed to the function?
@@ -100,6 +102,8 @@ Related folders:
 | [#1572 Matrix Diagonal Sum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1572-matrix-diagonal-sum) | Direct diagonal index formulas |
 | [#74 Search a 2D Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0074-search-a-2d-matrix) | Binary search with 1D index to row/column mapping |
 | [#56 Merge Intervals](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0056-merge-intervals) | Sorting intervals and returning malloced 2-column rows |
+| [#661 Image Smoother](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0661-image-smoother) | 3x3 average filter over valid image neighbors |
+| [#2373 Largest Local Values in a Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2373-largest-local-values-in-a-matrix) | 3x3 local max filter for bright-spot detection |
 
 Ask yourself:
 - Is the matrix returned as a new allocation or modified in place?

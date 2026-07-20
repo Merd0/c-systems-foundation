@@ -74,6 +74,8 @@ Solved problems tablosu:
 | [#874 Walking Robot Simulation](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0874-walking-robot-simulation) | Robot hareket state'i ve encoded obstacle lookup |
 | [#657 Robot Return to Origin](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0657-robot-return-to-origin) | Hareket komutlarindan basit x/y displacement state |
 | [#1343 Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) | Fixed-size moving average ve threshold detection |
+| [#1652 Defuse the Bomb](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1652-defuse-the-bomb) | Ring-buffer indexleme ve circular sliding sum |
+| [#845 Longest Mountain in Array](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0845-longest-mountain-in-array) | Peak sekilli sinyal tespiti icin up/down state scan |
 
 Kendine sor:
 - Dizi boyutu fonksiyona nasıl taşınıyor?
@@ -100,6 +102,8 @@ Kendine sor:
 | [#1572 Matrix Diagonal Sum](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/1572-matrix-diagonal-sum) | Direkt diagonal index formulleri |
 | [#74 Search a 2D Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0074-search-a-2d-matrix) | 1D index'i row/col hesabina cevirerek binary search |
 | [#56 Merge Intervals](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0056-merge-intervals) | Interval sort ve malloc edilen 2 kolonlu result satirlari |
+| [#661 Image Smoother](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/0661-image-smoother) | Gecerli image komsulari uzerinde 3x3 average filter |
+| [#2373 Largest Local Values in a Matrix](https://github.com/Merd0/leetcode-c-solutions/tree/main/problems/2373-largest-local-values-in-a-matrix) | Parlak nokta tespiti icin 3x3 local max filter |
 
 Kendine sor:
 - Matrix yeni allocation olarak mi donuyor yoksa in-place mi degisiyor?
