@@ -33,7 +33,7 @@ Learning Path'e dönebilirsin.
 
 | Adım | Ders kaynağı | Çalışma odağı | Tamam sayılır |
 | --- | --- | --- | --- |
-| 1 | [Ders 1: Build Guide](../docs/build-guide.md) | Repo nasıl build edilir, CI neyi kontrol eder? | `make all` ve `make test` amacını açıklayabiliyorsan |
+| 1 | [Ders 1: Build Guide](../docs/build-guide.tr.md) | Repo nasıl build edilir, CI neyi kontrol eder? | `make all` ve `make test` amacını açıklayabiliyorsan |
 | 2 | [Ders 2: Build Run Main Debugging](notes/build_run_main_debugging.md) | `main`, build, run, debug döngüsü | Bir dosyanın neden çalıştırılabilir hale geldiğini anlatabiliyorsan |
 
 ## Seviye 1: Temel Sözdizimi
