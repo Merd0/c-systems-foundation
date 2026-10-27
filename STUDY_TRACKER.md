@@ -8,7 +8,7 @@ Bu dosya yalnızca ilerleme takibi içindir. Bir adımı, öğrenme yolundaki "T
 
 ## 00 - Araçlar, Build ve Debugging
 
-- [ ] `001` [Ders 1: Build Guide](docs/build-guide.md)
+- [ ] `001` [Ders 1: Build Guide](docs/build-guide.tr.md)
 - [ ] `002` [Ders 2: Build Run Main Debugging](tr/notes/build_run_main_debugging.md)
 
 ## 01 - C Temelleri ve Girdi/Çıktı
