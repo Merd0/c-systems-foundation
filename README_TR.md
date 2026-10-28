@@ -4,7 +4,7 @@
 
 C dilini ve sistem programlama temellerini çalışan örnekler, konu referansları ve küçük projelerle adım adım geliştirmek için tutulan düzenli bir öğrenme reposu.
 
-[Öğrenmeye Başla](tr/LEARNING_PATH.md) | [Konulara Göz At](docs/topic-index.md) | [Projeleri Aç](#projeler) | [Kaldığın Yerden Devam Et](STUDY_TRACKER.md) | [English](README.md)
+[Öğrenmeye Başla](tr/LEARNING_PATH.md) | [İki Dilli Konu İndeksi](docs/topic-index.md) | [Projeleri Aç](#projeler) | [Kaldığın Yerden Devam Et](STUDY_TRACKER.md) | [English](README.md)
 
 ## Bu Repo Ne Sunuyor?
 
@@ -21,7 +21,7 @@ C dilini ve sistem programlama temellerini çalışan örnekler, konu referansla
 3. Kodu çalıştırmadan önce sonucu tahmin et, sonra küçük bir değişiklik yapıp tekrar dene.
 4. Öğrenme yolundaki bitirme ölçütünü sağladığında [STUDY_TRACKER.md](STUDY_TRACKER.md) üzerinden adımı işaretle.
 
-Belirli bir konuyu hızlıca bulmak için [konu indeksi](docs/topic-index.md) veya [Türkçe referans indeksi](tr/REFERENCE_INDEX.md) kullanılabilir.
+Belirli bir konuyu hızlıca bulmak için [iki dilli konu indeksi](docs/topic-index.md) veya [Türkçe referans indeksi](tr/REFERENCE_INDEX.md) kullanılabilir.
 
 ## Öğrenme Haritası
 
@@ -70,7 +70,7 @@ make test
 python3 scripts/validate_repository.py
 ```
 
-Kurulum ve Windows notları için [build rehberine](docs/build-guide.md) bak. Windows'ta `python3` yerine `py -3` kullanılabilir. GitHub Actions aynı build, test ve yapı doğrulamasını çalıştırır.
+Kurulum ve Windows notları için [Türkçe derleme rehberine](docs/build-guide.tr.md) bak. Windows'ta `python3` yerine `py -3` kullanılabilir. GitHub Actions aynı build, test ve yapı doğrulamasını çalıştırır.
 
 ## Repo Yapısı
 
